@@ -2,8 +2,8 @@ Source: kdeartwork
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
- kdebase-dev (>=4:3.90.1), xscreensaver,
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.94.0),
+ kdebase-dev (>=4:3.94.0), xscreensaver
 Standards-Version: 3.7.2
 
 Package: kdeartwork
@@ -20,3 +20,70 @@ Description: themes, styles and more from the official KDE release
  with the official release of KDE.
  .
   Homepage: http://artist.kde.org
+
+Package: kdeartwork-misc
+Architecture: all
+Section: kde
+Suggests: kworldclock
+Description: various multimedia goodies released with KDE
+ This package contains miscellaneous multimedia goodies for KDE.
+ Included are additional KDE sounds and kworldclock themes.
+ .
+ This package is part of KDE, and a component of the KDE artwork module.
+ See the 'kde' and 'kdeartwork' packages for more information.
+
+Package: kdeartwork-style
+Priority: optional
+Section: kde
+Depends: ${shlibs:Depends}
+Description: widget styles released with KDE
+ This package contains additional widget styles for KDE. Widget styles can be used to customise the look and feel of interface components such as buttons, scrollbars and so on.  They can
+ be applied using the style manager in the KDE Control Centre.
+ .
+ This package is part of KDE, and a component of the KDE artwork module. See the 'kde' and 'kdeartwork' packages for more information.
+
+Package: kdeartwork-emoticons
+Architecture: all
+Section: kde
+Enhances: kopete
+Description: emoticon collections for KDE chat clients
+ This package contains several collections of emoticons used by official
+ and unofficial KDE chat clients, such as Kopete and Konversation.
+ .
+ This package is part of KDE, and a component of the KDE artwork module.
+ See the 'kde' and 'kdeartwork' packages for more information.
+
+Package: kdewallpapers
+Architecture: all
+Section: kde
+Suggests: kwin | x-window-manager
+Description: wallpapers released with KDE
+ This package contains additional wallpapers for KDE. Wallpapers can be
+ applied using the background manager in the KDE Control Centre.
+ .
+ This package is part of KDE, and a component of the KDE artwork module.
+ See the 'kde' and 'kdeartwork' packages for more information.
+
+Package: kdeartwork-theme-icon
+Architecture: all
+Section: kde
+Recommends: kdesktop, kicker
+Description: icon themes released with KDE
+ This package contains additional icon themes for KDE. Icon themes can be
+ used to customise the appearance of standard icons throughout KDE. They
+ can be applied using the icon manager in the KDE Control Centre.
+ .
+ This package is part of KDE, and a component of the KDE artwork module.
+ See the 'kde' and 'kdeartwork' packages for more information.
+
+Package: kdeartwork-theme-window
+Architecture: any
+Section: kde
+Description: window decoration themes released with KDE
+ This package contains additional window decoration themes for KDE. Window
+ decoration themes can be used to customise the look of window borders and
+ buttons, and can be applied using the window decoration manager in the KDE
+ Control Center.
+ .
+ This package is part of KDE, and a component of the KDE artwork module.
+ See the 'kde' and 'kdeartwork' packages for more information.
