@@ -2,8 +2,8 @@ Source: kdeartwork
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.94.0),
- kdebase-dev (>=4:3.94.0), xscreensaver
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdebase-workspace-dev (>=4:3.94.0),
+ kdebase-dev (>=4:3.94.0), xscreensaver, xscreensaver-gl
 Standards-Version: 3.7.2
 
 Package: kdeartwork
