@@ -1,4 +1,11 @@
-kdeartwork (4:3.94.0-1) unstable; urgency=low
+kdeartwork (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release. 
+  * Update b-d on >= 3.96.0.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 21:10:10 +0100
+
+kdeartwork (4:3.94.0-1) experimental; urgency=low
 
   * New upstream release.
   * Split kdeartwork into seperate packages.
@@ -7,7 +14,7 @@ kdeartwork (4:3.94.0-1) unstable; urgency=low
 
  -- Armin Berres <trigger+debian@space-based.de>  Sun, 21 Oct 2007 22:31:25 +0200
 
-kdeartwork (4:3.90.1-1) unstable; urgency=low
+kdeartwork (4:3.90.1-1) experimental; urgency=low
 
   * Initial release.
 
