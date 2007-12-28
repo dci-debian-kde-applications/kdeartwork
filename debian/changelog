@@ -1,3 +1,9 @@
+kdeartwork (4:3.97.0-1) experimental; urgency=low
+
+  * Add patch to link against libGLU where needed.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Fri, 28 Dec 2007 16:30:46 +0000
+
 kdeartwork (4:3.96.0-1) experimental; urgency=low
 
   * New upstream release. 
