@@ -1,8 +1,9 @@
-kdeartwork (4:3.97.0-1) experimental; urgency=low
+kdeartwork (4:3.98.0~svn753247-1) experimental; urgency=low
 
+  * Svn snapshot of revision 753247.
   * Add patch to link against libGLU where needed.
 
- -- Armin Berres <trigger+debian@space-based.de>  Fri, 28 Dec 2007 16:30:46 +0000
+ -- Armin Berres <trigger+debian@space-based.de>  Sat, 29 Dec 2007 16:13:58 +0000
 
 kdeartwork (4:3.96.0-1) experimental; urgency=low
 
