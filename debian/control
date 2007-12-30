@@ -3,9 +3,9 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdebase-workspace-dev (>=4:3.96.0),
- kdebase-dev (>=4:3.96.0), xscreensaver, xscreensaver-gl
-Standards-Version: 3.7.2
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdebase-workspace-dev (>=4:3.98.0~),
+ kdebase-dev (>=4:3.98.0~), xscreensaver, xscreensaver-gl
+Standards-Version: 3.7.3
 
 Package: kdeartwork
 Architecture: any
@@ -18,98 +18,90 @@ Description: themes, styles and more from the official KDE release
  .
  This metapackage includes a collection of artistic extras (themes, widget
  styles, screen savers, wallpaper, icons, emoticons and so on) provided
- with the official release of KDE.
- .
-  Homepage: http://artist.kde.org
+ with the official release of KDE4.
+
 
 Package: kdeartwork-misc
 Architecture: all
 Section: kde
 Suggests: kworldclock
-Description: various multimedia goodies released with KDE
- This package contains miscellaneous multimedia goodies for KDE.
+Description: various multimedia goodies released with KDE4
+ This package contains miscellaneous multimedia goodies for KDE4.
  Included are additional KDE sounds and kworldclock themes.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
+
 
 Package: kdeartwork-emoticons
 Architecture: all
 Section: kde
 Enhances: kopete
-Description: emoticon collections for KDE chat clients
+Description: emoticon collections for KDE4 chat clients
  This package contains several collections of emoticons used by official
  and unofficial KDE chat clients, such as Kopete and Konversation.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
+
 
 Package: kdewallpapers
 Architecture: all
 Section: kde
 Suggests: kwin | x-window-manager
-Description: wallpapers released with KDE
- This package contains additional wallpapers for KDE. Wallpapers can be
- applied using the background manager in the KDE Control Centre.
+Description: wallpapers released with KDE4
+ This package contains additional wallpapers for KDE.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
+
 
 Package: kdeartwork-theme-icon
 Architecture: all
 Section: kde
-Recommends: kdesktop, kicker
-Description: icon themes released with KDE
+Description: icon themes released with KDE4
  This package contains additional icon themes for KDE. Icon themes can be
- used to customise the appearance of standard icons throughout KDE. They
- can be applied using the icon manager in the KDE Control Centre.
+ used to customise the appearance of standard icons throughout KDE. 
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
+
 
 Package: kdeartwork-theme-window
 Architecture: any
 Section: kde
-Description: window decoration themes released with KDE
- This package contains additional window decoration themes for KDE. Window
- decoration themes can be used to customise the look of window borders and
- buttons, and can be applied using the window decoration manager in the KDE
- Control Center.
+Description: window decoration themes released with KDE4
+ This package contains additional window decoration themes for KDE.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
- .
- This package is part of KDE, and a component of the KDE artwork module.
+
 
 Package: kdeartwork-style
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
-Description: widget styles released with KDE
- This package contains additional widget styles for KDE. Widget styles
- can be used to customise the look and feel of interface components such
- as buttons, scrollbars and so on.  They can be applied using the style
- manager in the KDE Control Centre.
+Description: widget styles released with KDE4
+ This package contains additional widget styles for KDE.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
+
 
 Package: kscreensaver
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, kdebase-bin
 Recommends: kwin, kscreensaver-xsavers (= ${binary:Version})
-Description: additional screen savers released with KDE
- This package contains the screen savers for KDE. They can be tested and
- selected within the Appearance and Themes section of the KDE Control
- Center.
+Description: additional screen savers released with KDE4
+ This package contains the screen savers for KDE. 
  .
  The hooks for the standard xscreensavers are no longer part of this
- package. To select and/or configure the standard xscreensavers through
- the KDE Control Center, install the separate package kscreensaver-xsavers.
+ package.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
+
 
 Package: kscreensaver-xsavers
 Architecture: any
@@ -120,8 +112,7 @@ Suggests: kscreensaver-xsavers-webcollage
 Description: KDE hooks for standard xscreensavers
  This package allows a smooth integration of the standard xscreensavers
  into KDE. With this package installed you can select and/or configure
- the standard xscreensavers through the Appearances and Themes section of
- the KDE Control Centre.
+ the standard xscreensavers.
  .
  Note that this package does not actually contain any screensavers itself.
  For the additional screensavers shipped with KDE, see the separate package
@@ -129,13 +120,14 @@ Description: KDE hooks for standard xscreensavers
  recommend the xscreensaver-gl package, as well as contain the necessary
  files to integrate these packages into KDE.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
+
 
 Package: kscreensaver-xsavers-webcollage
 Architecture: all
 Section: kde
-Depends: kscreensaver-xsavers, miscfiles | wordlist, netpbm
+Depends: kscreensaver-xsavers, miscfiles, netpbm
 Description: webcollage screensaver KDE hook
  This package give access to the webcollage screensaver through the KDE
  screensaver configuration.
@@ -152,6 +144,6 @@ Description: webcollage screensaver KDE hook
  /usr/share/doc/kscreensaver-xsavers-webcollage/README.Debian after the
  installation.
  .
- This package is part of KDE, and a component of the KDE artwork module.
+ This package is part of KDE4, and a component of the KDE artwork module.
  See the 'kde' and 'kdeartwork' packages for more information.
 
