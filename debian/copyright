@@ -77,14 +77,118 @@ Files under icewm-themes/
 
 Files under IconThemes/
 
+ Under crystalsvg/
+    | ********************************************************************************
+    | KDE Crystal theme icons.
+    | Copyright (C) 2002 and following years KDE Artists
+    | This library is free software; you can redistribute it and/or
+    | modify it under the terms of the GNU Lesser General Public
+    | License as published by the Free Software Foundation,
+    | version 2.1 of the License.
+    | This library is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    | Lesser General Public License for more details.
+    | You should have received a copy of the GNU Lesser General Public
+    | License along with this library; if not, write to the Free Software
+    | Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    |     **** NOTE THIS ADD-ON ****
+    | The GNU Lesser General Public License or LGPL is written for software libraries
+    | in the first place. We expressly want the LGPL to be valid for this artwork
+    | library too.
+    | KDE Crystal theme icons is a special kind of software library, it is an
+    | artwork library, it's elements can be used in a Graphical User Interface, or
+    | GUI.
+    | Source code, for this library means:
+    |  - for vectors svg;
+    |  - for pixels, if applicable, the multi-layered formats xcf or psd, or
+    | otherwise png.
+    | The LGPL in some sections obliges you to make the files carry
+    | notices. With images this is in some cases impossible or hardly useful.
+    | With this library a notice is placed at a prominent place in the directory
+    | containing the elements. You may follow this practice.
+    | The exception in section 6 of the GNU Lesser General Public License covers
+    | the use of elements of this art library in a GUI.
+    | kde-artists [at] kde.org
+    | ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Files under kscreensaver/
+ Under ikons/
+    These files are under the GPL.
+
+ Under kdeclassic/
+    The images inside this directory are COMPLETELY FREE for commercial and non-commercial use.
+    Clarification: this means you can copy, modify and redistribute them.
+
+ Under kids/
+    by Everaldo.
+    These files are under the GPL.
+
+ Under Locolor/
+    The images inside this directory are COMPLETELY FREE for commercial and non-commercial use.
+    Clarification: this means you can copy, modify and redistribute them.
+
+ Under nuvola/
+    LGPL v2.1. In Debian systems at /usr/share/common-licenses/LGPL-2.1
+
+ Under primary/
+    | Primary iconset
+    | Copyright (C) 2007 Danny Allen <danny@dannyallen.co.uk>
+    | This library is free software; you can redistribute it and/or
+    | modify it under the terms of the GNU Lesser General Public
+    | License as published by the Free Software Foundation,
+    | version 2.1 of the License.
+    | This library is distributed in the hope that it will be useful,
+    | but WITHOUT ANY WARRANTY; without even the implied warranty of
+    | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    | Lesser General Public License for more details.
+    | You should have received a copy of the GNU Lesser General Public
+    | License along with this library; if not, write to the Free Software
+    | Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+    | 
+    |     **** NOTE THIS ADD-ON ****
+    | The GNU Lesser General Public License or LGPL is written for software libraries
+    | in the first place. We expressly want the LGPL to be valid for this artwork
+    | library too.
+    | Primary iconset is a special kind of software library, it is an
+    | artwork library, its elements can be used in a Graphical User Interface, or
+    | GUI.
+    | Source code, for this library means:
+    |  - for vectors svg;
+    |  - for pixels, if applicable, the multi-layered formats xcf or psd, or
+    | otherwise png.
+    | The LGPL in some sections obliges you to make the files carry
+    | notices. With images this is in some cases impossible or hardly useful.
+    | With this library a notice is placed at a prominent place in the directory
+    | containing the elements. You may follow this practice.
+    | The exception in section 6 of the GNU Lesser General Public License covers
+    | the use of elements of this art library in a GUI.
+    | ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Under slick/
+    | Slick 1.6 (C) 2005 - Robert Cosgrove <rob@digital-confusion.net>
+    | 
+    | The Slick icon theme.
+    | 
+    | ----------------------------------------
+    | Credit where credit is due
+    | 
+    | The cdrom icons are not 100% original. the disc part of the image while modified was created by someone else.
+    | I dont know who did them originally but credit partly goes to you.
+    | The Gimp icon is care of Tigert.  Various other things are modified icons from Noia and Crystal.
 
 
-Files under kwin-styles/
+Files under kscreensaver/ TODO
+
+kdesavers
+kpartsaver
+kxsconfig
+xsavers
 
 
-Files under kworldclock/
+Files under kwin-styles/ TODO
+
+
+Files under kworldclock/ TODO
 
 
 Files under sounds/
@@ -122,11 +226,24 @@ Files under styles/
 
 Files under wallpapers/
 
+   | alien-night.jpg - Rob Cosgrove <abug@ozemail.com.au>
+   | kraftwurm.jpg - Qwertz <kraftw@gmx.de>
+   | fulmine.jpg - Andrea Rizzi <rizzi@kde.org>
+   | mystical_rightturn.jpg - Christian Müller <cmue81@gmx.de>
+   | 
+   | License: free for commercial and noncommercial usage, distribution and
+   | modification
+   | 
+   | The following tiles are courteously provided by  Bowie J. Poag / PROPAGANDA:
+   | 
+   | Superfluous-Organ-1.jpg, The-Good-Times-1.jpg, Whirling_Spirit.jpg,
+   | Appropriately-Left-Handed-2.jpg
+   | 
+   | License: Copyleft
 
 
 
 The Debian packaging is (C) 2007, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL,
 see `/usr/share/common-licenses/GPL'.
-
 
