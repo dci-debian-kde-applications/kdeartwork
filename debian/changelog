@@ -1,6 +1,6 @@
 kdeartwork (4:3.98.0~svn753247-1) experimental; urgency=low
 
-  * Svn snapshot of revision 753247.
+  * KDE 4 RC2 + svn snapshot 753247, first upload to the Debian archive.
 
   +++ Changes by Armin Berres:
 
