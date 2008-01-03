@@ -8,7 +8,7 @@ Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdebase-workspace-dev (>=4:
 Standards-Version: 3.7.3
 
 Package: kdeartwork
-Architecture: any
+Architecture: all
 Depends: kdeartwork-misc (>= ${binary:Version}), kdeartwork-emoticons (>= ${binary:Version}),  kdeartwork-style (>= ${binary:Version}), kdeartwork-theme-icon (>= ${binary:Version}), kdeartwork-theme-window (>= ${binary:Version}), kdewallpapers (>= ${binary:Version}), kscreensaver (>= ${binary:Version})
 Description: themes, styles and more from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical

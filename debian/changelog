@@ -1,3 +1,11 @@
+kdeartwork (4:3.98.0~svn755919-1) experimental; urgency=low
+
+  * New svn snapshot release to revision 755919.
+  * Remove patch 05_link_against_missing_libs, merged upstream.
+  * Move kdeartwork to Architecture: all.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Jan 2008 20:49:55 +0100
+
 kdeartwork (4:3.98.0~svn753247-1) experimental; urgency=low
 
   * KDE 4 RC2 + svn snapshot 753247, first upload to the Debian archive.
