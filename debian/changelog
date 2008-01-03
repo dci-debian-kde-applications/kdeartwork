@@ -3,6 +3,9 @@ kdeartwork (4:3.98.0~svn755919-1) experimental; urgency=low
   * New svn snapshot release to revision 755919.
   * Remove patch 05_link_against_missing_libs, merged upstream.
   * Move kdeartwork to Architecture: all.
+  * Update copyright years.
+  * Add color schemes in kdeartwork package, it should be split in its own
+    package in the near future.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Jan 2008 20:49:55 +0100
 
