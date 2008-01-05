@@ -1,3 +1,11 @@
+kdeartwork (4:4.0.0-1) experimental; urgency=low
+
+  * New upstream release. 
+  * Bump build-depends to >=4:4.0.0-1
+  * Update kdeartwork.install
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Jan 2008 16:07:24 +0100
+
 kdeartwork (4:3.98.0~svn755919-1) experimental; urgency=low
 
   * New svn snapshot release to revision 755919.

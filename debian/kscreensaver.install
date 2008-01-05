@@ -20,12 +20,12 @@ usr/bin/kwave.kss
 usr/share/kde4/apps/kfiresaver/kfs_debris.ogg
 usr/share/kde4/apps/kfiresaver/kfs_explode.ogg
 usr/share/kde4/apps/kfiresaver/kfs_kde.png
-usr/share/kde4/apps/kfiresaver/kfs_letters.desc
 usr/share/kde4/apps/kfiresaver/kfs_letters1.png
 usr/share/kde4/apps/kfiresaver/kfs_letters2.png
-usr/share/kde4/apps/kfiresaver/kfs_particle.png
+usr/share/kde4/apps/kfiresaver/kfs_letters.desc
 usr/share/kde4/apps/kfiresaver/kfs_particle_diastar.png
 usr/share/kde4/apps/kfiresaver/kfs_particle_flare.png
+usr/share/kde4/apps/kfiresaver/kfs_particle.png
 usr/share/kde4/apps/kfiresaver/kfs_tux.png
 usr/share/kde4/apps/kscreensaver/image.png
 usr/share/kde4/apps/kscreensaver/kscience.png
