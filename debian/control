@@ -6,6 +6,7 @@ Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pus
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdebase-workspace-dev (>=4:4.0.0-1),
  kdebase-dev (>=4:4.0.0-1), xscreensaver, xscreensaver-gl
 Standards-Version: 3.7.3
+Homepage: http://www.kde.org/
 
 Package: kdeartwork
 Architecture: all
