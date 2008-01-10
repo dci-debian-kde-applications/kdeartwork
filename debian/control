@@ -58,6 +58,7 @@ Description: wallpapers released with KDE 4
 Package: kdeartwork-theme-icon
 Architecture: all
 Section: kde
+Conflicts: kdelibs-data (<<4:3.90.0)
 Description: icon themes released with KDE 4
  This package contains additional icon themes for KDE. Icon themes can be
  used to customise the appearance of standard icons throughout KDE. 
