@@ -2,7 +2,7 @@ Source: kdeartwork
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdebase-workspace-dev (>=4:4.0.0-1),
  kdebase-dev (>=4:4.0.0-1), xscreensaver, xscreensaver-gl
 Standards-Version: 3.7.3
@@ -11,7 +11,7 @@ Homepage: http://www.kde.org/
 Package: kdeartwork
 Architecture: all
 Depends: kdeartwork-misc (>= ${source:Version}), kdeartwork-emoticons (>= ${source:Version}),  kdeartwork-style (>= ${binary:Version}), kdeartwork-theme-icon (>= ${source:Version}), kdeartwork-theme-window (>= ${binary:Version}), kdewallpapers (>= ${source:Version}), kscreensaver (>= ${binary:Version})
-Description: themes, styles and more from the official KDE release
+Description: themes, styles and more from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -49,7 +49,7 @@ Architecture: all
 Section: kde
 Suggests: kwin | x-window-manager
 Description: wallpapers released with KDE 4
- This package contains additional wallpapers for KDE.
+ This package contains additional wallpapers for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
 
@@ -59,7 +59,7 @@ Architecture: all
 Section: kde
 Conflicts: kdelibs-data (<<4:4.0.0)
 Description: icon themes released with KDE 4
- This package contains additional icon themes for KDE.
+ This package contains additional icon themes for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
 
@@ -68,7 +68,7 @@ Package: kdeartwork-theme-window
 Architecture: any
 Section: kde
 Description: window decoration themes released with KDE 4
- This package contains additional window decoration themes for KDE.
+ This package contains additional window decoration themes for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
 
@@ -78,7 +78,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
 Description: widget styles released with KDE 4
- This package contains additional widget styles for KDE.
+ This package contains additional widget styles for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
 
@@ -89,7 +89,7 @@ Section: kde
 Depends: ${shlibs:Depends}, kdebase-workspace-bin
 Recommends: kwin, kscreensaver-xsavers (= ${binary:Version})
 Description: additional screensavers released with KDE 4
- This package contains screensavers for KDE.
+ This package contains screensavers for KDE 4.
  .
  KScreenSaver can use XScreenSaver collection of screensavers with the
  'screensaver-xsavers' package.
@@ -103,10 +103,10 @@ Section: kde
 Depends: ${shlibs:Depends}, kdebase-workspace-bin, xscreensaver
 Recommends: kwin, kscreensaver (= ${binary:Version}), xscreensaver-gl
 Suggests: kscreensaver-xsavers-webcollage
-Description: XScreenSaver support for KDE
- This package allows KDE to use the XScreenSaver collection of screensavers.
+Description: XScreenSaver support for KDE 4
+ This package allows KDE 4 to use the XScreenSaver collection of screensavers.
  .
- The official KDE screensavers can be found in the 'kscreensaver' package.
+ The official KDE 4 screensavers can be found in the 'kscreensaver' package.
  .
  This package is part of the KDE 4 artwork module.
 
@@ -115,8 +115,8 @@ Package: kscreensaver-xsavers-webcollage
 Architecture: all
 Section: kde
 Depends: kscreensaver-xsavers, miscfiles, netpbm
-Description: webcollage screensaver support for KDE
- This package allows KDE to use the webcollage screensaver, which downloads
+Description: webcollage screensaver support for KDE 4
+ This package allows KDE 4 to use the webcollage screensaver, which downloads
  random pictures from the internet to create a collage.
  .
  IMPORTANT NOTICE: The internet contains all kinds of pictures, some of which
