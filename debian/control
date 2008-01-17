@@ -27,7 +27,7 @@ Package: kdeartwork-misc
 Architecture: all
 Section: kde
 Suggests: kworldclock
-Description: various multimedia goodies released with KDE 4
+Description: Various multimedia goodies released with KDE 4
  This package contains miscellaneous artwork for KDE 4, such as
  additional notification sounds and kworldclock themes.
  .
@@ -37,8 +37,8 @@ Description: various multimedia goodies released with KDE 4
 Package: kdeartwork-emoticons
 Architecture: all
 Section: kde
-Description: emoticon collections for KDE 4 chat clients
- This package contains several collections of emoticons used KDE chat clients,
+Description: Emoticon collections for KDE 4 chat clients
+ This package contains several collections of emoticons for KDE chat clients,
  such as Kopete and Konversation.
  .
  This package is part of the KDE 4 artwork module.
@@ -48,7 +48,7 @@ Package: kdewallpapers
 Architecture: all
 Section: kde
 Suggests: kwin | x-window-manager
-Description: wallpapers released with KDE 4
+Description: Wallpapers released with KDE 4
  This package contains additional wallpapers for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
@@ -57,8 +57,8 @@ Description: wallpapers released with KDE 4
 Package: kdeartwork-theme-icon
 Architecture: all
 Section: kde
-Conflicts: kdelibs-data (<<4:4.0.0)
-Description: icon themes released with KDE 4
+Conflicts: kdelibs-data (<<4:4.0.0-1)
+Description: Icon themes released with KDE 4
  This package contains additional icon themes for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
@@ -67,7 +67,7 @@ Description: icon themes released with KDE 4
 Package: kdeartwork-theme-window
 Architecture: any
 Section: kde
-Description: window decoration themes released with KDE 4
+Description: Window decoration themes released with KDE 4
  This package contains additional window decoration themes for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
@@ -77,7 +77,7 @@ Package: kdeartwork-style
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
-Description: widget styles released with KDE 4
+Description: Widget styles released with KDE 4
  This package contains additional widget styles for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
@@ -88,7 +88,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, kdebase-workspace-bin
 Recommends: kwin, kscreensaver-xsavers (= ${binary:Version})
-Description: additional screensavers released with KDE 4
+Description: Additional screensavers released with KDE 4
  This package contains screensavers for KDE 4.
  .
  KScreenSaver can use XScreenSaver collection of screensavers with the
@@ -115,8 +115,8 @@ Package: kscreensaver-xsavers-webcollage
 Architecture: all
 Section: kde
 Depends: kscreensaver-xsavers, miscfiles, netpbm
-Description: webcollage screensaver support for KDE 4
- This package allows KDE 4 to use the webcollage screensaver, which downloads
+Description: WebCollage screensaver support for KDE 4
+ This package allows KDE 4 to use the WebCollage screensaver, which downloads
  random pictures from the internet to create a collage.
  .
  IMPORTANT NOTICE: The internet contains all kinds of pictures, some of which

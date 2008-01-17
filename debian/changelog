@@ -1,6 +1,6 @@
 kdeartwork (4:4.0.0-2) experimental; urgency=low
 
-  * Tweak descriptions.
+  * Tweak package descriptions.
   * Change KDE 4 dependency version to 4:4.0.0-1.
   * Replace kscreensaver dependency on kdebase-bin with kdebase-workspace-bin.
   * Make dependencies binNMU-friendly.
