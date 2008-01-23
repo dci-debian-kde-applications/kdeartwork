@@ -10,8 +10,13 @@ Homepage: http://www.kde.org/
 
 Package: kdeartwork
 Architecture: all
-Depends: kdeartwork-misc (>= ${source:Version}), kdeartwork-emoticons (>= ${source:Version}),  kdeartwork-style (>= ${binary:Version}), kdeartwork-theme-icon (>= ${source:Version}), kdeartwork-theme-window (>= ${binary:Version}), kdewallpapers (>= ${source:Version}), kscreensaver (>= ${binary:Version})
-Description: themes, styles and more from the official KDE 4 release
+Depends: kdeartwork-misc (>= ${source:Version}),
+ kdeartwork-emoticons (>= ${source:Version}),
+ kdeartwork-style (>= ${source:Version}),
+ kdeartwork-theme-icon (>= ${source:Version}),
+ kdeartwork-theme-window (>= ${source:Version}),
+ kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version})
+Description: Themes, styles and other artwork from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -102,7 +107,7 @@ Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, kdebase-workspace-bin, xscreensaver
 Recommends: kwin, kscreensaver (= ${binary:Version}), xscreensaver-gl
-Suggests: kscreensaver-xsavers-webcollage
+Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
 Description: XScreenSaver support for KDE 4
  This package allows KDE 4 to use the XScreenSaver collection of screensavers.
  .
@@ -114,7 +119,7 @@ Description: XScreenSaver support for KDE 4
 Package: kscreensaver-xsavers-webcollage
 Architecture: all
 Section: kde
-Depends: kscreensaver-xsavers, miscfiles, netpbm
+Depends: kscreensaver-xsavers (= ${source:Version}), miscfiles, netpbm
 Description: WebCollage screensaver support for KDE 4
  This package allows KDE 4 to use the WebCollage screensaver, which downloads
  random pictures from the internet to create a collage.

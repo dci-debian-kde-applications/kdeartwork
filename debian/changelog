@@ -1,12 +1,15 @@
-kdeartwork (4:4.0.0-2) experimental; urgency=low
+kdeartwork (4:4.0.0-2) UNRELEASED; urgency=low
+
+  +++ Changes by Matthew Rosewarne:
 
   * Tweak package descriptions.
   * Change KDE 4 dependency version to 4:4.0.0-1.
   * Replace kscreensaver dependency on kdebase-bin with kdebase-workspace-bin.
   * Make dependencies binNMU-friendly.
   * Remove Enhances: kopete from kdeartwork-emoticons.
+  * Tighten kscreensaver-xsavers dependency version.
 
- -- Matthew Rosewarne <mrosewarne@inoutbox.com>  Mon, 14 Jan 2008 01:23:51 -0500
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 14 Jan 2008 01:23:51 -0500
 
 kdeartwork (4:4.0.0-1) experimental; urgency=low
 
