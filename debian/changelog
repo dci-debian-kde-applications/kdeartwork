@@ -1,8 +1,10 @@
-kdeartwork (4:4.0.0-3) UNRELEASED; urgency=low
+kdeartwork (4:4.0.1-1) UNRELEASED; urgency=low
 
-  * ... 
+  * New upstream release.
+  * Bump build-depends to >=4:4.0.1-1.
+  * Update to debhelper 6.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 26 Jan 2008 16:58:49 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 02 Feb 2008 04:57:06 +0100
 
 kdeartwork (4:4.0.0-2) experimental; urgency=low
 
