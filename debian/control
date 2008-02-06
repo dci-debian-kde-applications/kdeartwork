@@ -7,6 +7,8 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt,
  kdebase-workspace-dev (>= 4:4.0.1-1), xscreensaver, xscreensaver-gl
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/branches/kde4/packages/kdeartwork
+Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdeartwork
 
 Package: kdeartwork
 Architecture: all
