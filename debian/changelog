@@ -2,6 +2,12 @@ kdeartwork (4:4.0.1-2) UNRELEASED; urgency=low
 
   * ... 
 
+  +++ Changes by Armin Berres:
+
+  * Let kdeartwork depend on kdeartwork-theme-icon or kdelibs-data. Otherwise
+    kdelibs-data, which is a dependency of kdelibs4c2a, will be deleted and
+    all KDE 3 programms will follow.
+
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 08 Feb 2008 16:19:30 +0100
 
 kdeartwork (4:4.0.1-1) experimental; urgency=low
