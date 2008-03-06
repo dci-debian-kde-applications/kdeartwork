@@ -1,6 +1,16 @@
-kdeartwork (4:4.0.1-2) UNRELEASED; urgency=low
+kdeartwork (4:4.0.2-1) experimental; urgency=low
 
-  * ... 
+  * New upstream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez :
+  
+  * Bump build-depends to >= 4:4.0.2.
+  * Changes on kscreensaver-xsavers due to xscreensaver's maintainers
+    splitting the package just for fun:
+    - Replace Depends on xscreensaver with xscreensaver-data and
+    xscreensaver-data.
+    - Add xscreensaver-gl-extra on Recommends.
+    (Closes: #469204)
 
   +++ Changes by Armin Berres:
 
