@@ -52,7 +52,7 @@ Description: emoticon collections for KDE 4 chat clients
 Package: kdewallpapers
 Architecture: all
 Section: kde
-Suggests: kwin | x-window-manager
+Suggests: kde-window-manager | x-window-manager
 Description: wallpapers released with KDE 4
  This package contains additional wallpapers for KDE 4.
  .
@@ -92,7 +92,7 @@ Package: kscreensaver
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, kdebase-workspace-bin
-Recommends: kwin, kscreensaver-xsavers (= ${binary:Version})
+Recommends: kde-window-manager, kscreensaver-xsavers (= ${binary:Version})
 Description: Additional screensavers released with KDE 4
  This package contains screensavers for KDE 4.
  .
@@ -106,7 +106,7 @@ Package: kscreensaver-xsavers
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, kdebase-workspace-bin, xscreensaver-data, xscreensaver-data-extra
-Recommends: kwin, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
+Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
 Description: xscreensaver support for KDE 4
  This package allows KDE 4 to use the XScreenSaver collection of screensavers.

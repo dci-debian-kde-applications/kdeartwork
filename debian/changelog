@@ -2,6 +2,7 @@ kdeartwork (4:4.0.68-1) experimental; urgency=low
 
   * New upstream snapshot. 
   * Update installed files.
+  * Replace Recommends: kwin with kde-window-manager.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 05 Apr 2008 20:24:38 +0200
 
