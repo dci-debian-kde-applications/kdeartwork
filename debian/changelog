@@ -3,7 +3,8 @@ kdeartwork (4:4.0.68+svn794641-1) experimental; urgency=low
   * New upstream snapshot. 
   * Update installed files.
   * Replace Recommends: kwin with kde-window-manager.
-  * Add libxt-dev and libstreamanalyzer-dev to build depends.
+  * Add libxt-dev, libstreamanalyzer-dev and xscreensaver data packages 
+    to build depends.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 24 Apr 2008 16:33:22 +0200
 
