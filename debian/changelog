@@ -1,6 +1,6 @@
-kdeartwork (4:4.0.72-2) experimental; urgency=low
+kdeartwork (4:4.0.72-1) experimental; urgency=low
 
-  * New upstream release.
+  * New upstream snapshot.
   * Update kscreensaver installed files.
 
  -- Fathi Boudra <fabo@debian.org>  Thu, 01 May 2008 09:08:55 +0200
