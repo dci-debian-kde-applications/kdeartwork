@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (> 2.6.0~), quilt, 
- kdebase-workspace-dev (>= 4:4.0.68), libxt-dev, libstreamanalyzer-dev, 
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (> 2.6.0~), quilt,
+ kdebase-workspace-dev (>= 4:4.0.72), libxt-dev, libstreamanalyzer-dev,
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org/
@@ -15,7 +15,7 @@ Package: kdeartwork
 Architecture: all
 Depends: kdeartwork-misc (>= ${source:Version}), kdeartwork-emoticons (>= ${source:Version}),
  kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs-data,
- kdeartwork-theme-window (>= ${source:Version}), kdewallpapers (>= ${source:Version}), 
+ kdeartwork-theme-window (>= ${source:Version}), kdewallpapers (>= ${source:Version}),
  kscreensaver (>= ${source:Version})
 Description: themes, styles and other artwork from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
