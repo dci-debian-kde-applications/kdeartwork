@@ -1,3 +1,9 @@
+kdeartwork (4:4.0.73-1) UNRELEASED; urgency=low
+
+  * New upstream snapshot.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 10 May 2008 14:38:18 +0200
+
 kdeartwork (4:4.0.72-1) experimental; urgency=low
 
   * New upstream snapshot.
