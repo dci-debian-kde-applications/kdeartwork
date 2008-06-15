@@ -1,3 +1,9 @@
+kdeartwork (4:4.0.82+svn819867-1) experimental; urgency=low
+
+  * New upstream snapshot.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 15 Jun 2008 17:54:21 +0200
+
 kdeartwork (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
