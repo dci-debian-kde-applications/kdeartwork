@@ -1,6 +1,7 @@
 usr/bin/kbanner.kss
 usr/bin/kblob.kss
 usr/bin/kclock.kss
+usr/bin/kdeasciiquarium.kss
 usr/bin/keuphoria.kss
 usr/bin/kflux.kss
 usr/bin/kfountain.kss
@@ -30,6 +31,7 @@ usr/share/kde4/apps/kfiresaver/kfs_tux.png
 usr/share/kde4/apps/kscreensaver/image.png
 usr/share/kde4/apps/kscreensaver/kscience.png
 usr/share/kde4/apps/kscreensaver/particle.png
+usr/share/kde4/services/ScreenSavers/asciiquarium.desktop
 usr/share/kde4/services/ScreenSavers/KBanner.desktop
 usr/share/kde4/services/ScreenSavers/KBlob.desktop
 usr/share/kde4/services/ScreenSavers/KClock.desktop
