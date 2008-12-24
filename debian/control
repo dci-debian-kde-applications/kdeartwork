@@ -36,7 +36,7 @@ Section: kde
 Suggests: kworldclock
 Description: various multimedia goodies released with KDE 4
  This package contains miscellaneous artwork for KDE 4, such as
- additional notification sounds and kworldclock themes.
+ additional notification sounds.
  .
  This package is part of the KDE 4 artwork module.
 
@@ -55,6 +55,7 @@ Package: kdewallpapers
 Architecture: all
 Section: kde
 Suggests: kde-window-manager | x-window-manager
+Conflicts: 
 Description: wallpapers released with KDE 4
  This package contains additional wallpapers for KDE 4.
  .
