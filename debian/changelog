@@ -1,4 +1,4 @@
-kdeartwork (4:4.1.86+svn900853-0r1) UNRELEASED; urgency=low
+kdeartwork (4:4.1.87+svn905808-0r1) UNRELEASED; urgency=low
 
    * New upstream development snapshot.
    * Bump KDE build depends to 4:4.1.85.
