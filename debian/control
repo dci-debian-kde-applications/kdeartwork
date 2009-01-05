@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), quilt,
- kdebase-workspace-dev (>= 4:4.1.85), libxt-dev, libstreamanalyzer-dev,
+ kdebase-workspace-dev (>= 4:4.1.87), libxt-dev, libstreamanalyzer-dev,
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
  libqt4-opengl-dev, libeigen2-dev
 Standards-Version: 3.8.0
@@ -18,6 +18,7 @@ Depends: kdeartwork-misc (>= ${source:Version}), kdeartwork-emoticons (>= ${sour
  kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs-data,
  kdeartwork-theme-window (>= ${source:Version}), kdewallpapers (>= ${source:Version}),
  kscreensaver (>= ${source:Version})
+Replaces: kdeartwork-misc
 Description: themes, styles and other artwork from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -28,18 +29,6 @@ Description: themes, styles and other artwork from the official KDE 4 release
  .
  This metapackage includes a collection of additional artwork provided with the
  official release of KDE 4.
-
-
-Package: kdeartwork-misc
-Architecture: all
-Section: kde
-Suggests: kworldclock
-Description: various multimedia goodies released with KDE 4
- This package contains miscellaneous artwork for KDE 4, such as
- additional notification sounds.
- .
- This package is part of the KDE 4 artwork module.
-
 
 Package: kdeartwork-emoticons
 Architecture: all
