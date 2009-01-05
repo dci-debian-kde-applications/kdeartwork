@@ -130,11 +130,10 @@ Package: plasma-desktopthemes-artwork
 Architecture: all
 Section: kde
 Depends: ${shlibs:Depends}
-Replaces: xx, yy
-Description: ... for KDE 4
- aa
- .
- bb
+Replaces: kdeplasma-addons-data (<< 4:4.1.87)
+Description: desktop themes for KDE 4
+ This package include several desktops theme to change plasma colours
+ settings.
  .
  This package is part of the KDE 4 artwork module.
 
