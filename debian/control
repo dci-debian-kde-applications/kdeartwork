@@ -14,10 +14,9 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/branches/kde4/packages/kdeartwork
 
 Package: kdeartwork
 Architecture: all
-Depends: kdeartwork-misc (>= ${source:Version}), kdeartwork-emoticons (>= ${source:Version}),
+Depends: kdeartwork-emoticons (>= ${source:Version}),
  kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs-data,
- kdeartwork-theme-window (>= ${source:Version}), kdewallpapers (>= ${source:Version}),
- kscreensaver (>= ${source:Version})
+ kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version})
 Replaces: kdeartwork-misc
 Description: themes, styles and other artwork from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open

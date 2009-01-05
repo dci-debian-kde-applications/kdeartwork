@@ -1,8 +1,9 @@
 kdeartwork (4:4.1.87+svn906041-0r1) UNRELEASED; urgency=low
 
    * New upstream development snapshot.
-   * Remove: kdeartwork-misc kwordclock maps are not longer provided.
+   * Remove kdeartwork-misc, kwordclock maps are not longer provided.
      Sounds are moved to kdeartwork, add Replaces also.
+   * Remove kdeartwork-theme-window, themes are not longed provided.
    * Bump KDE build depends to 4:4.1.87.
    * Bump Standards-Version to 3.8.0 and add README.source.
    * Do not build depend on cmake explicitly.
@@ -10,7 +11,6 @@ kdeartwork (4:4.1.87+svn906041-0r1) UNRELEASED; urgency=low
    * Update kscreensaver.install.
    * Some files have been moved. TODO add conflits
 
-   * TODO: kdeartwork-theme-window is not empty, kill it.
    * TODO: all the desktopthemes new its new package.
    
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 21 Dec 2008 20:01:11 +0100
