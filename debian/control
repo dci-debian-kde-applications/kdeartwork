@@ -124,3 +124,17 @@ Description: webcollage screensaver support for KDE 4
  after installing this package.
  .
  This package is part of the KDE 4 artwork module.
+
+
+Package: plasma-desktopthemes-artwork
+Architecture: all
+Section: kde
+Depends: ${shlibs:Depends}
+Replaces: xx, yy
+Description: ... for KDE 4
+ aa
+ .
+ bb
+ .
+ This package is part of the KDE 4 artwork module.
+
