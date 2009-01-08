@@ -1,4 +1,4 @@
-kdeartwork (4:4.1.96+svn907449-0r1) UNRELEASED; urgency=low
+kdeartwork (4:4.1.96+svn907669-0r1) UNRELEASED; urgency=low
 
    * New upstream development snapshot.
    * Remove kdeartwork-misc, kwordclock maps are not longer provided.
@@ -12,8 +12,6 @@ kdeartwork (4:4.1.96+svn907449-0r1) UNRELEASED; urgency=low
    * Add build depend on libeigen2-dev.
    * Update kscreensaver.install.
 
-   *TODO: recheck conflics, i have lost the track and some are missing
-   
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 05 Jan 2009 21:37:27 +0100
 
 kdeartwork (4:4.1.3-1) experimental; urgency=low
