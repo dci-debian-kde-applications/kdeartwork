@@ -6,6 +6,8 @@ kdeartwork (4:4.1.96+svn907669-0r1) UNRELEASED; urgency=low
    * Remove kdeartwork-theme-window, themes are not longed provided.
    * Add plasma-desktopthemes-artwork containing all plasma desktop themes
      moved from kdeplasma-data.
+   * kdeartwork-theme-icon does not longer conflict with KDE 3.5's
+     kdelibs-data. Removed conflicts line.
    * Bump KDE build depends to 4:4.1.96.
    * Bump Standards-Version to 3.8.0 and add README.source.
    * Do not build depend on cmake explicitly.
