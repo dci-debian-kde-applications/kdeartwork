@@ -1,6 +1,6 @@
-kdeartwork (4:4.1.96+svn910413-0r1) UNRELEASED; urgency=low
+kdeartwork (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
@@ -13,7 +13,7 @@ kdeartwork (4:4.1.96+svn910413-0r1) UNRELEASED; urgency=low
     kdelibs-data. Removed conflicts line.
   * Add conflict to kdewallpapers with KDE 4.1's kdebase-workspace-data,
     some wallpapers were moved.
-  * Bump KDE build depends to 4:4.1.96.
+  * Bump KDE build depends to 4:4.2.0.
   * Bump Standards-Version to 3.8.0 and add README.source.
   * Do not build depend on cmake explicitly.
   * Add build depend on libeigen2-dev.
