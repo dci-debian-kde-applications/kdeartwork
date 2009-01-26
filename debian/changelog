@@ -1,4 +1,4 @@
-kdeartwork (4:4.2.0-0r1) UNRELEASED; urgency=low
+kdeartwork (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -31,9 +31,9 @@ kdeartwork (4:4.2.0-0r1) UNRELEASED; urgency=low
 
   +++ Changes by Sune Vuorela:
 
-  * Update copyright files.
+  * Update copyright file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:35:38 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jan 2009 22:32:57 +0100
 
 kdeartwork (4:4.1.3-1) experimental; urgency=low
 
