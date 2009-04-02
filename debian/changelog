@@ -1,6 +1,6 @@
 kdeartwork (4:4.2.2-1) unstable; urgency=low
 
-  * Neuw upstream. 
+  * New upstream release.
   * Bump build-deps.
 
  -- Sune Vuorela <debian@pusling.com>  Thu, 02 Apr 2009 12:31:21 +0200
