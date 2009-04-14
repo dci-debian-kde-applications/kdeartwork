@@ -1,0 +1,13 @@
+Index: kdeartwork-4.2.2/styles/phase/phasestyle.cpp
+===================================================================
+--- kdeartwork-4.2.2.orig/styles/phase/phasestyle.cpp	2009-04-14 03:46:48.901023833 -0400
++++ kdeartwork-4.2.2/styles/phase/phasestyle.cpp	2009-04-14 03:47:48.612029486 -0400
+@@ -2052,7 +2052,7 @@
+           qreal cx = rect.center().x();
+           qreal cy = rect.center().y();
+           qreal radius = (qMin(w, h) / 2.0) - 2.0;
+-          qreal tick = qMax(radius / 6, 4.0);
++          qreal tick = qMax(radius / 6, static_cast<qreal>(4.0));
+ 
+           if (dial->subControls & SC_DialGroove) {
+               QRectF groove = QRectF(cx-radius+tick, cy-radius+tick,
