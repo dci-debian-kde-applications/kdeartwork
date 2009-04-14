@@ -1,8 +1,10 @@
 kdeartwork (4:4.2.2-2) UNRELEASED; urgency=low
 
-  * debian/patches/01_fix_qreals_on_arm.diff
+  * debian/patches/01_fix_qreals_on_arm.diff (Closes: #523995)
     - Casts qreal/double mismatch to allow successful build on
       the ARM architecture where qreal's are float vs. double
+  * debian/control:
+    - Added myself to uploaders
 
  -- Michael Casadevall <mcasadevall@debian.org>  Tue, 14 Apr 2009 03:41:39 -0400
 
