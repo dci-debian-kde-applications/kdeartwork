@@ -1,3 +1,10 @@
+kdeartwork (4:4.2.4-1) unstable; urgency=low
+
+  * New upstream release.
+    - Remove the 01_fix_qreals_on_arm.diff patch, merged upstream.
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 30 May 2009 22:24:16 +0200
+
 kdeartwork (4:4.2.2-2) unstable; urgency=low
 
   * debian/patches/01_fix_qreals_on_arm.diff (Closes: #523995)
