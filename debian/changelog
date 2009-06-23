@@ -1,3 +1,10 @@
+kdeartwork (4:4.2.4-2) UNRELEASED; urgency=low
+
+  * Fix "[kscreensaver] mistake in package description: screensaver-
+    xsavers -> kscreensaver-xsavers" (Closes: #534232)
+
+ -- Didier Raboud <didier@raboud.com>  Tue, 23 Jun 2009 12:14:41 +0200
+
 kdeartwork (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.

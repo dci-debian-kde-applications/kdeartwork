@@ -88,7 +88,7 @@ Description: Additional screensavers released with KDE 4
  This package contains screensavers for KDE 4.
  .
  KScreenSaver can use XScreenSaver collection of screensavers with the
- 'screensaver-xsavers' package.
+ 'kscreensaver-xsavers' package.
  .
  This package is part of the KDE 4 artwork module.
 
