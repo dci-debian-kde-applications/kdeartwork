@@ -7,6 +7,8 @@ kdeartwork (4:4.2.98-0~pre1) UNRELEASED; urgency=low
   * Bump KDE build depends to 4:4.2.96.
   * Bump Standard-Version from 3.8.0 to 3.8.2, no changes needed.
   * Update installed files.
+  * Remove superflous section fields in debian/control.
+  * Update debian/copyrights: years and copyright word.
 
   +++ Changes by Didier Raboud:
 
