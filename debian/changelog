@@ -1,4 +1,4 @@
-kdeartwork (4:4.3.0-0r1) UNRELEASED; urgency=low
+kdeartwork (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -15,7 +15,7 @@ kdeartwork (4:4.3.0-0r1) UNRELEASED; urgency=low
   * kscreensaver: Fix a spelling mistake in Description to point to the right
     package (_k_screensaver-xsavers). (Closes: #534232)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Aug 2009 18:43:11 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 09:05:08 +0200
 
 kdeartwork (4:4.2.4-1) unstable; urgency=low
 
