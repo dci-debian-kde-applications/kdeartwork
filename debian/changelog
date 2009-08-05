@@ -1,4 +1,4 @@
-kdeartwork (4:4.3.0-2~pre1) unstable; urgency=low
+kdeartwork (4:4.3.0-2) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
 
@@ -10,7 +10,7 @@ kdeartwork (4:4.3.0-2~pre1) unstable; urgency=low
   
   * Small fixes in debian/copyright, copyright blurb.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 19:57:59 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 20:12:30 +0200
 
 kdeartwork (4:4.3.0-1) unstable; urgency=low
 
