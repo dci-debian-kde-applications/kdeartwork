@@ -6,7 +6,11 @@ kdeartwork (4:4.3.0-2~pre1) unstable; urgency=low
     Blue_Curl wallpapers) (Closes: #540036).
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 19:08:32 +0300
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+  
+  * Small fixes in debian/copyright, copyright blurb.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 19:57:59 +0200
 
 kdeartwork (4:4.3.0-1) unstable; urgency=low
 
@@ -17,7 +21,7 @@ kdeartwork (4:4.3.0-1) unstable; urgency=low
   * Bump KDE build depends to 4:4.3.0.
   * Bump Standard-Version from 3.8.0 to 3.8.2, no changes needed.
   * Update installed files.
-  * Remove superflous section fields in debian/control.
+  * Remove superfluous section fields in debian/control.
   * Update debian/copyrights: years and copyright word.
 
   +++ Changes by Didier Raboud:
