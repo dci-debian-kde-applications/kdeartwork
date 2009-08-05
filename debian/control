@@ -2,7 +2,7 @@ Source: kdeartwork
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Michael Casadevall <mcasadevall@debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Fathi Boudra <fabo@debian.org>, Armin Berres <trigger+debian@space-based.de>, Michael Casadevall <mcasadevall@debian.org>, Modestas Vainius <modestas@vainius.eu>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.2),
  kdebase-workspace-dev (>= 4:4.3.0), libxt-dev, libstreamanalyzer-dev (>= 0.6.3),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
@@ -42,7 +42,7 @@ Description: emoticon collections for KDE 4 chat clients
 Package: kdewallpapers
 Architecture: all
 Suggests: kde-window-manager | x-window-manager
-Replaces: kdebase-workspace-data (<< 4.1.96)
+Replaces: kdebase-workspace-data (<< 4.2.96)
 Description: wallpapers released with KDE 4
  This package contains additional wallpapers for KDE 4.
  .
