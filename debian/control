@@ -42,7 +42,7 @@ Description: emoticon collections for KDE 4 chat clients
 Package: kdewallpapers
 Architecture: all
 Suggests: kde-window-manager | x-window-manager
-Replaces: kdebase-workspace-data (<< 4.2.96)
+Replaces: kdebase-workspace-data (<< 4:4.2.96)
 Description: wallpapers released with KDE 4
  This package contains additional wallpapers for KDE 4.
  .
