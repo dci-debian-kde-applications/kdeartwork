@@ -2,7 +2,7 @@ kdeartwork (4:4.3.0-3~pre1) unstable; urgency=low
 
   +++ Changes by Modestas Vainius:
 
-  * Add epoch kdebase-workspace-data version in kdewallpapers Replaces
+  * Add epoch to the kdebase-workspace-data version in kdewallpapers Replaces
     (really closes: #540036).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Aug 2009 15:04:47 +0300
