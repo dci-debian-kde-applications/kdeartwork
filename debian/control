@@ -50,12 +50,33 @@ Description: wallpapers released with KDE 4
 
 
 Package: kdeartwork-theme-icon
+Depends: kde-icons-nuvola (>= ${source:Version})
 Architecture: all
 Description: icon themes released with KDE 4
- This package contains additional icon themes for KDE 4.
+ This metapackage installs additional icon themes for KDE 4.
  .
  This package is part of the KDE 4 artwork module.
 
+Package: kde-icons-nuvola
+Section: kde
+Architecture: all
+Depends: ${misc:Depends}, nuvola-icon-theme
+Description: transitional package for Nuvola icon theme
+ Transitional package for ease upgrading from Nuvola icons as shipped
+ in KDE 3 series.
+
+Package: nuvola-icon-theme
+Section: x11
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: kde-icons-nuvola
+Conflicts: kde-icons-nuvola, kdeartwork-theme-icon (<= 4:4.3.0-3)
+Description: Nuvola icon theme
+ This package contains the Nuvola icon theme for 4.
+ Nuvola follows the freedesktop.org icon schemes, so it can be used in other
+ desktop environments using this specification.
+ .
+ This package is part of the KDE 4 artwork module.
 
 Package: kdeartwork-theme-window
 Architecture: any
