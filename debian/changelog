@@ -317,7 +317,7 @@ kdeartwork (4:3.94.0-1) experimental; urgency=low
   * Build depend on xscreensaver-gl.
   * Build depend on kdebase-workspace-dev instead of kdelibs5-dev.
 
- -- Armin Berres <trigger+debian@space-based.de>  Sun, 21 Oct 2007 22:31:25 +0200
+ -- Armin Berres <armin+debian@space-based.de>  Sun, 21 Oct 2007 22:31:25 +0200
 
 kdeartwork (4:3.90.1-1) experimental; urgency=low
 
