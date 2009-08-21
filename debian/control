@@ -7,7 +7,7 @@ Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4.
  kdebase-workspace-dev (>= 4:4.3.0), libxt-dev, libstreamanalyzer-dev (>= 0.6.3),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
  libqt4-opengl-dev, libeigen2-dev
-Standards-Version: 3.8.2
+Standards-Version: 3.8.3
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeartwork
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeartwork
@@ -58,7 +58,6 @@ Description: icon themes released with KDE 4
  This package is part of the KDE 4 artwork module.
 
 Package: kde-icons-nuvola
-Section: kde
 Architecture: all
 Depends: ${misc:Depends}, nuvola-icon-theme
 Description: transitional package for Nuvola icon theme

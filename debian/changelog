@@ -1,4 +1,4 @@
-kdeartwork (4:4.3.0-4) UNRELEASED; urgency=low
+kdeartwork (4:4.3.0-4) unstable; urgency=low
 
   +++ Changes by Pino Toscano:
 
@@ -7,7 +7,11 @@ kdeartwork (4:4.3.0-4) UNRELEASED; urgency=low
   * Make kdeartwork-theme-icon a metapackage installing all the icon themes
     available in kdeartwork.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Aug 2009 14:11:47 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump Standard-Version from 3.8.2 to 3.8.3, no changes required.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Aug 2009 23:17:11 +0200
 
 kdeartwork (4:4.3.0-3) unstable; urgency=low
 
