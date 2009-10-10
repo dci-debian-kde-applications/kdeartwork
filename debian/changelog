@@ -1,9 +1,13 @@
-kdeartwork (4:4.3.1-2) UNRELEASED; urgency=low
+kdeartwork (4:4.3.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
     debug depends. 
 
- -- Karl Ferdinand Ebert <kfebert@gmail.com>  Thu, 08 Oct 2009 16:42:37 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Oct 2009 19:24:41 +0200
 
 kdeartwork (4:4.3.1-1) unstable; urgency=low
 
