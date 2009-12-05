@@ -110,8 +110,8 @@ usr/share/kde4/services/ScreenSavers/metaballs.desktop
 usr/share/kde4/services/ScreenSavers/mirrorblob.desktop
 usr/share/kde4/services/ScreenSavers/mismunch.desktop
 usr/share/kde4/services/ScreenSavers/moebius.desktop
-usr/share/kde4/services/ScreenSavers/moire2.desktop
 usr/share/kde4/services/ScreenSavers/moire.desktop
+usr/share/kde4/services/ScreenSavers/moire2.desktop
 usr/share/kde4/services/ScreenSavers/molecule.desktop
 usr/share/kde4/services/ScreenSavers/morph3d.desktop
 usr/share/kde4/services/ScreenSavers/mountain.desktop
@@ -148,8 +148,8 @@ usr/share/kde4/services/ScreenSavers/rotzoomer.desktop
 usr/share/kde4/services/ScreenSavers/rubik.desktop
 usr/share/kde4/services/ScreenSavers/sballs.desktop
 usr/share/kde4/services/ScreenSavers/shadebobs.desktop
-usr/share/kde4/services/ScreenSavers/sierpinski3d.desktop
 usr/share/kde4/services/ScreenSavers/sierpinski.desktop
+usr/share/kde4/services/ScreenSavers/sierpinski3d.desktop
 usr/share/kde4/services/ScreenSavers/slidescreen.desktop
 usr/share/kde4/services/ScreenSavers/slip.desktop
 usr/share/kde4/services/ScreenSavers/sonar.desktop
