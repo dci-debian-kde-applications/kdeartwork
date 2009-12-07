@@ -50,7 +50,7 @@ Description: wallpapers released with KDE 4
 
 
 Package: kdeartwork-theme-icon
-Depends: kde-icons-nuvola (>= ${source:Version})
+Depends: nuvola-icon-theme (>= ${source:Version})
 Architecture: all
 Description: icon themes released with KDE 4
  This metapackage installs additional icon themes for KDE 4.
