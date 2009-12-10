@@ -1,4 +1,4 @@
-kdeartwork (4:4.3.4-0r1) UNRELEASED; urgency=low
+kdeartwork (4:4.3.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -19,7 +19,7 @@ kdeartwork (4:4.3.4-0r1) UNRELEASED; urgency=low
   * Make kscreebsaver-xsavers package depend on
     xscreensaver-screensaver-bsod.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:49 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Dec 2009 02:18:10 +0200
 
 kdeartwork (4:4.3.2-1) unstable; urgency=low
 
