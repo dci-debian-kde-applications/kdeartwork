@@ -109,7 +109,7 @@ Description: Additional screensavers released with KDE 4
 
 Package: kscreensaver-xsavers
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-bin, xscreensaver-data, xscreensaver-data-extra
+Depends: ${shlibs:Depends}, kdebase-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
 Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
 Description: xscreensaver support for KDE 4
@@ -122,7 +122,7 @@ Description: xscreensaver support for KDE 4
 
 Package: kscreensaver-xsavers-webcollage
 Architecture: all
-Depends: kscreensaver-xsavers (>= ${source:Version}), miscfiles, netpbm
+Depends: kscreensaver-xsavers (>= ${source:Version}), xscreensaver-screensaver-webcollage, miscfiles, netpbm
 Description: webcollage screensaver support for KDE 4
  This package allows KDE 4 to use the WebCollage screensaver, which downloads
  random pictures from the internet to create a collage.

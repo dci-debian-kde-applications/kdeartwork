@@ -14,7 +14,10 @@ kdeartwork (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * Make kdeartwork-theme-icon to depend on nuvola-icon-theme rather than
     kde-icons-nuvola (Closes: #559709).
-  * TODO: update for xscreensaver hacks.
+  * Make kscreensaver-xsavers-webcollage depend on
+    xscreensaver-screensaver-webcollage.
+  * Make kscreebsaver-xsavers package depend on
+    xscreensaver-screensaver-bsod.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:49 +0200
 
