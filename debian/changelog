@@ -1,12 +1,13 @@
 kdeartwork (4:4.4.0-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - hopefully fixes building with binutils-gold. (Closes: #554942)
 
   [ Modestas Vainius ]
   * Change my email address to modax@debian.org in Uploaders field.
   * Fix Vcs-Browser URL.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Feb 2010 02:51:02 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Feb 2010 02:52:14 +0100
 
 kdeartwork (4:4.3.4-1) unstable; urgency=low
 
