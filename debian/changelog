@@ -1,4 +1,4 @@
-kdeartwork (4:4.4.1-0) UNRELEASED; urgency=low
+kdeartwork (4:4.4.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - hopefully fixes building with binutils-gold. (Closes: #554942)
@@ -11,6 +11,10 @@ kdeartwork (4:4.4.1-0) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump KDE build dependencies to 4:4.4.
   * Bump pkg-kde-tools build dependency to 0.6.4.
+
+  [ Sune Vuorela ]
+  * Add the split out xscreensaver packages to build-depends
+  * Update install files
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 25 Feb 2010 01:19:02 +0200
 

@@ -7,7 +7,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.1),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.6.4),
  kdebase-workspace-dev (>= 4:4.4), libxt-dev, libstreamanalyzer-dev (>= 0.6.3),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
- libqt4-opengl-dev, libeigen2-dev
+ libqt4-opengl-dev, libeigen2-dev, xscreensaver-screensaver-bsod,
+ xscreensaver-screensaver-webcollage
 Standards-Version: 3.8.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdeartwork/#_trunk_packages_kdeartwork_

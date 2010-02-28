@@ -15,6 +15,7 @@ usr/share/kde4/apps/desktoptheme/Aya/widgets/calendar.svgz
 usr/share/kde4/apps/desktoptheme/Aya/widgets/clock.svgz
 usr/share/kde4/apps/desktoptheme/Aya/widgets/extender-background.svgz
 usr/share/kde4/apps/desktoptheme/Aya/widgets/extender-dragger.svgz
+usr/share/kde4/apps/desktoptheme/Aya/widgets/lineedit.svgz
 usr/share/kde4/apps/desktoptheme/Aya/widgets/pager.svgz
 usr/share/kde4/apps/desktoptheme/Aya/widgets/panel-background.svgz
 usr/share/kde4/apps/desktoptheme/Aya/widgets/plot-background.svgz
@@ -179,6 +180,7 @@ usr/share/kde4/apps/desktoptheme/slim-glow/widgets/bar_meter_horizontal.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/bar_meter_vertical.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/calendar.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/clock.svgz
+usr/share/kde4/apps/desktoptheme/slim-glow/widgets/configuration-icons.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/dragger.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/extender-background.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/extender-dragger.svgz  
@@ -194,3 +196,4 @@ usr/share/kde4/apps/desktoptheme/slim-glow/widgets/tasks.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/toolbox-button.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/tooltip.svgz
 usr/share/kde4/apps/desktoptheme/slim-glow/widgets/translucentbackground.svgz
+usr/share/kde4/apps/desktoptheme/slim-glow/widgets/viewitem.svgz
