@@ -18,8 +18,9 @@ kdeartwork (4:4.4.1-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Add dependency on ${misc:Depends} in all the packages.
+  * Tweak descriptions a bit.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:28:42 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:40:03 +0100
 
 kdeartwork (4:4.3.4-1) unstable; urgency=low
 

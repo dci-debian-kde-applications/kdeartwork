@@ -21,7 +21,7 @@ Depends: ${misc:Depends}, kdeartwork-emoticons (>= ${source:Version}),
  kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version}),
  plasma-desktopthemes-artwork (>= ${source:Version})
 Replaces: kdeartwork-misc
-Description: themes, styles and other artwork from the official KDE 4 release
+Description: themes, styles and other artwork from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -30,16 +30,16 @@ Description: themes, styles and other artwork from the official KDE 4 release
  educational, graphics and software development.
  .
  This metapackage includes a collection of additional artwork provided with the
- official release of KDE 4.
+ official release of KDE.
 
 Package: kdeartwork-emoticons
 Architecture: all
 Depends: ${misc:Depends}
-Description: emoticon collections for KDE 4 chat clients
+Description: emoticon collections for KDE chat clients
  This package contains several collections of emoticons for KDE chat clients,
  such as Kopete and Konversation.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 
 Package: kdewallpapers
@@ -47,19 +47,19 @@ Architecture: all
 Depends: ${misc:Depends}
 Suggests: kde-window-manager | x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.2.96)
-Description: wallpapers released with KDE 4
- This package contains additional wallpapers for KDE 4.
+Description: wallpapers released with KDE
+ This package contains additional wallpapers for KDE.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 
 Package: kdeartwork-theme-icon
 Depends: ${misc:Depends}, nuvola-icon-theme (>= ${source:Version})
 Architecture: all
-Description: icon themes released with KDE 4
- This metapackage installs additional icon themes for KDE 4.
+Description: icon themes released with KDE
+ This metapackage installs additional icon themes for KDE.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 Package: kde-icons-nuvola
 Architecture: all
@@ -75,41 +75,45 @@ Depends: ${misc:Depends}
 Replaces: kde-icons-nuvola (<< 4:4.0.0), kdeartwork-theme-icon (<= 4:4.3.0-3)
 Conflicts: kde-icons-nuvola (<< 4:4.0.0), kdeartwork-theme-icon (<= 4:4.3.0-3)
 Description: Nuvola icon theme
- This package contains the Nuvola icon theme for 4.
+ This package contains the Nuvola icon theme for KDE 4.
+ .
  Nuvola follows the freedesktop.org icon schemes, so it can be used in other
  desktop environments using this specification.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 Package: kdeartwork-theme-window
 Architecture: any
 Depends: ${misc:Depends}
-Description: window decoration themes released with KDE 4
- This package contains additional window decoration themes for KDE 4.
+Description: window decoration themes released with KDE
+ This package contains additional window decoration themes for KDE.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 
 Package: kdeartwork-style
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: widget styles released with KDE 4
- This package contains additional widget styles for KDE 4.
+Description: widget styles released with KDE
+ This package contains additional widget styles for KDE.
  .
- This package is part of the KDE 4 artwork module.
+ Currently it provides the following themes:
+  * phase
+ .
+ This package is part of the KDE artwork module.
 
 
 Package: kscreensaver
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-bin
 Recommends: kde-window-manager, kscreensaver-xsavers (= ${binary:Version})
-Description: Additional screensavers released with KDE 4
- This package contains screensavers for KDE 4.
+Description: Additional screensavers released with KDE
+ This package contains screensavers for KDE.
  .
  KScreenSaver can use XScreenSaver collection of screensavers with the
  'kscreensaver-xsavers' package.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 
 Package: kscreensaver-xsavers
@@ -117,19 +121,19 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
 Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
-Description: xscreensaver support for KDE 4
- This package allows KDE 4 to use the XScreenSaver collection of screensavers.
+Description: xscreensaver support for KDE
+ This package allows KDE to use the XScreenSaver collection of screensavers.
  .
- The official KDE 4 screensavers can be found in the 'kscreensaver' package.
+ The official KDE screensavers can be found in the 'kscreensaver' package.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 
 Package: kscreensaver-xsavers-webcollage
 Architecture: all
 Depends: ${misc:Depends}, kscreensaver-xsavers (>= ${source:Version}), xscreensaver-screensaver-webcollage, miscfiles, netpbm
-Description: webcollage screensaver support for KDE 4
- This package allows KDE 4 to use the WebCollage screensaver, which downloads
+Description: webcollage screensaver support for KDE
+ This package allows KDE to use the WebCollage screensaver, which downloads
  random pictures from the internet to create a collage.
  .
  IMPORTANT NOTICE: The internet contains all kinds of pictures, some of which
@@ -140,18 +144,18 @@ Description: webcollage screensaver support for KDE 4
  Please read /usr/share/doc/kscreensaver-xsavers-webcollage/README.Debian
  after installing this package.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 
 Package: plasma-desktopthemes-artwork
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdeplasma-addons-data (<< 4:4.1.87)
-Description: desktop themes for KDE 4
+Description: desktop themes for KDE
  This package include several desktops theme to change plasma colours
  settings.
  .
- This package is part of the KDE 4 artwork module.
+ This package is part of the KDE artwork module.
 
 Package: kdeartwork-dbg
 Section: debug
@@ -163,3 +167,5 @@ Description: debugging symbols for kdeartwork
  This package contains the debugging files associated with kdeartwork.
  They will automatically be used by gdb for debugging kdeartwork-related
  issues.
+ .
+ This package is part of the KDE artwork module.
