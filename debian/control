@@ -16,7 +16,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdeartwork
 
 Package: kdeartwork
 Architecture: all
-Depends: kdeartwork-emoticons (>= ${source:Version}),
+Depends: ${misc:Depends}, kdeartwork-emoticons (>= ${source:Version}),
  kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs-data,
  kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version}),
  plasma-desktopthemes-artwork (>= ${source:Version})
@@ -34,6 +34,7 @@ Description: themes, styles and other artwork from the official KDE 4 release
 
 Package: kdeartwork-emoticons
 Architecture: all
+Depends: ${misc:Depends}
 Description: emoticon collections for KDE 4 chat clients
  This package contains several collections of emoticons for KDE chat clients,
  such as Kopete and Konversation.
@@ -43,6 +44,7 @@ Description: emoticon collections for KDE 4 chat clients
 
 Package: kdewallpapers
 Architecture: all
+Depends: ${misc:Depends}
 Suggests: kde-window-manager | x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.2.96)
 Description: wallpapers released with KDE 4
@@ -52,7 +54,7 @@ Description: wallpapers released with KDE 4
 
 
 Package: kdeartwork-theme-icon
-Depends: nuvola-icon-theme (>= ${source:Version})
+Depends: ${misc:Depends}, nuvola-icon-theme (>= ${source:Version})
 Architecture: all
 Description: icon themes released with KDE 4
  This metapackage installs additional icon themes for KDE 4.
@@ -81,6 +83,7 @@ Description: Nuvola icon theme
 
 Package: kdeartwork-theme-window
 Architecture: any
+Depends: ${misc:Depends}
 Description: window decoration themes released with KDE 4
  This package contains additional window decoration themes for KDE 4.
  .
@@ -89,7 +92,7 @@ Description: window decoration themes released with KDE 4
 
 Package: kdeartwork-style
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: widget styles released with KDE 4
  This package contains additional widget styles for KDE 4.
  .
@@ -98,7 +101,7 @@ Description: widget styles released with KDE 4
 
 Package: kscreensaver
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-bin
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-bin
 Recommends: kde-window-manager, kscreensaver-xsavers (= ${binary:Version})
 Description: Additional screensavers released with KDE 4
  This package contains screensavers for KDE 4.
@@ -111,7 +114,7 @@ Description: Additional screensavers released with KDE 4
 
 Package: kscreensaver-xsavers
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
+Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
 Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
 Description: xscreensaver support for KDE 4
@@ -124,7 +127,7 @@ Description: xscreensaver support for KDE 4
 
 Package: kscreensaver-xsavers-webcollage
 Architecture: all
-Depends: kscreensaver-xsavers (>= ${source:Version}), xscreensaver-screensaver-webcollage, miscfiles, netpbm
+Depends: ${misc:Depends}, kscreensaver-xsavers (>= ${source:Version}), xscreensaver-screensaver-webcollage, miscfiles, netpbm
 Description: webcollage screensaver support for KDE 4
  This package allows KDE 4 to use the WebCollage screensaver, which downloads
  random pictures from the internet to create a collage.
@@ -142,7 +145,7 @@ Description: webcollage screensaver support for KDE 4
 
 Package: plasma-desktopthemes-artwork
 Architecture: all
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdeplasma-addons-data (<< 4:4.1.87)
 Description: desktop themes for KDE 4
  This package include several desktops theme to change plasma colours
@@ -154,7 +157,7 @@ Package: kdeartwork-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdeartwork (= ${source:Version})
 Description: debugging symbols for kdeartwork
  This package contains the debugging files associated with kdeartwork.
