@@ -20,6 +20,10 @@ kdeartwork (4:4.4.1-0r1) UNRELEASED; urgency=low
   * Add dependency on ${misc:Depends} in all the packages.
   * Tweak descriptions a bit.
 
+  [ José Manuel Santamaría Lema ]
+  * Updated versioned replaces; kdewallpapers replaces kdebase-
+    workspace-data(<< 4:4.4.0)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 01 Mar 2010 15:40:03 +0100
 
 kdeartwork (4:4.3.4-1) unstable; urgency=low
