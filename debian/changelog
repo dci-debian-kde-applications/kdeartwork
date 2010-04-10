@@ -1,3 +1,13 @@
+kdeartwork (4:4.4.2-2) experimental; urgency=low
+
+  [ Modestas Vainius ]
+  * Add 01_kxsconfig_fix_screensavers_lookup.diff patch to fix lookup of
+    actually installed X screensavers for kxsconfig.
+  * Update kscreensaver-xsavers.install: a bunch of screensaver desktop files
+    are no longer installed due to fixed lookup above.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 11 Apr 2010 00:26:05 +0300
+
 kdeartwork (4:4.4.2-1) experimental; urgency=low
 
   * New upstream release:

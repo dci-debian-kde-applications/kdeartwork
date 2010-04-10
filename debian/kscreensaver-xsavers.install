@@ -3,7 +3,6 @@ usr/bin/kxsrun
 usr/share/kde4/services/ScreenSavers/abstractile.desktop
 usr/share/kde4/services/ScreenSavers/anemone.desktop
 usr/share/kde4/services/ScreenSavers/anemotaxis.desktop
-usr/share/kde4/services/ScreenSavers/ant.desktop
 usr/share/kde4/services/ScreenSavers/antinspect.desktop
 usr/share/kde4/services/ScreenSavers/antmaze.desktop
 usr/share/kde4/services/ScreenSavers/antspotlight.desktop
@@ -25,7 +24,6 @@ usr/share/kde4/services/ScreenSavers/boxfit.desktop
 usr/share/kde4/services/ScreenSavers/braid.desktop
 usr/share/kde4/services/ScreenSavers/bsod.desktop
 usr/share/kde4/services/ScreenSavers/bubble3d.desktop
-usr/share/kde4/services/ScreenSavers/bubbles.desktop
 usr/share/kde4/services/ScreenSavers/bumps.desktop
 usr/share/kde4/services/ScreenSavers/cage.desktop
 usr/share/kde4/services/ScreenSavers/carousel.desktop
@@ -36,7 +34,6 @@ usr/share/kde4/services/ScreenSavers/cloudlife.desktop
 usr/share/kde4/services/ScreenSavers/compass.desktop
 usr/share/kde4/services/ScreenSavers/coral.desktop
 usr/share/kde4/services/ScreenSavers/crackberg.desktop
-usr/share/kde4/services/ScreenSavers/critical.desktop
 usr/share/kde4/services/ScreenSavers/crystal.desktop
 usr/share/kde4/services/ScreenSavers/cube21.desktop
 usr/share/kde4/services/ScreenSavers/cubenetic.desktop
@@ -61,7 +58,6 @@ usr/share/kde4/services/ScreenSavers/extrusion.desktop
 usr/share/kde4/services/ScreenSavers/fadeplot.desktop
 usr/share/kde4/services/ScreenSavers/fiberlamp.desktop
 usr/share/kde4/services/ScreenSavers/fireworkx.desktop
-usr/share/kde4/services/ScreenSavers/flag.desktop
 usr/share/kde4/services/ScreenSavers/flame.desktop
 usr/share/kde4/services/ScreenSavers/flipflop.desktop
 usr/share/kde4/services/ScreenSavers/flipscreen3d.desktop
@@ -71,7 +67,6 @@ usr/share/kde4/services/ScreenSavers/fluidballs.desktop
 usr/share/kde4/services/ScreenSavers/flurry.desktop
 usr/share/kde4/services/ScreenSavers/flyingtoasters.desktop
 usr/share/kde4/services/ScreenSavers/fontglide.desktop
-usr/share/kde4/services/ScreenSavers/forest.desktop
 usr/share/kde4/services/ScreenSavers/fuzzyflakes.desktop
 usr/share/kde4/services/ScreenSavers/galaxy.desktop
 usr/share/kde4/services/ScreenSavers/gears.desktop
@@ -79,7 +74,6 @@ usr/share/kde4/services/ScreenSavers/gflux.desktop
 usr/share/kde4/services/ScreenSavers/glblur.desktop
 usr/share/kde4/services/ScreenSavers/glcells.desktop
 usr/share/kde4/services/ScreenSavers/gleidescope.desktop
-usr/share/kde4/services/ScreenSavers/glforestfire.desktop
 usr/share/kde4/services/ScreenSavers/glhanoi.desktop
 usr/share/kde4/services/ScreenSavers/glknots.desktop
 usr/share/kde4/services/ScreenSavers/glmatrix.desktop
@@ -95,8 +89,6 @@ usr/share/kde4/services/ScreenSavers/halftone.desktop
 usr/share/kde4/services/ScreenSavers/halo.desktop
 usr/share/kde4/services/ScreenSavers/helix.desktop
 usr/share/kde4/services/ScreenSavers/hopalong.desktop
-usr/share/kde4/services/ScreenSavers/hyperball.desktop
-usr/share/kde4/services/ScreenSavers/hypercube.desktop
 usr/share/kde4/services/ScreenSavers/hypertorus.desktop
 usr/share/kde4/services/ScreenSavers/hypnowheel.desktop
 usr/share/kde4/services/ScreenSavers/ifs.desktop
@@ -106,7 +98,6 @@ usr/share/kde4/services/ScreenSavers/interference.desktop
 usr/share/kde4/services/ScreenSavers/intermomentary.desktop
 usr/share/kde4/services/ScreenSavers/jigglypuff.desktop
 usr/share/kde4/services/ScreenSavers/jigsaw.desktop
-usr/share/kde4/services/ScreenSavers/juggle.desktop
 usr/share/kde4/services/ScreenSavers/juggler3d.desktop
 usr/share/kde4/services/ScreenSavers/julia.desktop
 usr/share/kde4/services/ScreenSavers/kaleidescope.desktop
@@ -114,13 +105,8 @@ usr/share/kde4/services/ScreenSavers/klein.desktop
 usr/share/kde4/services/ScreenSavers/kpartsaver.desktop
 usr/share/kde4/services/ScreenSavers/kumppa.desktop
 usr/share/kde4/services/ScreenSavers/lament.desktop
-usr/share/kde4/services/ScreenSavers/laser.desktop
 usr/share/kde4/services/ScreenSavers/lavalite.desktop
 usr/share/kde4/services/ScreenSavers/lcdscrub.desktop
-usr/share/kde4/services/ScreenSavers/lightning.desktop
-usr/share/kde4/services/ScreenSavers/lisa.desktop
-usr/share/kde4/services/ScreenSavers/lissie.desktop
-usr/share/kde4/services/ScreenSavers/lmorph.desktop
 usr/share/kde4/services/ScreenSavers/lockward.desktop
 usr/share/kde4/services/ScreenSavers/loop.desktop
 usr/share/kde4/services/ScreenSavers/m6502.desktop
@@ -129,7 +115,6 @@ usr/share/kde4/services/ScreenSavers/memscroller.desktop
 usr/share/kde4/services/ScreenSavers/menger.desktop
 usr/share/kde4/services/ScreenSavers/metaballs.desktop
 usr/share/kde4/services/ScreenSavers/mirrorblob.desktop
-usr/share/kde4/services/ScreenSavers/mismunch.desktop
 usr/share/kde4/services/ScreenSavers/moebius.desktop
 usr/share/kde4/services/ScreenSavers/moebiusgears.desktop
 usr/share/kde4/services/ScreenSavers/moire.desktop
@@ -151,7 +136,6 @@ usr/share/kde4/services/ScreenSavers/photopile.desktop
 usr/share/kde4/services/ScreenSavers/piecewise.desktop
 usr/share/kde4/services/ScreenSavers/pinion.desktop
 usr/share/kde4/services/ScreenSavers/pipes.desktop
-usr/share/kde4/services/ScreenSavers/pixmaps.desktop
 usr/share/kde4/services/ScreenSavers/polyhedra.desktop
 usr/share/kde4/services/ScreenSavers/polyominoes.desktop
 usr/share/kde4/services/ScreenSavers/polytopes.desktop
@@ -166,7 +150,6 @@ usr/share/kde4/services/ScreenSavers/rd-bomb.desktop
 usr/share/kde4/services/ScreenSavers/ripples.desktop
 usr/share/kde4/services/ScreenSavers/rocks.desktop
 usr/share/kde4/services/ScreenSavers/rorschach.desktop
-usr/share/kde4/services/ScreenSavers/rotor.desktop
 usr/share/kde4/services/ScreenSavers/rotzoomer.desktop
 usr/share/kde4/services/ScreenSavers/rubik.desktop
 usr/share/kde4/services/ScreenSavers/sballs.desktop
@@ -178,9 +161,7 @@ usr/share/kde4/services/ScreenSavers/slidescreen.desktop
 usr/share/kde4/services/ScreenSavers/slip.desktop
 usr/share/kde4/services/ScreenSavers/sonar.desktop
 usr/share/kde4/services/ScreenSavers/speedmine.desktop
-usr/share/kde4/services/ScreenSavers/sphere.desktop
 usr/share/kde4/services/ScreenSavers/spheremonics.desktop
-usr/share/kde4/services/ScreenSavers/spiral.desktop
 usr/share/kde4/services/ScreenSavers/spotlight.desktop
 usr/share/kde4/services/ScreenSavers/sproingies.desktop
 usr/share/kde4/services/ScreenSavers/squiral.desktop
@@ -192,7 +173,6 @@ usr/share/kde4/services/ScreenSavers/strange.desktop
 usr/share/kde4/services/ScreenSavers/substrate.desktop
 usr/share/kde4/services/ScreenSavers/superquadrics.desktop
 usr/share/kde4/services/ScreenSavers/swirl.desktop
-usr/share/kde4/services/ScreenSavers/t3d.desktop
 usr/share/kde4/services/ScreenSavers/tangram.desktop
 usr/share/kde4/services/ScreenSavers/thornbird.desktop
 usr/share/kde4/services/ScreenSavers/timetunnel.desktop
@@ -202,12 +182,9 @@ usr/share/kde4/services/ScreenSavers/truchet.desktop
 usr/share/kde4/services/ScreenSavers/twang.desktop
 usr/share/kde4/services/ScreenSavers/vermiculate.desktop
 usr/share/kde4/services/ScreenSavers/vidwhacker.desktop
-usr/share/kde4/services/ScreenSavers/vines.desktop
 usr/share/kde4/services/ScreenSavers/voronoi.desktop
 usr/share/kde4/services/ScreenSavers/wander.desktop
 usr/share/kde4/services/ScreenSavers/whirlwindwarp.desktop
-usr/share/kde4/services/ScreenSavers/whirlygig.desktop
-usr/share/kde4/services/ScreenSavers/worm.desktop
 usr/share/kde4/services/ScreenSavers/wormhole.desktop
 usr/share/kde4/services/ScreenSavers/xanalogtv.desktop
 usr/share/kde4/services/ScreenSavers/xflame.desktop
@@ -216,6 +193,4 @@ usr/share/kde4/services/ScreenSavers/xlyap.desktop
 usr/share/kde4/services/ScreenSavers/xmatrix.desktop
 usr/share/kde4/services/ScreenSavers/xrayswarm.desktop
 usr/share/kde4/services/ScreenSavers/xspirograph.desktop
-usr/share/kde4/services/ScreenSavers/xsublim.desktop
-usr/share/kde4/services/ScreenSavers/xteevee.desktop
 usr/share/kde4/services/ScreenSavers/zoom.desktop
