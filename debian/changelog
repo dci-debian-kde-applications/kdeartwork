@@ -105,7 +105,7 @@ kdeartwork (4:4.3.2-1) unstable; urgency=low
   +++ Changes by Karl Ferdinand Ebert:
 
   * Add source.lintian-overrides to ignore lintian warning about missing
-    debug depends. 
+    debug depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Oct 2009 19:24:41 +0200
 
@@ -148,7 +148,7 @@ kdeartwork (4:4.3.0-2) unstable; urgency=low
   * Add myself to Uploaders.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Small fixes in debian/copyright, copyright blurb.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2009 20:12:30 +0200
@@ -158,7 +158,7 @@ kdeartwork (4:4.3.0-1) unstable; urgency=low
   * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-  
+
   * Bump KDE build depends to 4:4.3.0.
   * Bump Standard-Version from 3.8.0 to 3.8.2, no changes needed.
   * Update installed files.
@@ -279,7 +279,7 @@ kdeartwork (4:4.1.1-1) experimental; urgency=low
 
 kdeartwork (4:4.1.0-1) experimental; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 28 Jul 2008 11:47:42 +0200
 
@@ -326,7 +326,7 @@ kdeartwork (4:4.0.68+svn794641-1) experimental; urgency=low
   * New upstream snapshot.
   * Update installed files.
   * Replace Recommends: kwin with kde-window-manager.
-  * Add libxt-dev, libstreamanalyzer-dev and xscreensaver data packages 
+  * Add libxt-dev, libstreamanalyzer-dev and xscreensaver data packages
     to build depends.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 24 Apr 2008 16:33:22 +0200
@@ -342,7 +342,7 @@ kdeartwork (4:4.0.2-1) experimental; urgency=low
   * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez :
-  
+
   * Bump build-depends to >= 4:4.0.2.
   * Changes on kscreensaver-xsavers due to xscreensaver's maintainers
     splitting the package just for fun:
