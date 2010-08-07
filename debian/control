@@ -17,7 +17,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeartwork.git
 Package: kdeartwork
 Architecture: all
 Depends: ${misc:Depends}, kdeartwork-emoticons (>= ${source:Version}),
- kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs-data,
+ kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs5-data,
  kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version}),
  plasma-desktopthemes-artwork (>= ${source:Version})
 Replaces: kdeartwork-misc
