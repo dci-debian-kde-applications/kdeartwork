@@ -9,6 +9,7 @@ kdeartwork (4:4.5.1-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Sep 2010 23:03:08 +0300
 
