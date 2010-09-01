@@ -1,4 +1,4 @@
-kdeartwork (4:4.4.5-2) UNRELEASED; urgency=low
+kdeartwork (4:4.5.1-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
@@ -7,7 +7,7 @@ kdeartwork (4:4.4.5-2) UNRELEASED; urgency=low
   * Change the or'ed kdelibs-data (kde3) dependency of kdeartwork to
     kdelibs5-data (kde4). (Closes: #591616)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 07 Aug 2010 21:58:07 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Sep 2010 23:03:08 +0300
 
 kdeartwork (4:4.4.5-1) unstable; urgency=low
 
