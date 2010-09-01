@@ -84,7 +84,7 @@ Description: Nuvola icon theme
  This package is part of the KDE artwork module.
 
 Package: kdeartwork-theme-window
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends}
 Description: window decoration for the K Window manager (KWin)
  This package contains additional window decorations for K Window Manager
