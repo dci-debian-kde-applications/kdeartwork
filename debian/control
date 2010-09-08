@@ -20,7 +20,7 @@ Architecture: all
 Depends: ${misc:Depends}, kdeartwork-emoticons (>= ${source:Version}),
  kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs5-data,
  kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version}),
- plasma-desktopthemes-artwork (>= ${source:Version})
+ plasma-desktopthemes-artwork (>= ${source:Version}), kdeartwork-theme-window (>= ${source:Version})
 Replaces: kdeartwork-misc
 Description: themes, styles and other artwork from the official KDE release
  KDE is produced by an international technology team that creates free and open

@@ -13,6 +13,7 @@ kdeartwork (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Make kdeartwork-theme-window an arch: all package.
   * Bump build dependency on kdebase-workspace-dev to version 4:4.5.
   * Update replaces: kdewallpapers replaces kdebase-workspace-data << 4:4.5.0.
+  * Make the kdeartwork metapackage also depend on kdeartwork-theme-window.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Sep 2010 23:03:08 +0300
 
