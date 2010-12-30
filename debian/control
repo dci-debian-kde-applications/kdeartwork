@@ -10,7 +10,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
  libqt4-opengl-dev, libeigen2-dev, xscreensaver-screensaver-bsod,
  xscreensaver-screensaver-webcollage
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeartwork.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeartwork.git
@@ -22,6 +22,7 @@ Depends: ${misc:Depends}, kdeartwork-emoticons (>= ${source:Version}),
  kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version}),
  plasma-desktopthemes-artwork (>= ${source:Version}), kdeartwork-theme-window (>= ${source:Version})
 Replaces: kdeartwork-misc
+Breaks: kdeartwork-misc
 Description: themes, styles and other artwork from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
@@ -48,6 +49,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Suggests: kde-window-manager | x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.5.0)
+Breaks: kdebase-workspace-data (<< 4:4.5.0)
 Description: wallpapers released with KDE Plasma Workspaces
  This package contains additional wallpapers for KDE Plasma Workspaces.
  .
@@ -148,6 +150,7 @@ Package: plasma-desktopthemes-artwork
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdeplasma-addons-data (<< 4:4.1.87)
+Breaks: kdeplasma-addons-data (<< 4:4.1.87)
 Description: desktop themes for KDE Plasma Workspaces
  This package include several desktops theme to change Plasma look and feel
  .
