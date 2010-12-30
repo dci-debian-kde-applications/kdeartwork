@@ -18,6 +18,7 @@ kdeartwork (4:4.5.90-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Update installed files.
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
+  * Add kdeartwork-kwin-styles package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Sep 2010 23:03:08 +0300
 
