@@ -20,8 +20,7 @@ Architecture: all
 Depends: ${misc:Depends}, kdeartwork-emoticons (>= ${source:Version}),
  kdeartwork-style (>= ${source:Version}), kdeartwork-theme-icon (>= ${source:Version}) | kdelibs5-data,
  kdewallpapers (>= ${source:Version}), kscreensaver (>= ${source:Version}),
- plasma-desktopthemes-artwork (>= ${source:Version}), kdeartwork-theme-window (>= ${source:Version}),
- kdeartwork-kwin-styles (>= ${source:Version})
+ plasma-desktopthemes-artwork (>= ${source:Version}), kdeartwork-theme-window (>= ${source:Version})
 Replaces: kdeartwork-misc
 Breaks: kdeartwork-misc
 Description: themes, styles and other artwork from the official KDE release
@@ -87,8 +86,10 @@ Description: Nuvola icon theme
  This package is part of the KDE artwork module.
 
 Package: kdeartwork-theme-window
-Architecture: all
-Depends: ${misc:Depends}
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kde-window-manager (<< 4:4.5.80)
+Breaks: kde-window-manager (<< 4:4.5.80)
 Description: window decoration for the K Window manager (KWin)
  This package contains additional window decorations for K Window Manager
  .
@@ -101,22 +102,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: widget styles for applications using Qt or KDE Development Platform
  Currently it provides the following themes:
   * phase
- .
- This package is part of the KDE artwork module.
-
-Package: kdeartwork-kwin-styles
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kde-window-manager (<< 4:4.5.80)
-Breaks: kde-window-manager (<< 4:4.5.80)
-Description: kwin styles 
- Currently it provides the following themes:
-  * kde2
-  * keramik
-  * modernsys
-  * quartz
-  * redmond
-  * web
  .
  This package is part of the KDE artwork module.
 
