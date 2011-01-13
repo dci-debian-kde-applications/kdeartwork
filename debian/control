@@ -6,7 +6,7 @@ Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Armin
  Michael Casadevall <mcasadevall@debian.org>, Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
- kdebase-workspace-dev (>= 4:4.5), libxt-dev, libstreamanalyzer-dev (>= 0.6.3),
+ kdebase-workspace-dev (>= 4:4.5.95), libxt-dev, libstreamanalyzer-dev (>= 0.6.3),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
  libqt4-opengl-dev, libeigen2-dev, xscreensaver-screensaver-bsod,
  xscreensaver-screensaver-webcollage

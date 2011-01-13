@@ -11,7 +11,7 @@ kdeartwork (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Update installed files.
   * Make kdeartwork-theme-window an arch: all package.
-  * Bump build dependency on kdebase-workspace-dev to version 4:4.5.
+  * Bump build dependency on kdebase-workspace-dev to version 4:4.5.95.
   * Update replaces: kdewallpapers replaces kdebase-workspace-data << 4:4.5.0.
   * Make the kdeartwork metapackage also depend on kdeartwork-theme-window.
 
