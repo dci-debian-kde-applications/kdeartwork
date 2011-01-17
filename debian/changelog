@@ -6,6 +6,9 @@ kdeartwork (4:4.5.95-0r1) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Change the or'ed kdelibs-data (kde3) dependency of kdeartwork to
     kdelibs5-data (kde4). (Closes: #591616)
+  * Add build dependencies:
+    - libkexiv2-dev
+    - pkg-config
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
