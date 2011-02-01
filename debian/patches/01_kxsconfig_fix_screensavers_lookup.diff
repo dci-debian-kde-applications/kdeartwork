@@ -3,6 +3,7 @@ Description: fix lookup of xscreensavers
  find_file(XSCREENSAVER_FILE_FOUND) sets CACHE value and does nothing if
  XSCREENSAVER_FILE_FOUND is set. Therefore, it must be unset for the next
  find_file() call to be effective after previous successful call.
+Applied-Upstream: 4.6.1
 
 --- a/kscreensaver/kxsconfig/CMakeLists.txt
 +++ b/kscreensaver/kxsconfig/CMakeLists.txt
