@@ -1,5 +1,8 @@
 kdeartwork (4:4.6.0-0r1) UNRELEASED; urgency=low
 
+  * New upstream release.
+  * Update installed files.
+
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
 
@@ -12,14 +15,12 @@ kdeartwork (4:4.6.0-0r1) UNRELEASED; urgency=low
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
-  * Update installed files.
   * Make kdeartwork-theme-window an arch: all package.
   * Bump build dependency on kdebase-workspace-dev to version 4:4.6.
   * Update replaces: kdewallpapers replaces kdebase-workspace-data << 4:4.5.0.
   * Make the kdeartwork metapackage also depend on kdeartwork-theme-window.
 
   [ José Manuel Santamaría Lema ]
-  * Update installed files.
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
 
