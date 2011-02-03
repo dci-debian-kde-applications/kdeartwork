@@ -125,7 +125,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-bin, xscreensaver
 Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
 Description: xscreensaver support for KScreenSaver
- This package allows KScreenSaver to use the XScreenSaver collection of screensavers.
+ This package allows KScreenSaver to use the XScreenSaver collection of
+ screensavers.
  .
  This package is part of the KDE artwork module.
 
@@ -134,8 +135,8 @@ Package: kscreensaver-xsavers-webcollage
 Architecture: all
 Depends: ${misc:Depends}, kscreensaver-xsavers (>= ${source:Version}), xscreensaver-screensaver-webcollage, miscfiles, netpbm
 Description: webcollage screensaver support for KScreenSaver
- This package allows KScreenSaver to use the WebCollage screensaver, which downloads
- random pictures from the internet to create a collage.
+ This package allows KScreenSaver to use the WebCollage screensaver, which
+ downloads random pictures from the internet to create a collage.
  .
  IMPORTANT NOTICE: The internet contains all kinds of pictures, some of which
  might be found inappropriate or offensive.
