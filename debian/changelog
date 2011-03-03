@@ -22,7 +22,7 @@ kdeartwork (4:4.6.1-0r0) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Add debian/not-installed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Sep 2010 23:03:08 +0300
