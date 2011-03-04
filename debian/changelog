@@ -25,6 +25,7 @@ kdeartwork (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Add debian/not-installed.
   * Remove 01_kxsconfig_fix_screensavers_lookup.diff, no longer needed.
+  * Add myself to Uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Sep 2010 23:03:08 +0300
 
