@@ -2,7 +2,7 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-.PHONY: dh_auto_test
+.PHONY: override_dh_auto_test
 
 override_dh_strip:
 	$(overriden_command) --dbg-package=kdeartwork-dbg
