@@ -1,4 +1,4 @@
-kdeartwork (4:4.6.1-0r3) UNRELEASED; urgency=low
+kdeartwork (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
   * Update installed files.
@@ -24,7 +24,7 @@ kdeartwork (4:4.6.1-0r3) UNRELEASED; urgency=low
 
   [ José Manuel Santamaría Lema ]
   * Bump Standards-Version to 3.9.1: add Breaks next to Replaces where needed.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Add debian/not-installed.
   * Remove 01_kxsconfig_fix_screensavers_lookup.diff, no longer needed.
   * Add myself to Uploaders.
