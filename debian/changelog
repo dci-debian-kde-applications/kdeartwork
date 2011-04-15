@@ -14,6 +14,7 @@ kdeartwork (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Add build dependencies:
     - libkexiv2-dev
     - pkg-config
+  * Clean up Replaces/Breaks from the pre-squeeze era whenever possible.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.

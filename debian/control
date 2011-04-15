@@ -153,8 +153,6 @@ Description: webcollage screensaver support for KScreenSaver
 Package: plasma-desktopthemes-artwork
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdeplasma-addons-data (<< 4:4.1.87)
-Breaks: kdeplasma-addons-data (<< 4:4.1.87)
 Description: desktop themes for KDE Plasma Workspaces
  This package include several desktops theme to change Plasma look and feel
  .
