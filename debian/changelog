@@ -1,4 +1,4 @@
-kdeartwork (4:4.6.2-0r2) UNRELEASED; urgency=low
+kdeartwork (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update installed files.
@@ -30,7 +30,7 @@ kdeartwork (4:4.6.2-0r2) UNRELEASED; urgency=low
   * Remove 01_kxsconfig_fix_screensavers_lookup.diff, no longer needed.
   * Add myself to Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Apr 2011 21:54:42 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:38 +0300
 
 kdeartwork (4:4.4.5-1) unstable; urgency=low
 
