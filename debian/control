@@ -11,7 +11,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.3),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
  libqt4-opengl-dev, libeigen2-dev, xscreensaver-screensaver-bsod,
  xscreensaver-screensaver-webcollage, libkexiv2-dev, pkg-config
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://www.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeartwork.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeartwork.git
