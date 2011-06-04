@@ -164,6 +164,8 @@ Architecture: any
 Priority: extra
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdeartwork (= ${source:Version})
+Replaces: kdebase-workspace-dbg (<< 4:4.6.0)
+Breaks: kdebase-workspace-dbg (<< 4:4.6.0)
 Description: debugging symbols for kdeartwork
  This package contains the debugging files associated with kdeartwork.
  They will automatically be used by gdb for debugging kdeartwork-related

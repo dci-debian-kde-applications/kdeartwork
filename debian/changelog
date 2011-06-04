@@ -1,7 +1,9 @@
 kdeartwork (4:4.6.3-2) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
-  * Update kdewallpapers breaks/replaces kdebase-workspace-data to << 4:4.6.0.
+  * Update breaks/replaces:
+    - kdewallpapers: bump kdebase-workspace-data to << 4:4.6.0
+    - kdeartwork-dbg: add kdebase-workspace-dbg << 4:4.6.0 (Closes: #629187)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 13:07:56 +0200
 
