@@ -58,7 +58,8 @@ Description: wallpapers released with KDE Plasma Workspaces
 
 
 Package: kdeartwork-theme-icon
-Depends: ${misc:Depends}, nuvola-icon-theme (>= ${source:Version})
+Depends: ${misc:Depends}, nuvola-icon-theme (>= ${source:Version}),
+ kde-icons-mono (>= ${source:Version})
 Architecture: all
 Description: additional icon themes
  This metapackage installs additional icon themes for KDE.
@@ -85,6 +86,16 @@ Description: Nuvola icon theme
  desktop environments using this specification.
  .
  This package is part of the KDE artwork module.
+
+Package: kde-icons-mono
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: kmouth (<< 4:4.6)
+Breaks: kmouth (<< 4:4.6)
+Description: monochromatic icons theme
+ A monochromatic icon theme, designed for accessibility purposes.
+ .
+ This package is part of the KDE accessibility module
 
 Package: kdeartwork-theme-window
 Architecture: any
