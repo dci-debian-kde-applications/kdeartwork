@@ -7,6 +7,12 @@ kdeartwork (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Bump kdelibs5-dev build dependency to 4:4.7.
   * Add kde-icons-mono package.
   * Update installed files.
+  * Manage some packages renamings:
+    - Build depend on kde-workspace-dev instead of kdebase-workspace-dev.
+    - kscreensaver depends on kde-workspace-bin instead of
+      kdebase-workspace-bin.
+    - kscreensaver-xsavers depends on kde-workspace-bin instead of
+      kdebase-workspace-bin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Oct 2011 15:50:21 +0200
 

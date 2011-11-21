@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <sune@debian.org>, Fathi Boudra <fabo@debian.org>, Armin
  José Manuel Santamaría Lema <panfaust@gmail.com>, Eshat Cakar <info@eshat.de>
 Build-Depends: kde-sc-dev-latest (>= 4:4.7.2),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdebase-workspace-dev (>= 4:4.7), libxt-dev, libstreamanalyzer-dev (>= 0.6.3),
+ kde-workspace-dev (>= 4:4.7), libxt-dev, libstreamanalyzer-dev (>= 0.6.3),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl, xscreensaver-gl-extra, 
  libqt4-opengl-dev, libeigen2-dev, xscreensaver-screensaver-bsod,
  xscreensaver-screensaver-webcollage, libkexiv2-dev, pkg-config
@@ -120,7 +120,7 @@ Description: widget styles for applications using Qt or KDE Development Platform
 
 Package: kscreensaver
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-bin
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin
 Recommends: kde-window-manager, kscreensaver-xsavers (= ${binary:Version})
 Description: Additional screensavers for KScreenSaver
  This package contains screensavers for KScreenSaver.
@@ -133,7 +133,7 @@ Description: Additional screensavers for KScreenSaver
 
 Package: kscreensaver-xsavers
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kdebase-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
 Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
 Description: xscreensaver support for KScreenSaver
