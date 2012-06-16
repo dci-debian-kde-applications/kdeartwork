@@ -6,6 +6,7 @@ kdeartwork (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
   * Bump build dependency on kdebase-workspace-dev to version 4:4.8.
   * Update Standards-Version to 3.9.3 (no further changes).
+  * Add watch file.
 
  -- Eshat Cakar <info@eshat.de>  Mon, 30 Jan 2012 22:51:39 +0100
 
