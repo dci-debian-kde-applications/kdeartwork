@@ -70,7 +70,9 @@ Description: additional icon themes
  This package is part of the KDE artwork module.
 
 Package: kde-icons-nuvola
+Section: oldlibs
 Architecture: all
+Priority: extra
 Depends: ${misc:Depends}, nuvola-icon-theme
 Description: transitional package for Nuvola icon theme
  Transitional package for ease upgrading from Nuvola icons as shipped
