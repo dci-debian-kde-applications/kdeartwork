@@ -52,8 +52,8 @@ Package: kdewallpapers
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: kde-window-manager | x-window-manager
-Replaces: kdebase-workspace-data (<< 4:4.6.0)
-Breaks: kdebase-workspace-data (<< 4:4.6.0)
+Replaces: kdebase-workspace-data (<< 4:4.7.0)
+Breaks: kdebase-workspace-data (<< 4:4.7.0)
 Description: wallpapers released with KDE Plasma Workspaces
  This package contains additional wallpapers for KDE Plasma Workspaces.
  .

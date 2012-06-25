@@ -1,5 +1,8 @@
 kdeartwork (4:4.8.4-2) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Raise the version of the conflict against kdebase-workspace-data
+    in kdewallpapers. (Closes: #679008)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Jun 2012 20:01:32 +0200
 
