@@ -54,8 +54,9 @@ Depends: ${misc:Depends}
 Suggests: kde-window-manager | x-window-manager
 Replaces: kdebase-workspace-data (<< 4:4.7.0)
 Breaks: kdebase-workspace-data (<< 4:4.7.0)
-Description: wallpapers released with KDE Plasma Workspaces
- This package contains additional wallpapers for KDE Plasma Workspaces.
+Description: extra KDE artwork wallpapers for the KDE Plasma Workspaces
+ This package contains more additional wallpapers for KDE Plasma Workspaces,
+ in addition to the ones provided with kde-wallpapers.
  .
  This package is part of the KDE artwork module.
 
