@@ -1,4 +1,4 @@
-kdeartwork (4:4.8.4-2) UNRELEASED; urgency=low
+kdeartwork (4:4.8.4-2) unstable; urgency=low
 
   * Team upload.
 
@@ -7,7 +7,7 @@ kdeartwork (4:4.8.4-2) UNRELEASED; urgency=low
     in kdewallpapers. (Closes: #679008)
   * Try to improve the description of kdewallpapers.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Jun 2012 20:01:32 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 28 Jun 2012 22:53:38 -0300
 
 kdeartwork (4:4.8.4-1) unstable; urgency=low
 
