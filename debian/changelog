@@ -1,6 +1,7 @@
 kdeartwork (4:4.8.4-3) UNRELEASED; urgency=low
 
-  *
+  * Update debian/copyright (Closes: #697554).
+    Switch to debian-copyright format 1.0.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 25 Jan 2013 13:32:53 -0300
 
