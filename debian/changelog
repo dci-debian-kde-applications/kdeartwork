@@ -1,6 +1,8 @@
 kdeartwork (4:4.8.4-5) unstable; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
   * I still missed a "lesser" in the GPL-3+ license on debian/copyright.
+  * Add a missing Copyright field in debian/copyright.
 
   [ José Manuel Santamaría Lema ]
   * Fix some lintian warnings about the copyright file: a couple of sytax
