@@ -1,6 +1,7 @@
 kdeartwork (4:4.8.4-4) UNRELEASED; urgency=low
 
-
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add myself to Uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Jan 2013 12:48:05 -0300
 
