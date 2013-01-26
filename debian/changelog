@@ -5,6 +5,7 @@ kdeartwork (4:4.9.5-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.9.5.
   * Bump kde-workspace-dev build dependency to 4:4.9.
+  * Update installed files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Jan 2013 19:07:52 +0100
 
