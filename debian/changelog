@@ -8,7 +8,7 @@ kdeartwork (4:4.8.4-5) unstable; urgency=low
   * Fix some lintian warnings about the copyright file: a couple of sytax
     errors, and add the "Expat" license.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 26 Jan 2013 13:48:28 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 26 Jan 2013 15:04:37 -0300
 
 kdeartwork (4:4.8.4-4) unstable; urgency=low
 
