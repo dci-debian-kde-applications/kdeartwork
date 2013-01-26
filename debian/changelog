@@ -2,6 +2,10 @@ kdeartwork (4:4.8.4-5) unstable; urgency=low
 
   * I still missed a "lesser" in the GPL-3+ license on debian/copyright.
 
+  [ José Manuel Santamaría Lema ]
+  * Fix some lintian warnings about the copyright file: a couple of sytax
+    errors, and add the "Expat" license.
+
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 26 Jan 2013 13:48:28 -0300
 
 kdeartwork (4:4.8.4-4) unstable; urgency=low
