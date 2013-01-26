@@ -1,10 +1,9 @@
-kdeartwork (4:4.8.4-4) UNRELEASED; urgency=low
+kdeartwork (4:4.8.4-4) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add myself to Uploaders.
   * Fix GPL-3+ license on debian/copyright. Thanks Adam Barratt for noticing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Jan 2013 12:48:05 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 26 Jan 2013 12:50:33 -0300
 
 kdeartwork (4:4.8.4-3) unstable; urgency=low
 
