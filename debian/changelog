@@ -1,14 +1,16 @@
-kdeartwork (4:4.10.1-0r1) UNRELEASED; urgency=low
+kdeartwork (4:4.10.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.10.1.
   * Bump kde-workspace-dev build dependency to 4:4.10.
   * Update installed files.
   * Add lintian overrides for hardening-no-fortify-functions.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Jan 2013 19:07:52 +0100
+  [ Diane Trout ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.10.2.
+
+ -- Diane Trout <diane@ghic.org>  Tue, 09 Apr 2013 11:32:55 -0700
 
 kdeartwork (4:4.8.4-5) unstable; urgency=low
 
