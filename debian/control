@@ -16,8 +16,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  xscreensaver-screensaver-webcollage, libkexiv2-dev, pkg-config
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
-Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdeartwork.git
-Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdeartwork.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdeartwork.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdeartwork.git
 
 Package: kdeartwork
 Architecture: all
