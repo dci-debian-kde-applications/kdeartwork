@@ -99,8 +99,8 @@ Architecture: all
 Depends: ${misc:Depends}
 Replaces: kmouth (<< 4:4.6)
 Breaks: kmouth (<< 4:4.6)
-Description: monochromatic icon theme
- A monochromatic icon theme, designed for accessibility.
+Description: monochromatic icons theme
+ A monochromatic icons theme, designed for accessibility.
  .
  This package is part of the KDE accessibility module.
 
@@ -109,8 +109,8 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kde-window-manager (<< 4:4.5.80)
 Breaks: kde-window-manager (<< 4:4.5.80)
-Description: window decoration for the K Window manager (KWin)
- This package contains additional window decorations for the K Window manager.
+Description: window decoration for the K Window Manager (KWin)
+ This package contains additional window decorations for the K Window Manager.
  .
  This package is part of the KDE artwork module.
 
@@ -119,7 +119,7 @@ Package: kdeartwork-style
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: widget styles for applications using Qt or KDE Development Platform
- Currently it provides the following themes
+ Currently it provides the following theme:
   * phase
  .
  This package is part of the KDE artwork module.
@@ -129,7 +129,7 @@ Package: kscreensaver
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin
 Recommends: kde-window-manager, kscreensaver-xsavers (= ${binary:Version})
-Description: screensavers for KScreenSaver
+Description: additional screensavers for KScreenSaver
  This package contains screensavers for KScreenSaver.
  .
  The package kscreensaver-xsavers lets KScreenSaver also use the
@@ -143,7 +143,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
 Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
-Description: xscreensaver support for KScreenSaver
+Description: XScreenSaver support for KScreenSaver
  This package allows KScreenSaver to use the XScreenSaver collection of
  screensavers.
  .
@@ -155,9 +155,9 @@ Architecture: all
 Depends: ${misc:Depends}, kscreensaver-xsavers (>= ${source:Version}), xscreensaver-screensaver-webcollage, miscfiles, netpbm
 Description: webcollage screensaver support for KScreenSaver
  This package allows KScreenSaver to use the WebCollage screensaver, which
- downloads random pictures from the internet to create a collage.
+ downloads random pictures from the Internet to create a collage.
  .
- IMPORTANT NOTICE: The internet contains all kinds of pictures, some of which
+ IMPORTANT NOTICE: the Internet contains all kinds of pictures, some of which
  might be found inappropriate or offensive.
  It is recommended that this screensaver not be used a public environment,
  workplace, or where it may be seen by children.
@@ -172,7 +172,7 @@ Package: plasma-desktopthemes-artwork
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: desktop themes for KDE Plasma Workspaces
- This package includes several desktops themes to change Plasma's look and 
+ This package includes several desktop themes to change Plasma's look and
  feel.
  .
  This package is part of the KDE artwork module.
