@@ -83,7 +83,7 @@ Description: transitional package for Nuvola icon theme
 Package: nuvola-icon-theme
 Section: x11
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, hicolor-icon-theme
 Replaces: kde-icons-nuvola (<< 4:4.0.0), kdeartwork-theme-icon (<= 4:4.3.0-3)
 Conflicts: kde-icons-nuvola (<< 4:4.0.0), kdeartwork-theme-icon (<= 4:4.3.0-3)
 Description: Nuvola icon theme
@@ -96,7 +96,7 @@ Description: Nuvola icon theme
 
 Package: kde-icons-mono
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, hicolor-icon-theme
 Replaces: kmouth (<< 4:4.6)
 Breaks: kmouth (<< 4:4.6)
 Description: monochromatic icons theme
