@@ -99,10 +99,10 @@ Architecture: all
 Depends: ${misc:Depends}
 Replaces: kmouth (<< 4:4.6)
 Breaks: kmouth (<< 4:4.6)
-Description: monochromatic icons theme
- A monochromatic icon theme, designed for accessibility purposes.
+Description: monochromatic icon theme
+ A monochromatic icon theme, designed for accessibility.
  .
- This package is part of the KDE accessibility module
+ This package is part of the KDE accessibility module.
 
 Package: kdeartwork-theme-window
 Architecture: any
@@ -110,7 +110,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kde-window-manager (<< 4:4.5.80)
 Breaks: kde-window-manager (<< 4:4.5.80)
 Description: window decoration for the K Window manager (KWin)
- This package contains additional window decorations for K Window Manager
+ This package contains additional window decorations for the K Window manager.
  .
  This package is part of the KDE artwork module.
 
@@ -119,7 +119,7 @@ Package: kdeartwork-style
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: widget styles for applications using Qt or KDE Development Platform
- Currently it provides the following themes:
+ Currently it provides the following themes
   * phase
  .
  This package is part of the KDE artwork module.
@@ -129,11 +129,11 @@ Package: kscreensaver
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin
 Recommends: kde-window-manager, kscreensaver-xsavers (= ${binary:Version})
-Description: Additional screensavers for KScreenSaver
+Description: screensavers for KScreenSaver
  This package contains screensavers for KScreenSaver.
  .
- KScreenSaver can use XScreenSaver collection of screensavers with the
- 'kscreensaver-xsavers' package.
+ The package kscreensaver-xsavers lets KScreenSaver also use the
+ XScreenSaver collection of screensavers.
  .
  This package is part of the KDE artwork module.
 
@@ -172,7 +172,8 @@ Package: plasma-desktopthemes-artwork
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: desktop themes for KDE Plasma Workspaces
- This package include several desktops theme to change Plasma look and feel
+ This package includes several desktops themes to change Plasma's look and 
+ feel.
  .
  This package is part of the KDE artwork module.
 
