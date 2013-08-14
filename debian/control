@@ -128,7 +128,8 @@ Description: widget styles for applications using Qt or KDE Development Platform
 Package: kscreensaver
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin
-Recommends: kde-window-manager, kscreensaver-xsavers (= ${binary:Version})
+Recommends: kde-window-manager
+Suggests: kscreensaver-xsavers (= ${binary:Version})
 Description: additional screensavers for KScreenSaver
  This package contains screensavers for KScreenSaver.
  .

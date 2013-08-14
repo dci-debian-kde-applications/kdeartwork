@@ -6,6 +6,8 @@ kdeartwork (4:4.10.5-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Make nuvola-icon-theme and kde-icons-mono depend on hicolor-icon-theme,
     as both inherit it.
+  * Changes in packages relationships:
+    - demote the kscreensaver-xsavers recommend in kscreensaver to a suggest
 
  -- Adrien Grellier <perso@adrieng.fr>  Wed, 24 Jul 2013 21:35:30 +0200
 
