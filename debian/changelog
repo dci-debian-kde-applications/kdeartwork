@@ -9,6 +9,8 @@ kdeartwork (4:4.10.5-2) UNRELEASED; urgency=low
   * Changes in packages relationships:
     - demote the kscreensaver-xsavers recommend in kscreensaver to a suggest
     - make kscreensaver-xsavers depend on xscreensaver
+    - make sure that the installed version of kscreensaver-xsavers cannot be
+      lower than the kscreensaver one (Closes: #719541)
 
  -- Adrien Grellier <perso@adrieng.fr>  Wed, 24 Jul 2013 21:35:30 +0200
 

@@ -130,6 +130,7 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin
 Recommends: kde-window-manager
 Suggests: kscreensaver-xsavers (= ${binary:Version})
+Breaks: kscreensaver-xsavers (<< ${binary:Version})
 Description: additional screensavers for KScreenSaver
  This package contains screensavers for KScreenSaver.
  .
