@@ -141,7 +141,8 @@ Description: additional screensavers for KScreenSaver
 
 Package: kscreensaver-xsavers
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
+Depends: ${shlibs:Depends}, ${misc:Depends}, kde-workspace-bin,
+ xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-screensaver-bsod
 Recommends: kde-window-manager, kscreensaver (= ${binary:Version}), xscreensaver-gl, xscreensaver-gl-extra
 Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
 Description: XScreenSaver support for KScreenSaver
