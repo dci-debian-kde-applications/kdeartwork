@@ -15,7 +15,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  xscreensaver, xscreensaver-data, xscreensaver-data-extra, xscreensaver-gl,
  xscreensaver-gl-extra, xscreensaver-screensaver-webcollage,
  xscreensaver-screensaver-bsod,
- libqt4-opengl-dev, libeigen2-dev,
+ libqt4-opengl-dev, libeigen3-dev,
  libkexiv2-dev, pkg-config,
  libx11-xcb-dev
 Standards-Version: 3.9.4

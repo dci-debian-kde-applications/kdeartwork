@@ -1,0 +1,201 @@
+Description: migrate from eigen2 to eigen3
+Author: Anton Gladky <gladk@debian.org>
+Bug-Debian: http://bugs.debian.org/728325
+Last-Update: 2013-10-30
+
+--- a/kscreensaver/kdesavers/pendulum.cpp
++++ b/kscreensaver/kdesavers/pendulum.cpp
+@@ -45,7 +45,7 @@
+ #include <Eigen/Core>
+ #include <Eigen/Geometry>
+ // import most common Eigen types
+-USING_PART_OF_NAMESPACE_EIGEN
++using namespace Eigen;
+ 
+ // the screen saver preview area class
+ #include "sspreviewarea.h"
+--- a/kscreensaver/kdesavers/rkodesolver.h
++++ b/kscreensaver/kdesavers/rkodesolver.h
+@@ -25,7 +25,7 @@
+ /* vector and matrix classes */
+ #include <Eigen/Core>
+ /* import most common Eigen types */
+-USING_PART_OF_NAMESPACE_EIGEN
++using namespace Eigen;
+ 
+ 
+ /** @brief Solver class to integrate a first-order ordinary differential
+--- a/kscreensaver/kdesavers/CMakeLists.txt
++++ b/kscreensaver/kdesavers/CMakeLists.txt
+@@ -1,5 +1,6 @@
+-macro_optional_find_package(Eigen2)
+-macro_log_feature(EIGEN2_FOUND "Eigen2" "A C++ template library for linear algebra" "kdesupport" FALSE "" "Needed to build the krotation and kpendulum screensavers" )
++macro_optional_find_package(Eigen3)
++macro_log_feature(EIGEN3_FOUND "Eigen3" "A C++ template library for linear algebra" "kdesupport" FALSE "" "Needed to build the krotation and kpendulum screensavers" )
++add_definitions(-DEIGEN2_SUPPORT)
+ 
+ macro_optional_find_package(Kexiv2)
+ macro_log_feature(KEXIV2_FOUND "Kexiv2" "A C++ library for exiv manipulation" "kdegraphics" FALSE "" "Needed to rotate photos with exif data" )
+@@ -146,8 +147,8 @@
+ if(OPENGL_FOUND AND OPENGL_GLU_FOUND AND QT_QTOPENGL_LIBRARY)
+ 
+   ## krotation, kpendulum need Eigen2
+-  if (EIGEN2_FOUND)
+-    include_directories(${EIGEN2_INCLUDE_DIR})
++  if (EIGEN3_FOUND)
++    include_directories(${EIGEN3_INCLUDE_DIR})
+ 
+     set(krotation.kss_SRCS rotation.cpp sspreviewarea.cpp)
+     kde4_add_ui_files(krotation.kss_SRCS rotationcfg.ui)
+@@ -160,7 +161,7 @@
+     kde4_add_executable(kpendulum.kss ${kpendulum.kss_SRCS})
+     target_link_libraries(kpendulum.kss ${KDE4_KDEUI_LIBS} ${QT_QTOPENGL_LIBRARY} ${OPENGL_gl_LIBRARY} ${OPENGL_glu_LIBRARY} ${KDE4WORKSPACE_KSCREENSAVER_LIBRARY})
+     install(TARGETS kpendulum.kss ${INSTALL_TARGETS_DEFAULT_ARGS})
+-  endif (EIGEN2_FOUND)
++  endif (EIGEN3_FOUND)
+ 
+   set(ksolarwinds.kss_SRCS SolarWinds.cpp )
+   kde4_add_executable(ksolarwinds.kss ${ksolarwinds.kss_SRCS})
+--- a/kscreensaver/kdesavers/rotation.h
++++ b/kscreensaver/kdesavers/rotation.h
+@@ -39,7 +39,7 @@
+ // Eigen2 from KDE support
+ #include <Eigen/Core>
+ // import most common Eigen types
+-USING_PART_OF_NAMESPACE_EIGEN
++using namespace Eigen;
+ 
+ // own extension of typdefed vector types of Eigen2
+ typedef Matrix<double,12,1> Vector12d;
+--- a/kscreensaver/kdesavers/rotation.cpp
++++ b/kscreensaver/kdesavers/rotation.cpp
+@@ -120,7 +120,7 @@
+    (void)x;
+ 
+    // vec omega in body coor. sys.: omega_body = (p, q, r)
+-   const Vector3d omega_body(y.start<3>());
++   const Vector3d omega_body(y.head<3>());
+ 
+    // body unit vectors in fixed frame coordinates
+    Matrix3d e;
+@@ -354,7 +354,7 @@
+    glPushMatrix();
+    // calculate the transform which rotates the unit z vector onto omega
+    glLoadMatrixd(
+-      Transform<double,3>(
++      Projective3d(
+          Quaternion<double>()
+          .setFromTwoVectors(Vector3d::UnitZ(), m_saver.omega())
+          .toRotationMatrix())
+@@ -371,7 +371,7 @@
+    // create transformation/rotation matrix from the body and its unit axes
+    glPushMatrix();
+    glLoadMatrixd(
+-      Transform<double,3>(m_saver.e().front())
++      Projective3d(m_saver.e().front())
+       .data());
+ 
+    // draw the body unit axis
+@@ -556,7 +556,7 @@
+ 
+    // assemble initial y for solver
+    Vector12d y;
+-   y.start<3>() = omega_body;
++   y.head<3>() = omega_body;
+    // 3 basis vectors of body system in fixed coordinates
+    y.segment<3>(3) = et.col(0);
+    y.segment<3>(6) = et.col(1);
+@@ -667,7 +667,7 @@
+    }
+ 
+    // current rotation vector omega
+-   m_omega = m_e.front() * y.start<3>();
++   m_omega = m_e.front() * y.head<3>();
+ 
+    // set new random traces every 10 seconds
+    if (m_randomTraces)
+
+--- /dev/null
++++ kdeartwork-4.10.5/cmake/modules/FindEigen3.cmake
+@@ -0,0 +1,81 @@
++# - Try to find Eigen3 lib
++#
++# This module supports requiring a minimum version, e.g. you can do
++#   find_package(Eigen3 3.1.2)
++# to require version 3.1.2 or newer of Eigen3.
++#
++# Once done this will define
++#
++#  EIGEN3_FOUND - system has eigen lib with correct version
++#  EIGEN3_INCLUDE_DIR - the eigen include directory
++#  EIGEN3_VERSION - eigen version
++
++# Copyright (c) 2006, 2007 Montel Laurent, <montel@kde.org>
++# Copyright (c) 2008, 2009 Gael Guennebaud, <g.gael@free.fr>
++# Copyright (c) 2009 Benoit Jacob <jacob.benoit.1@gmail.com>
++# Redistribution and use is allowed according to the terms of the 2-clause BSD license.
++
++if(NOT Eigen3_FIND_VERSION)
++  if(NOT Eigen3_FIND_VERSION_MAJOR)
++    set(Eigen3_FIND_VERSION_MAJOR 2)
++  endif(NOT Eigen3_FIND_VERSION_MAJOR)
++  if(NOT Eigen3_FIND_VERSION_MINOR)
++    set(Eigen3_FIND_VERSION_MINOR 91)
++  endif(NOT Eigen3_FIND_VERSION_MINOR)
++  if(NOT Eigen3_FIND_VERSION_PATCH)
++    set(Eigen3_FIND_VERSION_PATCH 0)
++  endif(NOT Eigen3_FIND_VERSION_PATCH)
++
++  set(Eigen3_FIND_VERSION "${Eigen3_FIND_VERSION_MAJOR}.${Eigen3_FIND_VERSION_MINOR}.${Eigen3_FIND_VERSION_PATCH}")
++endif(NOT Eigen3_FIND_VERSION)
++
++macro(_eigen3_check_version)
++  file(READ "${EIGEN3_INCLUDE_DIR}/Eigen/src/Core/util/Macros.h" _eigen3_version_header)
++
++  string(REGEX MATCH "define[ \t]+EIGEN_WORLD_VERSION[ \t]+([0-9]+)" _eigen3_world_version_match "${_eigen3_version_header}")
++  set(EIGEN3_WORLD_VERSION "${CMAKE_MATCH_1}")
++  string(REGEX MATCH "define[ \t]+EIGEN_MAJOR_VERSION[ \t]+([0-9]+)" _eigen3_major_version_match "${_eigen3_version_header}")
++  set(EIGEN3_MAJOR_VERSION "${CMAKE_MATCH_1}")
++  string(REGEX MATCH "define[ \t]+EIGEN_MINOR_VERSION[ \t]+([0-9]+)" _eigen3_minor_version_match "${_eigen3_version_header}")
++  set(EIGEN3_MINOR_VERSION "${CMAKE_MATCH_1}")
++
++  set(EIGEN3_VERSION ${EIGEN3_WORLD_VERSION}.${EIGEN3_MAJOR_VERSION}.${EIGEN3_MINOR_VERSION})
++  if(${EIGEN3_VERSION} VERSION_LESS ${Eigen3_FIND_VERSION})
++    set(EIGEN3_VERSION_OK FALSE)
++  else(${EIGEN3_VERSION} VERSION_LESS ${Eigen3_FIND_VERSION})
++    set(EIGEN3_VERSION_OK TRUE)
++  endif(${EIGEN3_VERSION} VERSION_LESS ${Eigen3_FIND_VERSION})
++
++  if(NOT EIGEN3_VERSION_OK)
++
++    message(STATUS "Eigen3 version ${EIGEN3_VERSION} found in ${EIGEN3_INCLUDE_DIR}, "
++                   "but at least version ${Eigen3_FIND_VERSION} is required")
++  endif(NOT EIGEN3_VERSION_OK)
++endmacro(_eigen3_check_version)
++
++if (EIGEN3_INCLUDE_DIR)
++
++  # in cache already
++  _eigen3_check_version()
++  set(EIGEN3_FOUND ${EIGEN3_VERSION_OK})
++
++else (EIGEN3_INCLUDE_DIR)
++
++  find_path(EIGEN3_INCLUDE_DIR NAMES signature_of_eigen3_matrix_library
++      PATHS
++      ${CMAKE_INSTALL_PREFIX}/include
++      ${KDE4_INCLUDE_DIR}
++      PATH_SUFFIXES eigen3 eigen
++    )
++
++  if(EIGEN3_INCLUDE_DIR)
++    _eigen3_check_version()
++  endif(EIGEN3_INCLUDE_DIR)
++
++  include(FindPackageHandleStandardArgs)
++  find_package_handle_standard_args(Eigen3 DEFAULT_MSG EIGEN3_INCLUDE_DIR EIGEN3_VERSION_OK)
++
++  mark_as_advanced(EIGEN3_INCLUDE_DIR)
++
++endif(EIGEN3_INCLUDE_DIR)
++
