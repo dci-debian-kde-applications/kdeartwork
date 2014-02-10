@@ -11,7 +11,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kde-sc-dev-latest (>= 4:4.11),
+               kde-sc-dev-latest (>= 4:4.12),
                kde-workspace-dev (>= 4:4.11),
                libeigen3-dev,
                libkexiv2-dev,
