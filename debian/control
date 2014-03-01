@@ -207,7 +207,7 @@ Package: kdeartwork-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}
 Suggests: kdeartwork (= ${source:Version})
 Replaces: kdebase-workspace-dbg (<< 4:4.6.0)
 Breaks: kdebase-workspace-dbg (<< 4:4.6.0)
