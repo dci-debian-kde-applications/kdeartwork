@@ -4,6 +4,7 @@ kdeartwork (4:4.12.2-2) UNRELEASED; urgency=medium
   * Remove ${shlibs:Depends} from kdeartwork-dbg.
   * Rename kdewallpapers to kdeartwork-wallpapers; provide a transitional
     package for the migration.
+  * Suggest kde-wallpapers in kdeartwork-wallpapers.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Mar 2014 12:42:37 +0100
 
