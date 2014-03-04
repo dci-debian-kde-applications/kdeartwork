@@ -2,7 +2,13 @@ kdeartwork (4:4.12.3-1) experimental; urgency=medium
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:31 +0100
+  [ Pino Toscano ]
+  * Remove ${shlibs:Depends} from kdeartwork-dbg.
+  * Rename kdewallpapers to kdeartwork-wallpapers; provide a transitional
+    package for the migration.
+  * Suggest kde-wallpapers in kdeartwork-wallpapers.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2014 10:21:37 +0100
 
 kdeartwork (4:4.12.2-1) experimental; urgency=medium
 

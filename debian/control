@@ -39,7 +39,7 @@ Depends: kdeartwork-emoticons (>= ${source:Version}),
          kdeartwork-style (>= ${source:Version}),
          kdeartwork-theme-icon (>= ${source:Version}) | kdelibs5-data,
          kdeartwork-theme-window (>= ${source:Version}),
-         kdewallpapers (>= ${source:Version}),
+         kdeartwork-wallpapers (>= ${source:Version}),
          kscreensaver (>= ${source:Version}),
          plasma-desktopthemes-artwork (>= ${source:Version}),
          ${misc:Depends}
@@ -66,11 +66,21 @@ Description: emoticon collections for chat clients
  This package is part of the KDE artwork module.
 
 Package: kdewallpapers
+Section: oldlibs
+Architecture: all
+Priority: extra
+Depends: ${misc:Depends}, kdeartwork-wallpapers (>= ${source:Version})
+Description: transitional package for kdeartwork-wallpapers
+ This is a transitional package for upgrading to kdeartwork-wallpapers.
+ .
+ It can be safely removed after the upgrade.
+
+Package: kdeartwork-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: kde-window-manager | x-window-manager
-Replaces: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0)
-Breaks: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0)
+Suggests: kde-window-manager | x-window-manager, kde-wallpapers
+Replaces: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.12.2-2~)
+Breaks: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.12.2-2~)
 Description: extra KDE artwork wallpapers for the KDE Plasma Workspaces
  This package contains more additional wallpapers for KDE Plasma Workspaces,
  in addition to the ones provided with kde-wallpapers.
@@ -207,7 +217,7 @@ Package: kdeartwork-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}
 Suggests: kdeartwork (= ${source:Version})
 Replaces: kdebase-workspace-dbg (<< 4:4.6.0)
 Breaks: kdebase-workspace-dbg (<< 4:4.6.0)
