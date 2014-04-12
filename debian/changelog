@@ -1,9 +1,9 @@
-kdeartwork (4:4.12.4-1) UNRELEASED; urgency=medium
+kdeartwork (4:4.12.4-1~) UNRELEASED; urgency=medium
 
   * Add additional copyright information. (Closes: #741931)
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Mar 2014 22:47:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Apr 2014 11:09:19 +0200
 
 kdeartwork (4:4.12.3-1) experimental; urgency=medium
 
