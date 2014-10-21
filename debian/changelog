@@ -1,9 +1,9 @@
-kdeartwork (4:4.14.2-1~) UNRELEASED; urgency=medium
+kdeartwork (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
   * Silence lintian error description-is-pkg-name.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Oct 2014 14:07:37 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Oct 2014 22:56:12 +0200
 
 kdeartwork (4:4.14.0-1) unstable; urgency=medium
 
