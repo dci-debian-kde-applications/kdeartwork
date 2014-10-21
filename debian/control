@@ -112,7 +112,7 @@ Architecture: all
 Depends: hicolor-icon-theme, ${misc:Depends}
 Replaces: kde-icons-nuvola (<< 4:4.0.0), kdeartwork-theme-icon (<= 4:4.3.0-3)
 Conflicts: kde-icons-nuvola (<< 4:4.0.0), kdeartwork-theme-icon (<= 4:4.3.0-3)
-Description: Nuvola icon theme
+Description: Nuvola icon theme for KDE
  This package contains the Nuvola icon theme for KDE.
  .
  Nuvola follows the freedesktop.org icon schemes, so it can be used in other
