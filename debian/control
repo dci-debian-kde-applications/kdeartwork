@@ -15,7 +15,7 @@ Build-Depends: cmake,
                kde-workspace-dev (>= 4:4.11),
                libeigen3-dev,
                libkexiv2-dev,
-               libqt4-opengl-dev,
+               libqt4-opengl-dev [!armel !armhf],
                libstreamanalyzer-dev (>= 0.6.3),
                libx11-xcb-dev,
                libxt-dev,
@@ -79,8 +79,8 @@ Package: kdeartwork-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
 Suggests: kde-window-manager | x-window-manager, kde-wallpapers
-Replaces: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.12.2-2~)
-Breaks: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.12.2-2~)
+Replaces: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.13.90)
+Breaks: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.13.90)
 Description: extra KDE artwork wallpapers for the KDE Plasma Workspaces
  This package contains more additional wallpapers for KDE Plasma Workspaces,
  in addition to the ones provided with kde-wallpapers.

@@ -1,9 +1,33 @@
+kdeartwork (4:4.14.2-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Merge with debian unstable, remaining changes:
+    - don't build-depend on libqt4-opengl-dev on armel armhf
+    - kdeartwork-wallpapers breaks/replaces kdewallpapers (<< 4:4.13.90)
+    - add a kscreensaver.install.armhf without the opengl screensavers
+    - build with -DWITH_OpenGL=OFF on armel armhf
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 24 Nov 2014 23:09:05 +0100
+
 kdeartwork (4:4.14.2-1) unstable; urgency=medium
 
   * New upstream release (4.14.2).
   * Silence lintian error description-is-pkg-name.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Oct 2014 22:56:12 +0200
+
+kdeartwork (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release 
+  * Fix space and spelling in copyright shortname.
+  * Adjust package description to make lintian happy. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 14:52:35 -0700
+
+kdeartwork (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 22 Sep 2014 16:39:17 +0200
 
 kdeartwork (4:4.14.0-1) unstable; urgency=medium
 
@@ -12,17 +36,97 @@ kdeartwork (4:4.14.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 25 Aug 2014 01:00:41 +0200
 
+kdeartwork (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 12:41:07 +0200
+
+kdeartwork (4:4.13.97-0ubuntu2) utopic; urgency=medium
+
+  * kdeartwork-wallpapers breaks/replaces kdewallpapers << 4:4.13.90 for the
+    SRU updates 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 12 Aug 2014 22:32:03 +0200
+
+kdeartwork (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:25:12 +0200
+
+kdeartwork (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 17:37:48 +0200
+
+kdeartwork (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 17 Jul 2014 14:15:38 -0700
+
 kdeartwork (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Aug 2014 09:47:41 +0200
 
+kdeartwork (4:4.13.2-0ubuntu2) utopic; urgency=medium
+
+  * No-change rebuild against new libkdecorations ABI 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Jun 2014 20:17:27 +0200
+
+kdeartwork (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  [ Philip Muškovac ]
+  * Document the svn rev in which 10_eigen3.patch was upstreamed in the
+    Forwarded field (r1384805)
+
+  [ Jonathan Riddell ]
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:50:15 +0100
+
+kdeartwork (4:4.13.1-1ubuntu1) utopic; urgency=medium
+
+  * Merge with debian unstable, remaining changes:
+    - only build-depend on libqt4-opengl-dev on [!armel !armhf]
+    - Bump breaks/replaces for kdeartwork-wallpapers to << 4:4.13.1
+
+ -- Philip MuÅ¡kovac <yofel@kubuntu.org>  Fri, 06 Jun 2014 22:27:42 +0200
+
 kdeartwork (4:4.13.1-1) unstable; urgency=medium
 
   * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 13:34:02 +0200
+
+kdeartwork (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 21:44:20 +0100
+
+kdeartwork (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:15:15 +0200
+
+kdeartwork (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:02:57 +0100
+
+kdeartwork (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:42:52 +0000
 
 kdeartwork (4:4.12.4-1) unstable; urgency=medium
 
@@ -43,6 +147,12 @@ kdeartwork (4:4.12.3-1) experimental; urgency=medium
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Mar 2014 10:21:37 +0100
 
+kdeartwork (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:37:06 +0100
+
 kdeartwork (4:4.12.2-1) experimental; urgency=medium
 
   * Do not disable an empty test set.
@@ -52,6 +162,42 @@ kdeartwork (4:4.12.2-1) experimental; urgency=medium
   * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:35 +0100
+
+kdeartwork (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Feb 2014 23:47:26 +0000
+
+kdeartwork (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:05:47 +0000
+
+kdeartwork (4:4.12.0a-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 16:38:35 +0000
+
+kdeartwork (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 12:42:30 +0000
+
+kdeartwork (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 17:52:20 +0100
+
+kdeartwork (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:33:17 +0100
 
 kdeartwork (4:4.11.3-1) unstable; urgency=low
 
@@ -67,6 +213,65 @@ kdeartwork (4:4.11.2-1) experimental; urgency=low
   * Update build-dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 14:50:20 +0200
+
+kdeartwork (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:09:36 +0100
+
+kdeartwork (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 06 Sep 2013 22:17:28 +0100
+
+kdeartwork (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:08:46 +0100
+
+kdeartwork (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:18:09 +0100
+
+kdeartwork (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:05 +0000
+
+kdeartwork (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream beta release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:08:22 +0100
+
+kdeartwork (4:4.10.80-0ubuntu2) saucy; urgency=low
+
+  * Add explicit buil-dep on libx11-xcb-dev (for archs other than armhf it was
+    an implicit build-dep pulled in by another package)
+    - Needed for X11/Xlib-xcb.h
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 27 Jun 2013 01:56:45 -0400
+
+kdeartwork (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  [ Philip Muškovac ]
+  * New upstream beta release 
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 01:02:19 +0100
 
 kdeartwork (4:4.10.5-2) unstable; urgency=low
 
@@ -100,6 +305,28 @@ kdeartwork (4:4.10.4-1) experimental; urgency=low
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 16:48:10 +0200
 
+kdeartwork (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:22:33 +0100
+
+kdeartwork (4:4.10.3-0ubuntu2) saucy; urgency=low
+
+  * Add missing override to rules to add no gl setting on arm
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Jun 2013 17:17:03 +0000
+
+kdeartwork (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian
+    - Do not build OpenGL screensavers on armel and armhf in debian/rules and
+      debian/control and add kscreensaver.install.{armel,armhf}
+  * Drop package kscreensaver-xsavers-extra not needed now we are in universe
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 May 2013 11:04:32 +0000
+
 kdeartwork (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
@@ -124,6 +351,134 @@ kdeartwork (4:4.10.2-1) experimental; urgency=low
   * Update uploaders.
 
  -- Sune Vuorela <sune@debian.org>  Fri, 12 Apr 2013 19:46:50 +0000
+
+kdeartwork (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 14:42:52 +0200
+
+kdeartwork (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+  * Move kde-icons-nuvola transitional package to oldlibs/extra to make
+    lintian happy 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 15:29:37 +0000
+
+kdeartwork (4:4.10.0-0ubuntu1) raring; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 11:44:44 +0000
+
+kdeartwork (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 15:23:02 +0000
+
+kdeartwork (4:4.9.97-0ubuntu2) raring; urgency=low
+
+  * kdewallpapers breaks/replaces kde-wallpapers << 4:4.9.97 as wallpapers
+    were moved
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 09 Jan 2013 12:18:02 +0000
+
+kdeartwork (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:29:57 +0100
+
+kdeartwork (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  [ Jonathan Riddell ]
+  * New upstream RC release
+  * New files in plasma-desktopthemes-artwork.install
+
+  [ Philip Muškovac ]
+  * kdewallpapers breaks/replaces kde-wallpapers << 4:4.9.95 as wallpapers
+    were moved
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:24:00 +0000
+
+kdeartwork (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:46:43 +0000
+
+kdeartwork (4:4.9.80-0ubuntu2) raring; urgency=low
+
+  * Fix file list in debian/kdeartwork-theme-window.install
+
+ -- Scott Kitterman <scott@kitterman.com>  Thu, 22 Nov 2012 22:28:58 -0500
+
+kdeartwork (4:4.9.80-0ubuntu1) raring; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 15:52:29 +0000
+
+kdeartwork (4:4.9.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release (LP: #1074747)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 06 Nov 2012 22:29:28 +0100
+
+kdeartwork (4:4.9.2-0ubuntu2) quantal; urgency=low
+
+  * Rebuild to get missing binaries that were lost due to being copied from
+    proposed to release before they were built
+
+ -- Scott Kitterman <scott@kitterman.com>  Fri, 05 Oct 2012 00:51:28 -0400
+
+kdeartwork (4:4.9.2-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 02 Oct 2012 15:19:02 +0100
+
+kdeartwork (4:4.9.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:18:22 +0530
+
+kdeartwork (4:4.9.0-0ubuntu1) quantal; urgency=low
+
+  * Use direct build-depends versions rather than kde-sc-dev-latest
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jul 2012 17:34:41 +0100
+
+kdeartwork (4:4.8.90-0ubuntu1) quantal; urgency=low
+
+  * New upstream beta release.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Mon, 11 Jun 2012 22:12:49 +0200
+
+kdeartwork (4:4.8.80-0ubuntu1) quantal; urgency=low
+
+  * Merge from Debian git repository, remaining changes:
+    - Don't add xscreensaver-data-extra, xscreensaver-gl-extra,
+      xscreensaver-screensaver-bsod and xscreensaver-screensaver-webcollage
+      build-dependencies (Universe)
+    - kscreensaver-xsavers not depends on xscreensaver-data-extra,
+      xscreensaver-screensaver-bsod
+    - kscreensaver-xsavers not recommends xscreensaver-gl-extra
+    - kscreensaver-xsavers replaces old kscreensaver-xsavers-extra
+    - Add kscreensaver-xsavers-extra package
+    - Make kscreensaver-xsavers-webcollage depend on kscreensaver-xsavers-extra
+    - Keep kubuntu_01_cmake_find_xscreensaver.patch
+    - Do not build OpenGL screensavers on armel and armhf in debian/rules and
+      debian/control and add kscreensaver.install.{armel,armhf}
+  * New upstream beta release.
+    - Update plasma-desktopthemes-artwork.install
+  * Change kscreensaver-xsavers-extra to Architecture: all.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Tue, 05 Jun 2012 12:01:20 +0200
 
 kdeartwork (4:4.8.4-5) unstable; urgency=low
 
@@ -175,6 +530,81 @@ kdeartwork (4:4.8.4-1) unstable; urgency=low
 
  -- Eshat Cakar <info@eshat.de>  Mon, 30 Jan 2012 22:51:39 +0100
 
+kdeartwork (4:4.8.3-0r0) raring; urgency=low
+
+  * New upstream release.
+
+  [ Eshat Cakar ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.8.3.
+  * Bump build dependency on kdebase-workspace-dev to version 4:4.8.
+  * Update Standards-Version to 3.9.3 (no further changes).
+
+ -- Eshat Cakar <info@eshat.de>  Mon, 30 Jan 2012 22:51:39 +0100
+
+kdeartwork (4:4.8.3-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 May 2012 22:55:02 +0200
+
+kdeartwork (4:4.8.2-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 31 Mar 2012 21:32:40 +0200
+
+kdeartwork (4:4.8.1-0ubuntu1) precise; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 19:24:03 +0100
+
+kdeartwork (4:4.8.0-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 20 Jan 2012 12:10:22 +0000
+
+kdeartwork (4:4.7.97-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 05 Jan 2012 12:18:19 +0000
+
+kdeartwork (4:4.7.95-0ubuntu2) precise; urgency=low
+
+  * Fix FTBFS on armhf: copy kscreensaver.install.armel to
+    kscreensaver.install.armhf.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Thu, 29 Dec 2011 12:17:51 +0100
+
+kdeartwork (4:4.7.95-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+    - kdewallpapers breaks/replaces kde-wallpapers << 4:4.7.95
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 24 Dec 2011 19:19:06 +0100
+
+kdeartwork (4:4.7.90-0ubuntu3) precise; urgency=low
+
+  * Really fix the armhf build and unbreak the now broken armel build.
+
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 21 Dec 2011 23:11:32 +0100
+
+kdeartwork (4:4.7.90-0ubuntu2) precise; urgency=low
+
+  * Add missing change from 4:4.7.3-0ubuntu2
+   - Do not build OpenGL screensavers on armhf in debian/rules and debian/control
+     and add kscreensaver.install.armhf
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 21 Dec 2011 17:05:24 +0000
+
+kdeartwork (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 17 Dec 2011 19:10:59 +0000
+
 kdeartwork (4:4.7.4-2) unstable; urgency=low
 
   * Team upload. Upload to unstable.
@@ -190,6 +620,32 @@ kdeartwork (4:4.7.4-1) experimental; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 01:37:21 +0100
+
+kdeartwork (4:4.7.3-0ubuntu2) precise; urgency=low
+
+  * Do not build OpenGL screensavers on armhf in debian/rules and debian/control
+    and add kscreensaver.install.armhf
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 05 Dec 2011 12:22:55 +0100
+
+kdeartwork (4:4.7.3-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+  * Merge with Debian unstable, remaining changes:
+    - Don't add xscreensaver-data-extra, xscreensaver-gl-extra
+      xscreensaver-screensaver-bsod and xscreensaver-screensaver-webcollage
+      build-dependencies (Universe)
+    - kscreensaver-xsavers not depends on xscreensaver-data-extra,
+      xscreensaver-screensaver-bsod
+    - kscreensaver-xsavers not recommends xscreensaver-gl-extra
+    - kscreensaver-xsavers replaces old kscreensaver-xsavers-extra
+    - Add kscreensaver-xsavers-extra package
+    - Make kscreensaver-xsavers-webcollage depend on kscreensaver-xsavers-extra
+    - Keep kubuntu_01_cmake_find_xscreensaver.patch
+    - Do not build OpenGL screensavers on armel in debian/rules and debian/control
+      and add kscreensaver.install.armel
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Nov 2011 23:46:46 +0000
 
 kdeartwork (4:4.7.2-1) experimental; urgency=low
 
@@ -226,6 +682,61 @@ kdeartwork (4:4.6.3-2) unstable; urgency=low
     - kdeartwork-dbg: add kdebase-workspace-dbg << 4:4.6.0 (Closes: #629187)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Jun 2011 21:33:26 +0300
+
+kdeartwork (4:4.7.2-0ubuntu1) oneiric-proposed; urgency=low
+
+  * New upstream release (LP: #872506)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 15 Oct 2011 00:10:57 +0200
+
+kdeartwork (4:4.7.1-0ubuntu2) oneiric; urgency=low
+
+  * No-change rebuild so translations aren't stripped from .desktop
+    files anymore.
+
+ -- Felix Geyer <debfx-pkg@fobos.de>  Thu, 15 Sep 2011 23:26:51 +0200
+
+kdeartwork (4:4.7.1-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release
+
+ -- Romain Perier <bambi@ubuntu.com>  Sun, 04 Sep 2011 11:46:33 +0200
+
+kdeartwork (4:4.7.0-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release 
+  * Bump breaks/replaces on kmouth to catch 4.6.5 packages
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 23 Jul 2011 04:19:37 +0200
+
+kdeartwork (4:4.6.90-0ubuntu1) oneiric; urgency=low
+
+  * New upstream release candidate 
+    - bump kde-sc-dev-latest depends.
+    - Add kde-icons-mono package (moved from kdeaccessibility)
+    - Add new destkop themes to plasma-desktopthemes-artwork.install
+  * Update Vcs links for new location
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 11 Jul 2011 13:34:54 +0200
+
+kdeartwork (4:4.6.3-1ubuntu1) oneiric; urgency=low
+
+  [ Jonathan Thomas ]
+  * Merge with Debian unstable, remaining changes:
+    - Don't add xscreensaver-data-extra, xscreensaver-gl-extra
+      xscreensaver-screensaver-bsod and xscreensaver-screensaver-webcollage
+      build-dependencies (Universe)
+    - kscreensaver-xsavers not depends on xscreensaver-data-extra
+    - kscreensaver-xsavers not recommends xscreensaver-gl-extra
+    - Add kscreensaver-xsavers-extra package
+    - Make kscreensaver-xsavers-webcollage depend on kscreensaver-xsavers-extra
+    - Keep kubuntu_01_cmake_find_xscreensaver.patch
+    - Continue to not build OpenGL screensavers on armel
+
+  [ Philip Muškovac ]
+  * Update Vcs links as the branch is owned by kubuntu-packagers now
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 27 May 2011 16:37:40 -0400
 
 kdeartwork (4:4.6.3-1) unstable; urgency=low
 
@@ -271,6 +782,209 @@ kdeartwork (4:4.6.2-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:38 +0300
 
+kdeartwork (4:4.6.2-0ubuntu1) natty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 04 Apr 2011 15:26:02 +0000
+
+kdeartwork (4:4.6.1-0ubuntu2) natty; urgency=low
+
+  * Set WITH_OpenGL=OFF for ARM, don't build-dep on Qt openGL on ARM,
+    add debian/kscreensaver.install.armel file to change installed files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 24 Mar 2011 12:47:56 +0000
+
+kdeartwork (4:4.6.1-0ubuntu1) natty; urgency=low
+
+  * New upstream release 
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 28 Feb 2011 17:05:07 +0100
+
+kdeartwork (4:4.6.0-0ubuntu2) raring; urgency=low
+
+  * Update kde-sc-dev-latest version
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Jan 2011 11:40:34 +0000
+
+kdeartwork (4:4.6.0-0ubuntu1) natty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jan 2011 16:28:38 +0000
+
+kdeartwork (4:4.5.95-0ubuntu3) natty; urgency=low
+
+  * kdewallpapers replaces kdebase-workspace-data
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Jan 2011 11:39:37 +0000
+
+kdeartwork (4:4.5.95-0ubuntu2) natty; urgency=low
+
+  [ Philip Muskovac ]
+  * kdewallpapers replaces kdebase-workspace-wallpapers (<< 4:4.5.95)
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Jan 2011 10:47:38 +0000
+
+kdeartwork (4:4.5.95-0ubuntu1) natty; urgency=low
+
+  * New upstream release
+
+ -- Philip Muskovac <yofel@gmx.net>  Thu, 06 Jan 2011 17:20:29 +0100
+
+kdeartwork (4:4.5.90-0ubuntu1) natty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 22 Dec 2010 18:51:45 +0000
+
+kdeartwork (4:4.5.85-0ubuntu1) natty; urgency=low
+
+  * New upstream beta release
+  * kdeartwork-theme-window replaces kde-window-manager (<< 4:4.5.80)
+  * Add libkexiv2-dev to build-depends
+  * update plasma-desktopthemes-artwork.install
+
+ -- Philip Muskovac <yofel@gmx.net>  Sat, 04 Dec 2010 18:38:49 +0100
+
+kdeartwork (4:4.5.80-0ubuntu4) natty; urgency=low
+
+  * kdeartwork-theme-window replaces aurorae-themes-artwork
+  * kdeartwork-dbg replaces kdebase-workspace-dbg (<< 4:4.5.80)
+
+ -- Philip Muskovac <yofel@gmx.net>  Wed, 01 Dec 2010 16:41:36 +0100
+
+kdeartwork (4:4.5.80-0ubuntu3) natty; urgency=low
+
+  [ Philip Muskovac ]
+  * remove fiberlamp, glcells and glschool from kscreensaver-xsavers-extra
+    since they moved to kscreensaver-xsavers (LP: #682467)
+
+  [ Jonathan Riddell ]
+  * Sync kscreensaver-xsavers-extra.install with contents of
+    xscreensaver-gl-extra and xscreensaver-data-extra
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 30 Nov 2010 18:29:23 +0000
+
+kdeartwork (4:4.5.80-0ubuntu2) natty; urgency=low
+
+  * kdeartwork-dbg conflicts/replaces kdebase-workspace-dbg (<< 4:4.5.80)
+  * kdeartwork-theme-window conflicts/replaces kde-window-manager (<< 4:4.5.80)
+
+ -- Philip Muskovac <yofel@gmx.net>  Sun, 28 Nov 2010 16:51:09 +0100
+
+kdeartwork (4:4.5.80-0ubuntu1) natty; urgency=low
+
+  * New upstream beta release
+  * kdeartwork-theme-window now arch any for new binary plugins
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 25 Nov 2010 17:39:39 +0000
+
+kdeartwork (4:4.5.80-0ubuntu1~ppa1) natty; urgency=low
+
+  * New upstream beta release
+  * kdeartwork-theme-window now arch any for new binary plugins
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 25 Nov 2010 17:39:39 +0000
+
+kdeartwork (4:4.5.2-0ubuntu1) natty; urgency=low
+
+  [ Alessandro Ghersi ]
+  * Merge with Debian git remaining changes:
+    - Don't add xscreensaver-data-extra, xscreensaver-gl-extra
+      xscreensaver-screensaver-bsod and xscreensaver-screensaver-webcollage
+      build-dependencies (Universe)
+    - Add section kde in all packages
+    - kscreensaver-xsavers not depends on xscreensaver-data-extra
+    - kscreensaver-xsavers not recommends xscreensaver-gl-extra
+    - Add kscreensaver-xsavers-extra package
+    - Make kscreensaver-xsavers-webcollage depend on kscreensaver-xsavers-extra
+    - Keep kubuntu_01_cmake_find_xscreensaver.patch
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Mon, 18 Oct 2010 00:21:57 +0200
+
+kdeartwork (4:4.5.1-0ubuntu1) maverick; urgency=low
+
+  * New upstream release
+    - Bump kde-sc-dev-latest to 4.5.0
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Mon, 30 Aug 2010 19:36:47 +0200
+
+kdeartwork (4:4.5.1-0r2) raring; urgency=low
+
+  [ Modestas Vainius ]
+  * Point debian/control Vcs fields to the new Git repository.
+
+  [ Pino Toscano ]
+  * Change the or'ed kdelibs-data (kde3) dependency of kdeartwork to
+    kdelibs5-data (kde4). (Closes: #591616)
+
+  [ George Kiagiadakis ]
+  * Add myself to uploaders.
+  * Update installed files.
+  * Make kdeartwork-theme-window an arch: all package.
+  * Bump build dependency on kdebase-workspace-dev to version 4:4.5.
+  * Update replaces: kdewallpapers replaces kdebase-workspace-data << 4:4.5.0.
+  * Make the kdeartwork metapackage also depend on kdeartwork-theme-window.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Sep 2010 23:03:08 +0300
+
+kdeartwork (4:4.5.0b-0ubuntu1) maverick; urgency=low
+
+  * New tar from upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 04 Aug 2010 23:20:01 +0100
+
+kdeartwork (4:4.5.0-0ubuntu1) maverick; urgency=low
+
+  * New upstream release
+    - Bump kde-sc-dev-latest to 4.5.0
+    - Bump kdebase-workspace-dev to 4.5.0
+
+ -- Stephen Stalcup <vorian@ubuntu.com>  Sun, 01 Aug 2010 06:35:54 -0600
+
+kdeartwork (4:4.4.92-0ubuntu1) maverick; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream release
+    - Bump kde-sc-dev-latest to 4.4.92
+
+  [ Jonathan Riddell ]
+  * kdewallpapers replaces old kdebase-workspace-wallpapers
+
+ -- Rohan Garg <rohangarg@ubuntu.com>  Sat, 10 Jul 2010 03:56:22 +0530
+
+kdeartwork (4:4.4.90-0ubuntu1) maverick; urgency=low
+
+  * New upstream release
+    - Bump kde-sc-dev-latest to 4.4.90
+
+ -- Rohan Garg <rohan16garg@gmail.com>  Sat, 26 Jun 2010 04:05:13 +0530
+
+kdeartwork (4:4.4.85-0ubuntu1) maverick; urgency=low
+
+  * New upstream release
+  * Bumped kde-sc-dev-latest to 4.4.85
+  * Add usr/share/kde4/apps/desktoptheme/slim-glow/icons/notification.svgz
+    to install file
+
+ -- Rohan Garg <rohan16garg@gmail.com>  Mon, 07 Jun 2010 17:49:17 +0530
+
+kdeartwork (4:4.4.80-0ubuntu1) maverick; urgency=low
+
+  * New upstream release
+  * Bump kde-sc-dev-latest to 4.4.80
+  * Remove README.source
+  * Add aurorae-themes-artwork.install file to install new aurorae windeco
+  * Add aurorae-themes-artwork package to control file
+  * Switched to source format 3.0
+  * Bumped debhelper to version 7.3.16
+
+ -- Rohan Garg <rohan16garg@gmail.com>  Tue, 25 May 2010 21:31:28 +0530
+
 kdeartwork (4:4.4.5-1) unstable; urgency=low
 
   [ Modestas Vainius ]
@@ -300,6 +1014,26 @@ kdeartwork (4:4.4.4-1) unstable; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Jun 2010 01:15:12 +0300
 
+kdeartwork (4:4.4.3-1ubuntu2) maverick; urgency=low
+
+  * Fix kscreensaver-xsavers-webcollage.install to use .desktop file from source dir
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 24 May 2010 12:12:03 +0000
+
+kdeartwork (4:4.4.3-1ubuntu1) maverick; urgency=low
+
+  * Merge with Debian unstable, reminaing changes:
+    - Don't build-dep on xscreensaver-data-extra, xscreensaver-gl-extra (in universe)
+    - Don't build-dep on xscreensaver-screensaver-bsod and xscreensaver-screensaver-webcollage are not in archive
+    - Add section kde in all package
+    - kscreensaver-xsavers not depends on xscreensaver-data-extra
+    - kscreensaver-xsavers not recommends xscreensaver-gl-extra
+    - Add kscreensaver-xsavers-extra package
+    - Make kscreensaver-xsavers-webcollage depend on kscreensaver-xsavers-extra
+    - Add 001_cmake_find_xscreensaver.patch
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Thu, 20 May 2010 04:35:34 +0200
+
 kdeartwork (4:4.4.3-1) unstable; urgency=low
 
   * New upstream release.
@@ -309,6 +1043,13 @@ kdeartwork (4:4.4.3-1) unstable; urgency=low
   * Release KDE SC 4.4.3 to unstable.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 May 2010 23:37:50 +0300
+
+kdeartwork (4:4.4.3-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - bump build depends
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 04 May 2010 09:46:58 +0100
 
 kdeartwork (4:4.4.2-2) experimental; urgency=low
 
@@ -348,6 +1089,77 @@ kdeartwork (4:4.4.2-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Apr 2010 18:39:47 +0300
 
+kdeartwork (4:4.4.2-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump build-dep versions
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Sat, 27 Mar 2010 22:35:04 +0100
+
+kdeartwork (4:4.4.1-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump build-dep versions
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Sun, 28 Feb 2010 22:20:03 +0100
+
+kdeartwork (4:4.4.0-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump build-dep versions
+
+ -- Ryan Kavanagh <ryanakca@kubuntu.org>  Thu, 04 Feb 2010 20:10:19 -0500
+
+kdeartwork (4:4.3.98-0ubuntu1) lucid; urgency=low
+
+  [ Christian Mangold ]
+  * New upstream release candidate
+
+  [ Alessandro Ghersi ]
+  * Bump Qt to 4.6.1
+    - Bump build dep versions
+
+ -- Christian Mangold <neversfelde@ubuntu.com>  Mon, 01 Feb 2010 23:33:03 +0100
+
+kdeartwork (4:4.3.95-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+    - Bump build-deps
+    - Update kscreensaver-xsavers.install
+    - kscreensaver replaces kscreensaver-xsavers-extra (<= 4:4.3.95)
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Wed, 20 Jan 2010 23:21:16 +0100
+
+kdeartwork (4:4.3.90-0ubuntu1) lucid; urgency=low
+
+  * New upstream release candidate:
+    - Bump build-depend versions
+    - Update plasma-themes-artwork.install
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Thu, 07 Jan 2010 09:36:13 -0500
+
+kdeartwork (4:4.3.85-0ubuntu1) lucid; urgency=low
+
+  * New upstream release:
+    - Bump build-depend versions
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 18 Dec 2009 23:30:38 -0500
+
+kdeartwork (4:4.3.80-0ubuntu1) lucid; urgency=low
+
+  [ Christian Mangold ]
+  * New upstream beta release:
+    - Bump KDE build-deps to 4.3.80
+    - Update plasma-desktopthemes-artwork.install
+
+  [ Alessandro Ghersi ]
+  * Update kscreensaver.install
+
+  [ Scott Kitterman ]
+  * Change Debian information in Vcs-* fields in debian/control for Kubuntu
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 07 Dec 2009 21:53:56 -0500
+
 kdeartwork (4:4.3.4-1) unstable; urgency=low
 
   * New upstream release.
@@ -371,6 +1183,24 @@ kdeartwork (4:4.3.4-1) unstable; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Dec 2009 02:18:10 +0200
 
+kdeartwork (4:4.3.3-0ubuntu1) lucid; urgency=low
+
+  * New upstream release
+  * Merge with Debian testing remaining changes:
+    - Keep 001_cmake_find_xscreensaver.patch
+    - Don't build-dep on xscreensaver-data-extra, xscreensaver-gl-extra (in universe)
+    - Keep our -kde4 package conflicts/replaces
+    - Add section kde in all package
+    - In nuvola-icon-theme add kdeartwork-theme-icon-kde in Conflicts/Replaces
+    - kscreensaver-xsavers not depends on xscreensaver-data-extra
+    - kscreensaver-xsavers not recommends xscreensaver-gl-extra
+    - Add kscreensaver-xsavers-extra package
+    - Make kscreensaver-xsavers-webcollage depend on kscreensaver-xsavers-extra
+    - Make -webcollage use source .desktop file in kscreensaver-xsavers-webcollage.install
+  * Rename 001_cmake_find_xscreensaver.patch to kubuntu_01_cmake_find_xscreensaver.patch
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Thu, 12 Nov 2009 03:44:18 +0100
+
 kdeartwork (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
@@ -382,11 +1212,36 @@ kdeartwork (4:4.3.2-1) unstable; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Oct 2009 19:24:41 +0200
 
+kdeartwork (4:4.3.2-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * debian/control:
+    - Bump KDE build-deps to 4.3.2
+    - Add build-dep on quilt
+    - kscreensaver-xsavers-extra replaces versions of
+      kscreensaver-xsavers prior to this version.
+  * New patch 001_cmake_find_xscreensaver.patch: The xsaver used to detect
+    where xscreensaver is installed, has been moved to -extra packages in
+    Ubuntu, so we need to use some other xsaver to detect it.
+  * Add README.source about quilt.
+  * Move most screensavers from kscreensaver-xsavers.install to
+    kscreensaver-xsavers-extra.install as they have moved to -extra packages
+    in xscreensavers.
+
+ -- Andreas Wenning <awen@awen.dk>  Sun, 04 Oct 2009 10:55:56 +0200
+
 kdeartwork (4:4.3.1-1) unstable; urgency=low
 
   * New upstream release.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 12 Sep 2009 16:17:58 +0200
+
+kdeartwork (4:4.3.1-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Bump version of KDE build-deps to 4.3.1
+
+ -- Christian Mangold <neversfelde@ubuntu.com>  Sat, 29 Aug 2009 13:29:46 +0200
 
 kdeartwork (4:4.3.0-4) unstable; urgency=low
 
@@ -445,6 +1300,66 @@ kdeartwork (4:4.3.0-1) unstable; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 04 Aug 2009 09:05:08 +0200
 
+kdeartwork (4:4.3.0-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Bump version of kdebase-workspace-dev build-dep to 4.3.0
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Thu, 30 Jul 2009 12:01:42 +0200
+
+kdeartwork (4:4.2.98-0ubuntu2) karmic; urgency=low
+
+  * Rebuild with new pkg-kde-tools to build translation templates
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 29 Jul 2009 18:11:56 +0100
+
+kdeartwork (4:4.2.98-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Bump version of kdebase-workspace-dev build-dep to 4.2.98
+
+ -- Christian Mangold <neversfelde@ubuntu.com>  Wed, 22 Jul 2009 14:25:32 +0200
+
+kdeartwork (4:4.2.96-0ubuntu1) karmic; urgency=low
+
+  * New upstream release:
+    - debian/control: Bump build-depends versions
+    - Update debian/plasma-desktopthemes-artwork.install
+
+ -- Andreas Wenning <awen@awen.dk>  Fri, 10 Jul 2009 14:47:44 +0200
+
+kdeartwork (4:4.2.95-0ubuntu2) karmic; urgency=low
+
+  * kdewallpapers: bump conflicts and replaces to 4:4.2.95
+
+ -- Alessandro Ghersi <alessandro-ghersi@kubuntu.org>  Wed, 01 Jul 2009 14:32:43 +0200
+
+kdeartwork (4:4.2.95-0ubuntu1) karmic; urgency=low
+
+  * New upstream release
+  * Update various install files:
+    - plasma-desktopthemes-artwork.install
+  * debian/control:
+    - bump KDE versions
+    - drop build dep on quilt
+    - bump standards version to 3.8.1
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Thu, 25 Jun 2009 21:00:54 -0400
+
+kdeartwork (4:4.2.90-0ubuntu1) karmic; urgency=low
+
+  * New upstream release:
+    - bump KDE versions to 4.2.90 (KDE 4.3 beta 2)
+  * Update debian/plasma-desktopthemes-artwork.install
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Fri, 05 Jun 2009 14:39:52 -0400
+
+kdeartwork (4:4.2.85-0ubuntu1) karmic; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 15 May 2009 08:29:44 +0000
+
 kdeartwork (4:4.2.4-1) unstable; urgency=low
 
   * New upstream release.
@@ -455,6 +1370,26 @@ kdeartwork (4:4.2.4-1) unstable; urgency=low
   * Add package kdeartwork-dbg (Closes: #502437)
 
  -- Sune Vuorela <debian@pusling.com>  Sat, 30 May 2009 22:24:16 +0200
+
+kdeartwork (4:4.2.2-2ubuntu2) karmic; urgency=low
+
+  * Make kscreensaver-xsavers not depend on xscreensavers extra
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 12 May 2009 11:36:00 +0000
+
+kdeartwork (4:4.2.2-2ubuntu1) karmic; urgency=low
+
+  * Merge with Debian, remaining changes:
+    - Don't build-dep on xscreensaver-data-extra, xscreensaver-gl-extra (in universe)
+    - Add kscreensaver-xsavers-extra
+    - Make -webcollage depend on kscreensaver-xsavers-extra
+    - Make -webcollage use source .desktop file in kscreensaver-xsavers-webcollage.install
+    - kdeartwork-theme-icon shouldn't include crystalsvg in kdeartwork-theme-icon.install
+    - kdeartwork-theme-icon replaces kde-icons-nuvola
+    - Keep our -kde4 package conflicts/replaces
+    - separate out files between kscreensaver-xsavers and kscreensaver-xsavers-extra (universe)
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 11 May 2009 13:03:01 +0000
 
 kdeartwork (4:4.2.2-2) unstable; urgency=low
 
@@ -473,6 +1408,13 @@ kdeartwork (4:4.2.2-1) unstable; urgency=low
 
  -- Sune Vuorela <debian@pusling.com>  Thu, 02 Apr 2009 12:31:21 +0200
 
+kdeartwork (4:4.2.2-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+    - debian/control: Bump build-depends
+
+ -- Andreas Wenning <awen@awen.dk>  Sun, 29 Mar 2009 08:37:35 +0200
+
 kdeartwork (4:4.2.1-1) experimental; urgency=low
 
   * New upstream release.
@@ -486,6 +1428,28 @@ kdeartwork (4:4.2.1-1) experimental; urgency=low
   * Update XScreenSaver hooks in the kscreensaver package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2009 15:33:30 +0100
+
+kdeartwork (4:4.2.1-0ubuntu2) jaunty; urgency=low
+
+  [ Jonathan Thomas ]
+  * Remove universe screensavers from kscreensaver.desktop to prevent FTBFS
+
+  [ Scott Kitterman ]
+  * Change vcs* fields in debian/control from Debian to Kubuntu repositories
+  * Remove not existing celtic.desktop and juggler3d.desktop from
+    debian/kscreensaver.install
+
+ -- Scott Kitterman <scott@kitterman.com>  Mon, 09 Mar 2009 09:44:48 -0400
+
+kdeartwork (4:4.2.1-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release:
+    - Bump versions in debian/control
+    - Update kscreensaver.install for new screensavers
+  * Add conflicts/replaces of kdebase-workspace-wallpapers << 4:4.1.80 on
+    kdewallpapers (LP: #333489)
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 27 Feb 2009 12:04:19 -0500
 
 kdeartwork (4:4.2.0-1) experimental; urgency=low
 
@@ -524,6 +1488,74 @@ kdeartwork (4:4.2.0-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 26 Jan 2009 22:32:57 +0100
 
+kdeartwork (4:4.2.0-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+    - update plasma-desktopthemes-artwork.install
+    - bump versions in debian/control
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Sat, 24 Jan 2009 19:51:52 -0500
+
+kdeartwork (4:4.1.96-0ubuntu2) jaunty; urgency=low
+
+  * Change in debian/kscreensaver-xsaver.install file to correct FTBFS:
+    - Remove .destkop files which exist in kscreensaver-xsaver-extra.install
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Tue, 13 Jan 2009 08:52:06 -0500
+
+kdeartwork (4:4.1.96-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release
+  * Bumped build dep versions
+  * Removed kdeartwork-theme-window bianry (control/.install)
+  * Added plasma-desktopthemes-artwork binary (control/.intsall)
+    + debian/control Replaced: kdeplasma-addons-data (<< 4:4.1.87)
+  * Updated the following install files:
+    + kdeartwork.install
+    + kdeartwork-misc.install
+    + kdeartwork-theme-icon.install
+    + kscreensaver-xsavers.install
+
+ -- Steve Stalcup <vorian@ubuntu.com>  Thu, 08 Jan 2009 17:58:31 -0500
+
+kdeartwork (4:4.1.85-0ubuntu2) jaunty; urgency=low
+
+  [ Jonathan Thomas ]
+  * Do not install the crystal svg icon set. It was re-added mistakenly last upstream
+    release.
+  * Created debian/not-installed, put usr/share/icons/crystalsvg/ in it
+
+  [ Michael Casadevall ]
+  * debian/patches/kubuntu_01_qreal_portability_fixes.diff
+      - Cast qreal to doubles in templated functions to prevent ARM FTBFS
+
+ -- Scott Kitterman <scott@kitterman.com>  Tue, 30 Dec 2008 15:08:37 -0500
+
+kdeartwork (4:4.1.85-0ubuntu1) jaunty; urgency=low
+
+  [ Jonathan Thomas ]
+  * New upstream release:
+    - Bump buld-depends versions
+
+  [ Harald Sitter ]
+  * Change Vcs-Browser to Launchpad and replace Vcs-Svn with Vcs-Bzr
+  * Bump build-deps
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Wed, 17 Dec 2008 13:52:34 +0100
+
+kdeartwork (4:4.1.80-0ubuntu1) jaunty; urgency=low
+
+  * New upstream release:
+  [ Richard Birnie ]
+    - Bump build-depends versions
+    - Update kscreensaver.install
+
+  [ Jonathan Thomas ]
+    - Bump cmake build-dep version to 2.6.2
+    - Update kscreensaver.install and kdeartwork-theme-icon.install
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Mon, 24 Nov 2008 19:58:05 -0500
+
 kdeartwork (4:4.1.4-1) experimental; urgency=low
 
   * New upstream release
@@ -538,11 +1570,43 @@ kdeartwork (4:4.1.3-1) experimental; urgency=low
 
  -- Sune Vuorela <debian@pusling.com>  Sat, 01 Nov 2008 19:03:52 +0100
 
+kdeartwork (4:4.1.2-1ubuntu1) jaunty; urgency=low
+
+  * Merge with Debian, remaining changes:
+    - Don't build-dep on xscreensaver-data-extra, xscreensaver-gl-extra (in universe)
+    - Add kscreensaver-xsavers-extra
+    - Make -webcollage depend on kscreensaver-xsavers-extra
+    - Make -webcollage use source .desktop file
+    - Fix punctuation error in debian/copyright
+    - kdeartwork-theme-icon shouldn't include crystalsvg
+    - kdeartwork-theme-icon doesn't conflict kdelibs-data anymore
+    - kdeartwork-theme-icon replaces kde-icons-nuvola
+    - Use our custom kde4.mk
+    - Keep our -kde4 package conflicts/replaces
+    - Restored old changelog entries from pre-4.0
+  * Updated KUBUNTU-DEBIAN-DIFFERENCES
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Wed, 05 Nov 2008 15:45:02 -0500
+
 kdeartwork (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:04:20 +0200
+
+kdeartwork (4:4.1.2-0ubuntu2) intrepid; urgency=low
+
+  * kdeartwork-theme-icon shouldn't include crystalsvg (LP: #271319)
+  * kdeartwork-theme-icon doesn't conflict kdelibs-data anymore
+  * kdeartwork-theme-icon replaces kde-icons-nuvola (LP: #278637)
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Sun, 05 Oct 2008 18:09:08 +0200
+
+kdeartwork (4:4.1.2-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Thomas (The man) <echidnaman@kubuntu.org>  Thu, 25 Sep 2008 16:08:06 -0400
 
 kdeartwork (4:4.1.1-1) experimental; urgency=low
 
@@ -550,17 +1614,52 @@ kdeartwork (4:4.1.1-1) experimental; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 03 Sep 2008 11:09:46 +0200
 
+kdeartwork (4:4.1.1-0ubuntu2) intrepid; urgency=low
+
+  * Rebuild against kdelibs 4:4.1.1+really4.1.1
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Tue, 02 Sep 2008 03:25:28 +0200
+
+kdeartwork (4:4.1.1-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Thomas (The man) <echidnaman@gmail.com>  Thu, 28 Aug 2008 20:05:46 -0400
+
 kdeartwork (4:4.1.0-1) experimental; urgency=low
 
   * New upstream release.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 28 Jul 2008 11:47:42 +0200
 
+kdeartwork (4:4.1.0-0ubuntu2) intrepid; urgency=low
+
+  * switch to kde4.mk from cdbs
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 01 Aug 2008 15:29:36 +0000
+
+kdeartwork (4:4.1.0-0ubuntu1) intrepid; urgency=low
+
+  [ Jonathan Thomas (The man) ]
+  * New upstream release
+
+  [ Harald Sitter ]
+  * Bump KDE dependencies to 4.1.0
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Thu, 24 Jul 2008 14:04:05 +0200
+
 kdeartwork (4:4.0.98-1) experimental; urgency=low
 
   * New upstream release, Release Candidate 1.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 15 Jul 2008 00:11:24 +0200
+
+kdeartwork (4:4.0.98-0ubuntu1) intrepid; urgency=low
+
+  * New upstream release candidate
+  * Bump Standards-Version to 3.8.0
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Sat, 12 Jul 2008 13:49:27 +0200
 
 kdeartwork (4:4.0.84-1) experimental; urgency=low
 
@@ -569,11 +1668,36 @@ kdeartwork (4:4.0.84-1) experimental; urgency=low
 
  -- Sune Vuorela <debian@pusling.com>  Sun, 29 Jun 2008 18:16:46 +0200
 
+kdeartwork (4:4.0.83-0ubuntu1) intrepid; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 19 Jun 2008 11:45:14 +0000
+
 kdeartwork (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream snapshot.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 15 Jun 2008 17:54:21 +0200
+
+kdeartwork (4:4.0.80-1ubuntu3) intrepid; urgency=low
+
+  * Add build-depends on libqt4-opengl-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 10 Jun 2008 14:35:58 +0100
+
+kdeartwork (4:4.0.80-1ubuntu2) intrepid; urgency=low
+
+  * Fix webcollage.desktop install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 10 Jun 2008 12:35:21 +0100
+
+kdeartwork (4:4.0.80-1ubuntu1) intrepid; urgency=low
+
+  * Merge with Debian
+  * Add conflicts on -kde4 packages
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 28 May 2008 10:11:40 +0100
 
 kdeartwork (4:4.0.80-1) experimental; urgency=low
 
@@ -586,6 +1710,18 @@ kdeartwork (4:4.0.74-1) experimental; urgency=low
   * New upstream snapshot.
 
  -- Fathi Boudra <fabo@debian.org>  Sun, 18 May 2008 01:02:21 +0200
+
+kdeartwork (4:4.0.73-1) raring; urgency=low
+
+  * New upstream snapshot.
+
+ -- Fathi Boudra <fabo@debian.org>  Sat, 10 May 2008 14:38:18 +0200
+
+kdeartwork (4:4.0.73-0ubuntu1) intrepid; urgency=low
+
+  * New upstream development release, merge with Debian
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 12 May 2008 13:17:36 +0100
 
 kdeartwork (4:4.0.72-1) experimental; urgency=low
 
@@ -707,3 +1843,691 @@ kdeartwork (4:3.98.0~svn753247-1) experimental; urgency=low
   * Update b-d on >= 3.98.0~.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 30 Dec 2007 03:24:59 +0100
+
+kdeartwork (4:3.96.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update b-d on >= 3.96.0.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 15 Nov 2007 21:10:10 +0100
+
+kdeartwork (4:3.94.0-1) experimental; urgency=low
+
+  * New upstream release.
+  * Split kdeartwork into seperate packages.
+  * Build depend on xscreensaver-gl.
+  * Build depend on kdebase-workspace-dev instead of kdelibs5-dev.
+
+ -- Armin Berres <trigger+debian@space-based.de>  Sun, 21 Oct 2007 22:31:25 +0200
+
+kdeartwork (4:3.90.1-1) experimental; urgency=low
+
+  * Initial release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 22 May 2007 22:07:32 +0200
+
+kdeartwork (4:3.5.9-0ubuntu1) hardy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 14 Feb 2008 12:27:06 +0000
+
+kdeartwork (4:3.5.8-1ubuntu4) hardy; urgency=low
+
+  * Fix kscreensaver-xsavers-webcollage.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Dec 2007 16:06:47 +0000
+
+kdeartwork (4:3.5.8-1ubuntu3) hardy; urgency=low
+
+  * Edit kscreensaver-xsaver-webcollage.install to use the file
+    from sources, since it does not get installed during build.
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Nov 2007 23:36:57 +0000
+
+kdeartwork (4:3.5.8-1ubuntu2) hardy; urgency=low
+
+  * Run buildprep before upload
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Nov 2007 10:51:47 +0000
+
+kdeartwork (4:3.5.8-1ubuntu1) hardy; urgency=low
+
+  * Merge with Debian, remaining change:
+   - Add package kscreensaver-xsavers-extra
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Nov 2007 17:25:44 +0000
+
+kdeartwork (4:3.5.8-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Redo buildprep.
+  * Bump build-dependencies and stuff to 3.5.8.
+
+  +++ Changes by Sune Vuorela:
+
+  * Only make kdeartwork recommend kscreensaver-xsavers, not depend. It pulls
+    all sorts of weird gtk-stuff in.
+  * Fix spelling error in control file.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Oct 2007 00:25:56 +0200
+
+kdeartwork (4:3.5.8-0ubuntu1) gutsy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Oct 2007 11:41:25 +0100
+
+kdeartwork (4:3.5.7-2) unstable; urgency=low
+
+  +++ Changes by Sune Vuorela:
+
+  * Webcollage needs a wordlist to work. Add proper depends.
+  * Webcollage needs ppmmake from netpbm to function. Add proper depends.
+  * Implement use of uploaders.mk and update control file.
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove the hook to the xteevee screensaver since it has been removed
+    from xscreensaver. (Closes: #436364)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Aug 2007 19:00:51 +0200
+
+kdeartwork (4:3.5.7-1ubuntu3) gutsy; urgency=low
+
+  * Added kubuntu_01_dont_use_xscreensaver_by_default.diff which is the
+    last upload, in patch form, as opposed to directly patching the
+    source. Clearly my brain isnt so good tonight.
+
+ -- Sarah Hobbs <hobbsee@ubuntu.com>  Mon, 02 Jul 2007 19:14:40 +1000
+
+kdeartwork (4:3.5.7-1ubuntu2) gutsy; urgency=low
+
+   * Removed TryExec=xscreensaver from all the
+     kscreensaver/kxsconfig/ScreenSavers/*.desktop files, so that they can be
+     controlled in the KDE screensavers control panel.  Closes LP: #49228
+
+ -- Sarah Hobbs <hobbsee@ubuntu.com>  Mon, 02 Jul 2007 17:13:01 +1000
+
+kdeartwork (4:3.5.7-1ubuntu1) gutsy; urgency=low
+
+  * Merge with Debian for new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 May 2007 16:01:05 +0100
+
+kdeartwork (4:3.5.7-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 15 May 2007 22:30:44 +0100
+
+kdeartwork (4:3.5.6-4ubuntu1) gutsy; urgency=low
+
+  * Merge with Debian
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Apr 2007 20:32:55 +0100
+
+kdeartwork (4:3.5.6-4) unstable; urgency=low
+
+  * Really upload to unstable after Etch release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 20 Apr 2007 13:57:49 +0100
+
+kdeartwork (4:3.5.6-3) experimental; urgency=low
+
+  * Upload to unstable after Etch release.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 20 Apr 2007 12:48:34 +0100
+
+kdeartwork (4:3.5.6-2) experimental; urgency=low
+
+  +++ Changes by Sune Vuorela:
+
+  * Ship the webcollage screensaver in a separate package. (Closes: #384100)
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Add kscreensaver-xsavers-webcollage.README.Debian.
+  * Remade screensaver-xsavers-webcollage description in debian/control.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 31 Jan 2007 06:01:40 +0100
+
+kdeartwork (4:3.5.6-1) experimental; urgency=low
+
+  * New upstream release.
+  * Make kdeartwork-dbg depend on kdelibs-dbg to get useful backtraces when
+    debugging.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Jan 2007 19:21:21 +0100
+
+kdeartwork (4:3.5.6-0ubuntu1) feisty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 17 Jan 2007 11:22:30 +0000
+
+kdeartwork (4:3.5.5-1ubuntu1) feisty; urgency=low
+
+  * Merge with Debian
+  * Compile with --enable-gcc-hidden-visibility
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 16 Nov 2006 20:30:07 +0000
+
+kdeartwork (4:3.5.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed,  4 Oct 2006 20:38:54 -0400
+
+kdeartwork (4:3.5.5-0ubuntu1) edgy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue,  3 Oct 2006 10:56:05 +0000
+
+kdeartwork (4:3.5.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+  * KDE_3_5_BRANCH update (up to r567759).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 29 Jul 2006 21:11:16 -0400
+
+kdeartwork (4:3.5.4-0ubuntu2) edgy; urgency=low
+
+  * Rebuild with latest cdbs to add gettext domain to .desktop files for
+    langpacks-desktopfiles-kde, no source changes
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue,  5 Sep 2006 22:53:12 +0000
+
+kdeartwork (4:3.5.4-0ubuntu1) edgy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 25 Jul 2006 10:12:18 +0000
+
+kdeartwork (4:3.5.3-1ubuntu2) edgy; urgency=low
+
+  * Removed kpartsaver.desktop from debian/kscreensavers-xsaver.install.
+    Closes bug #53065
+
+ -- Sarah Hobbs <hobbsee@ubuntu.com>  Fri, 21 Jul 2006 23:10:26 +1000
+
+kdeartwork (4:3.5.3-1ubuntu1) edgy; urgency=low
+
+  * Sync with Debian
+  * Create kscreensaver-xsavers-extra with the universe xscreensavers
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue,  4 Jul 2006 12:39:40 +0000
+
+kdeartwork (4:3.5.3-1) unstable; urgency=low
+
+  * New upstream release.
+
+  * KDE_3_5_BRANCH update (up to r548163).
+
+  +++ Changes by Christopher Martin:
+
+  * Update the mesa build-deps for the new X.Org 7.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun,  4 Jun 2006 18:27:48 -0400
+
+kdeartwork (4:3.5.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+  * KDE_3_5_BRANCH update (up to r524054).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 29 Mar 2006 20:29:56 -0500
+
+kdeartwork (4:3.5.2-0ubuntu4) dapper; urgency=low
+
+  * Edit debian/cdbs/kde.mk to mark .po files as UTF-8
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Apr 2006 19:14:28 +0100
+
+kdeartwork (4:3.5.2-0ubuntu3) dapper; urgency=low
+
+  * Reverse previous change and list screensavers explicity, can't use
+    wildcard as some .desktop files should go into kscreensavers
+    and not kscreensavers-xsaver
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 30 Mar 2006 16:54:24 +0100
+
+kdeartwork (4:3.5.2-0ubuntu2) dapper; urgency=low
+
+  * The upstream makefile cleverly detects the presense of screensavers
+    in /usr/lib/xscreensaver/ and only installs .desktop files for those
+    it found.  Trust that, and use a wildcard in dh_install, so we don't
+    fail to build every time xscreensaver changes what hacks it ships.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Wed, 29 Mar 2006 16:37:23 +1100
+
+kdeartwork (4:3.5.2-0ubuntu1) dapper; urgency=low
+
+  * New upstream release
+  * Add kubuntu_01_xscreensaver_detect.diff, flame is no longer in the
+    default xscreensaver package
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 20 Mar 2006 12:06:30 +0000
+
+kdeartwork (4:3.5.1-2) unstable; urgency=low
+
+  +++ Changes by Christopher Martin:
+
+  * Add a missing kdeartwork-theme-icon Replaces for old versions of
+    kdelibs-data. (Closes: #350868)
+
+  * Upload to unstable.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed,  1 Feb 2006 11:05:29 -0500
+
+kdeartwork (4:3.5.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Christopher Martin:
+
+  * Upload to unstable.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 29 Jan 2006 10:45:34 -0500
+
+kdeartwork (4:3.5.1-0ubuntu1) dapper; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 23 Jan 2006 14:26:06 +0000
+
+kdeartwork (4:3.5.0.dfsg.1-2) unstable; urgency=low
+
+  +++ Changes by Christopher Martin:
+
+  * Upload to unstable.
+
+  * KDE_3_5_BRANCH update (up to r495379).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat,  7 Jan 2006 17:24:48 -0500
+
+kdeartwork (4:3.5.0.dfsg.1-1) experimental; urgency=low
+
+  * Upload to experimental.
+
+  * KDE_3_5_BRANCH update (up to r489324).
+
+  +++ Changes by Christopher Martin:
+
+  * kdeartwork shipped with the YazooSmileys emoticons, which were not under a
+    Free license. This revision of the orig.tar.gz removes the problem files.
+    Upstream has followed suit, and so KDE 3.5.1 will not need special
+    handling. (Closes: #342163)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2005 18:44:19 -0500
+
+kdeartwork (4:3.5.0-1) alioth; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Christopher Martin:
+
+  * Bump DH_COMPAT to 5. No changes.
+
+  * Add kdeartwork-dbg, to help track down problems.
+
+  +++ Changes by Josh Metzler:
+
+  * Remove obsolete conflicts/replaces relationships against packages/versions
+    not in Sarge.
+
+  * Add kdewallpapers replaces against kdebase-data due to fulmine.jpg.desktop
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 30 Nov 2005 13:09:32 -0500
+
+kdeartwork (4:3.5.0-0ubuntu2) dapper; urgency=low
+
+  * Do not install ant.desktop, xscreensaver no longer
+    includes it
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed,  7 Dec 2005 18:46:44 +0000
+
+kdeartwork (4:3.5.0-0ubuntu1) dapper; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue,  6 Dec 2005 12:27:12 +0000
+
+kdeartwork (4:3.5-rc2-0ubuntu1) dapper; urgency=low
+
+  * New upstream pre-release
+  * Generate .pot files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 21 Nov 2005 22:06:39 +0000
+
+kdeartwork (4:3.5-rc1-0ubuntu1) dapper; urgency=low
+
+  * New upstream pre-release
+  * Sync with Debian
+  * Remove 02_dfsg_images_ignore.diff, merged upstream
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 13 Nov 2005 20:02:30 +0000
+
+kdeartwork (4:3.4.3-2) unstable; urgency=low
+
+  * Upload to unstable, rebuilding against kdelibs4c2a.
+
+  * KDE_3_4_BRANCH update (up to r484707).
+
+  +++ Changes by Christopher Martin:
+
+  * Remove ant.desktop from kscreensaver-xsavers, as the xscreensaver package
+    has itself dropped this 'saver. (Closes: #338011)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu,  1 Dec 2005 15:58:30 +0100
+
+kdeartwork (4:3.4.3-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Oct 2005 13:56:19 -0400
+
+kdeartwork (4:3.4.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+  * Rebuild (Closes: #317202)
+
+  +++ Changes by Christopher Martin:
+
+  * Replace the build-dep on xlibmesa-glu-dev with libglu1-xorg-dev for the
+    X.Org transition.
+
+  * Remove the dummy transitional package kdeartwork-theme-desktop, as Sarge
+    was released and Woody --> Sarge upgrades are no longer a concern.
+    (Closes: #322008)
+
+  * Don't install webcollage.desktop. This effectively disables that
+    screensaver, removing it from the random screensaver's pool, preventing
+    the inadvertent display of completely random pictures from the Internet.
+    (Closes: #311683, #316900)
+
+  * The necessary files for the pinion screensaver are now installed.
+    (Closes: #310866)
+
+  +++ Changes by Luk Claes:
+
+  * Added me to uploaders
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu,  1 Sep 2005 18:52:58 +0200
+
+kdeartwork (4:3.4.1-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 May 2005 15:43:52 -0400
+
+kdeartwork (4:3.4.0-0pre2) alioth; urgency=low
+
+  * New upstream release.
+
+  +++ Changes by Christopher Martin:
+
+  * Converted packaging to CDBS.
+  * Added a new package, kdeartwork-emoticons (containing the former
+    Kopete emoticons, now usable by everyone).
+  * Forward port a patch from KDE 3.3 that fixes the building of the
+    KFireSaver screensaver.
+  * Lower kscreensaver-xsavers's dependency on xscreensaver-gl to a Recommends.
+    (Closes: #278263)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 25 Mar 2005 08:48:21 -0500
+
+kdeartwork (4:3.3.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Ben Burton <bab@debian.org>  Sat, 22 Jan 2005 06:53:59 +1100
+
+kdeartwork (4:3.3.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release.
+  * Added kdeclassic/locolor icon license to debian/copyright, which has been
+    clarified upstream.
+  * Build-conflicts with autoconf2.13, which does not play well with
+    Makefile.common.
+  * Force a rerun of admin/Makefile.common when building (not just after a
+    clean), since the debian patches affect Makefile.ams.
+  * Fixed typo in kaleidescope configuration command (closes: #277119).
+  * Distinguished KSlideshow and GL Slideshow translations in German
+    (closes: #267974).
+
+ -- Ben Burton <bab@debian.org>  Sun, 31 Oct 2004 15:17:56 +1100
+
+kdeartwork (4:3.3.0-1) unstable; urgency=low
+
+  * New upstream release (closes: #267571).
+  * The previous versioned libqt3-mt-dev build-depends is no longer
+    necessary, since kdelibs4-dev already forces Qt 3.3.
+  * Split xscreensaver hooks into a separate package kscreensaver-xsavers,
+    along with kxsconfig and kxsrun (closes: #208769, #244538).  Two years
+    of confusion is enough.
+  * Build-depends on both xscreensaver and xscreensaver-gl, which are
+    required for the corresponding .desktop files to be installed.
+  * Removed depths_xxx.jpg from the kworldclock themes since the license is
+    too restrictive (all rights reserved).
+  * Removed Virtual Machine screensaver since GPL cannot be mixed with BSD
+    with advertising clause.
+
+ -- Ben Burton <bab@debian.org>  Thu, 14 Oct 2004 08:30:34 +1000
+
+kdeartwork (4:3.2.3-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * Rebuilt against STL-enabled Qt and corresponding kdelibs (closes: #254021).
+  * Patched the autoconf tests for kxsconfig so that xscreensaver
+    configuration works again (closes: #238180, #243150).
+  * Suggests (kwin | x-window-manager) for kdewallpapers instead of just
+    x-window-manager.
+  * Removed recommends: kwin from kdeartwork-theme-window since this is
+    already coming in as a depends from the kwin shlibs file.
+
+ -- Ben Burton <bab@debian.org>  Tue, 15 Jun 2004 08:38:18 +1000
+
+kdeartwork (4:3.2.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * Don't use Conflicts/Replaces where we should just use Replaces.
+
+ -- Ben Burton <bab@debian.org>  Mon, 26 Apr 2004 09:25:01 +1000
+
+kdeartwork (4:3.2.1-1) unstable; urgency=low
+
+  * First KDE 3.2 upload to sid.
+
+ -- Ben Burton <bab@debian.org>  Sun,  7 Mar 2004 17:42:59 +1100
+
+kdeartwork (4:3.2.0.1-1) experimental; urgency=low
+
+  * First KDE 3.2 upload to experimental.
+  * Sync from KDE_3_2_BRANCH for recent bugfixes (this requires an upstream
+    version change since some binary files have been updated).
+  * Using versioned dependencies for the kdeartwork metapackage.
+
+ -- Ben Burton <bab@debian.org>  Mon, 23 Feb 2004 08:14:22 +1100
+
+kdeartwork (4:3.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Many thanks to Ralf Nolden for all his help with packaging KDE 3.2.
+
+ -- Ben Burton <bab@debian.org>  Sat, 31 Jan 2004 12:08:48 +1100
+
+kdeartwork (4:3.1.5-2) unstable; urgency=low
+
+  * Made kscreensaver depend on kdebase-bin (closes: #203185).
+
+ -- Ben Burton <bab@debian.org>  Mon, 19 Jan 2004 11:08:45 +1100
+
+kdeartwork (4:3.1.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Burton <bab@debian.org>  Sun, 18 Jan 2004 12:55:12 +1100
+
+kdeartwork (4:3.1.4-2) unstable; urgency=low
+
+  * Fixed paths to xscreensaver XML files in kxsconfig (closes: #221974).
+
+ -- Ben Burton <bab@debian.org>  Sat, 13 Dec 2003 09:34:11 +1100
+
+kdeartwork (4:3.1.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bumped standards-version to 3.6.1.
+
+ -- Ben Burton <bab@debian.org>  Sun, 12 Oct 2003 19:52:13 +1000
+
+kdeartwork (4:3.1.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added dummy kdeartwork-theme-desktop upgrade package.
+  * Bumped standards-version to 3.6.0.
+
+ -- Ben Burton <bab@debian.org>  Wed, 13 Aug 2003 11:02:26 +1000
+
+kdeartwork (4:3.1.2-2) unstable; urgency=low
+
+  * Split kdeartwork-theme-desktop into kdeartwork-theme-icon and
+    kdewallpapers (closes: #189804)
+  * Bumped standards-version to 3.5.10.0.
+
+ -- Ben Burton <bab@debian.org>  Mon,  9 Jun 2003 13:13:35 +1000
+
+kdeartwork (4:3.1.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Man page overhaul.
+
+ -- Ben Burton <bab@debian.org>  Sun,  1 Jun 2003 14:15:47 +1000
+
+kdeartwork (4:3.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Package kscreensaver recommends xscreensaver-gl.
+  * Removed alpha compile flags.
+
+ -- Ben Burton <bab@debian.org>  Sun, 23 Mar 2003 15:23:23 +1100
+
+kdeartwork (4:3.1.0-3) unstable; urgency=low
+
+  * Made kdeartwork-theme-desktop conflict with kdewallpapers
+    (closes: #180209).
+
+ -- Ben Burton <bab@debian.org>  Tue, 11 Feb 2003 14:45:59 +1100
+
+kdeartwork (4:3.1.0-2) unstable; urgency=low
+
+  * First KDE3 upload to debian!
+  * Build-depends on xlibmesa-gl-dev and xlibmesa-glu-dev.
+
+ -- Ben Burton <bab@debian.org>  Mon,  3 Feb 2003 08:53:03 +1100
+
+kdeartwork (4:3.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Renamed kdeartwork-screensaver to kscreensaver.
+  * Shifted epoch to 4: since kdebase used to provide kscreensaver 4:3.0.x.
+
+ -- Ben Burton <bab@debian.org>  Sat,  4 Jan 2003 20:06:44 +1100
+
+kdeartwork (3.0.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * Built with g++-3.2.
+  * Build-depends on automake1.7.
+
+ -- Ben Burton <benb@acm.org>  Tue, 22 Oct 2002 11:57:39 +1000
+
+kdeartwork (3.0.8-1) unstable; urgency=low
+
+  * New upstream release.
+  * Moved to Chris Cheney's style of debian/rules.
+  * Build-depends on automake1.6.
+
+ -- Ben Burton <benb@acm.org>  Sun, 22 Sep 2002 17:57:55 +1000
+
+kdeartwork (3.0.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Build-depends on automake1.5.
+
+ -- Ben Burton <benb@acm.org>  Thu, 15 Aug 2002 13:22:22 +1000
+
+kdeartwork (3.0.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Burton <benb@acm.org>  Thu,  4 Jul 2002 19:36:49 +1000
+
+kdeartwork (3.0.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Burton <benb@acm.org>  Mon, 13 May 2002 15:29:23 +1000
+
+kdeartwork (2.2.2-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Burton <benb@acm.org>  Wed,  7 Nov 2001 10:49:53 -0600
+
+kdeartwork (2.2.1-5) unstable; urgency=low
+
+  * Uses automake again to solve new alpha problems.
+
+ -- Ben Burton <benb@acm.org>  Tue,  6 Nov 2001 23:51:27 -0600
+
+kdeartwork (2.2.1-4) unstable; urgency=low
+
+  * Cleaned up automake-related material.
+
+ -- Ben Burton <benb@acm.org>  Sun, 28 Oct 2001 13:48:04 -0600
+
+kdeartwork (2.2.1-3) unstable; urgency=low
+
+  * Builds with automake 1.5.
+
+ -- Ben Burton <benb@acm.org>  Thu, 11 Oct 2001 15:31:32 -0500
+
+kdeartwork (2.2.1-2) unstable; urgency=low
+
+  * Updated parameters for alpha build (closes: Bug#113125).
+
+ -- Ben Burton <benb@acm.org>  Sat, 22 Sep 2001 12:00:37 -0500
+
+kdeartwork (2.2.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Ben Burton <benb@acm.org>  Fri, 31 Aug 2001 21:08:56 -0500
+
+kdeartwork (2.2.0-final-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bumped standards-version to 3.5.6.
+
+ -- Ben Burton <benb@acm.org>  Sun, 29 Jul 2001 17:48:59 +1000
+
+kdeartwork (2.2-beta1-2) unstable; urgency=low
+
+  * Builds on alpha.
+
+ -- Ben Burton <benb@acm.org>  Sun, 29 Jul 2001 00:20:23 +1000
+
+kdeartwork (2.2-beta1-1) unstable; urgency=low
+
+  * Initial Release (closes: Bug#101244).
+
+ -- Ben Burton <benb@acm.org>  Sat, 26 May 2001 21:31:05 -0500
+

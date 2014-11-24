@@ -1,6 +1,13 @@
 #!/usr/bin/make -f
 
+ifneq (,$(filter $(DEB_HOST_ARCH),armel armhf))
+       conf_flags += -DWITH_OpenGL=OFF
+endif
+
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_strip:
 	$(overridden_command) --dbg-package=kdeartwork-dbg
+
+override_dh_auto_configure:
+	$(overridden_command) -- $(conf_flags)
