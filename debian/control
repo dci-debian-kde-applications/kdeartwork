@@ -1,7 +1,7 @@
 Source: kdeartwork
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -30,8 +30,8 @@ Build-Depends: cmake,
                xscreensaver-screensaver-webcollage
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdeartwork.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdeartwork.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kdeartwork.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdeartwork.git
 
 Package: kdeartwork
 Architecture: all
