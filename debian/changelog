@@ -21,6 +21,7 @@ kdeartwork (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
     - drop the obsolete opengl handling from rules
     - remove obsolete colorschemes from kdeartwork.install
     - drop now obsolete build-depends on xscreensaver*, libqt4-opengl-dev
+    - add obsolete files to not-installed
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 24 Nov 2014 23:09:05 +0100
 
