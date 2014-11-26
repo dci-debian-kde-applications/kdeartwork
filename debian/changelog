@@ -9,10 +9,18 @@ kdeartwork (4:14.11.95-0ubuntu1) UNRELEASED; urgency=medium
   * Fix watch urls for new release location
   * Update Vcs urls for the new repository location
   * Update the maintainer
-  * Don't build-depend on kde-workspace-dev anymore as it was removed from the
-    archive
-  * Add kubuntu_disable_kwin-styles.diff so kde-workspace is not required
-    anymore
+  * Uncouple from kde-workspace:
+    - don't build-depend on kde-workspace-dev anymore as it was removed from
+      the archive
+    - add kubuntu_disable_kwin-styles.diff so kde-workspace is not required
+      anymore
+    - remove kscreensaver*, kdeartwork-theme-window,
+      plasma-desktopthemes-artwork and kdeartwork-style as they require
+      kde-workspace
+    - drop the now empty kdeartwork-dbg package
+    - drop the obsolete opengl handling from rules
+    - remove obsolete colorschemes from kdeartwork.install
+    - drop now obsolete build-depends on xscreensaver*, libqt4-opengl-dev
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 24 Nov 2014 23:09:05 +0100
 

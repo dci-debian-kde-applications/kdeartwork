@@ -14,19 +14,11 @@ Build-Depends: cmake,
                kde-sc-dev-latest (>= 4:4.12),
                libeigen3-dev,
                libkexiv2-dev,
-               libqt4-opengl-dev [!armel !armhf],
                libstreamanalyzer-dev (>= 0.6.3),
                libx11-xcb-dev,
                libxt-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12),
-               xscreensaver,
-               xscreensaver-data,
-               xscreensaver-data-extra,
-               xscreensaver-gl,
-               xscreensaver-gl-extra,
-               xscreensaver-screensaver-bsod,
-               xscreensaver-screensaver-webcollage
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kdeartwork.git
@@ -35,12 +27,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdeartwork.git
 Package: kdeartwork
 Architecture: all
 Depends: kdeartwork-emoticons (>= ${source:Version}),
-         kdeartwork-style (>= ${source:Version}),
          kdeartwork-theme-icon (>= ${source:Version}) | kdelibs5-data,
-         kdeartwork-theme-window (>= ${source:Version}),
          kdeartwork-wallpapers (>= ${source:Version}),
-         kscreensaver (>= ${source:Version}),
-         plasma-desktopthemes-artwork (>= ${source:Version}),
          ${misc:Depends}
 Replaces: kdeartwork-misc
 Breaks: kdeartwork-misc
@@ -128,101 +116,3 @@ Description: monochromatic icons theme
  A monochromatic icons theme, designed for accessibility.
  .
  This package is part of the KDE accessibility module.
-
-Package: kdeartwork-theme-window
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: kde-window-manager (<< 4:4.5.80)
-Breaks: kde-window-manager (<< 4:4.5.80)
-Description: window decoration for the K Window Manager (KWin)
- This package contains additional window decorations for the K Window Manager.
- .
- This package is part of the KDE artwork module.
-
-Package: kdeartwork-style
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: widget styles for applications using Qt or KDE Development Platform
- Currently it provides the following theme:
-  * phase
- .
- This package is part of the KDE artwork module.
-
-Package: kscreensaver
-Architecture: any
-Depends: kde-workspace-bin, ${misc:Depends}, ${shlibs:Depends}
-Recommends: kde-window-manager
-Suggests: kscreensaver-xsavers (= ${binary:Version})
-Breaks: kscreensaver-xsavers (<< ${binary:Version})
-Description: additional screensavers for KScreenSaver
- This package contains screensavers for KScreenSaver.
- .
- The package kscreensaver-xsavers lets KScreenSaver also use the
- XScreenSaver collection of screensavers.
- .
- This package is part of the KDE artwork module.
-
-Package: kscreensaver-xsavers
-Architecture: any
-Depends: kde-workspace-bin,
-         xscreensaver,
-         xscreensaver-data,
-         xscreensaver-data-extra,
-         xscreensaver-screensaver-bsod,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: kde-window-manager,
-            kscreensaver (= ${binary:Version}),
-            xscreensaver-gl,
-            xscreensaver-gl-extra
-Suggests: kscreensaver-xsavers-webcollage (= ${source:Version})
-Description: XScreenSaver support for KScreenSaver
- This package allows KScreenSaver to use the XScreenSaver collection of
- screensavers.
- .
- This package is part of the KDE artwork module.
-
-Package: kscreensaver-xsavers-webcollage
-Architecture: all
-Depends: kscreensaver-xsavers (>= ${source:Version}),
-         miscfiles,
-         netpbm,
-         xscreensaver-screensaver-webcollage,
-         ${misc:Depends}
-Description: webcollage screensaver support for KScreenSaver
- This package allows KScreenSaver to use the WebCollage screensaver, which
- downloads random pictures from the Internet to create a collage.
- .
- IMPORTANT NOTICE: the Internet contains all kinds of pictures, some of which
- might be found inappropriate or offensive.
- It is recommended that this screensaver not be used a public environment,
- workplace, or where it may be seen by children.
- .
- Please read /usr/share/doc/kscreensaver-xsavers-webcollage/README.Debian
- after installing this package.
- .
- This package is part of the KDE artwork module.
-
-Package: plasma-desktopthemes-artwork
-Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: desktop themes for KDE Plasma Workspaces
- This package includes several desktop themes to change Plasma's look and
- feel.
- .
- This package is part of the KDE artwork module.
-
-Package: kdeartwork-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: ${misc:Depends}
-Suggests: kdeartwork (= ${source:Version})
-Replaces: kdebase-workspace-dbg (<< 4:4.6.0)
-Breaks: kdebase-workspace-dbg (<< 4:4.6.0)
-Description: debugging symbols for kdeartwork
- This package contains the debugging files associated with kdeartwork.
- They will automatically be used by gdb for debugging kdeartwork-related
- issues.
- .
- This package is part of the KDE artwork module.
