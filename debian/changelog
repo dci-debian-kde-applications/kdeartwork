@@ -1,9 +1,9 @@
-kdeartwork (4:14.12.2-1~) UNRELEASED; urgency=medium
+kdeartwork (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 13:27:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 16:08:09 +0100
 
 kdeartwork (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
