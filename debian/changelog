@@ -1,3 +1,9 @@
+kdeartwork (4:14.12.2-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (14.12.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 13:27:23 +0100
+
 kdeartwork (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -47,15 +53,15 @@ kdeartwork (4:4.14.2-1) unstable; urgency=medium
 
 kdeartwork (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
-  * New upstream release 
+  * New upstream release
   * Fix space and spelling in copyright shortname.
-  * Adjust package description to make lintian happy. 
+  * Adjust package description to make lintian happy.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 14:52:35 -0700
 
 kdeartwork (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
-  * New upstream release. 
+  * New upstream release.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 22 Sep 2014 16:39:17 +0200
 
@@ -75,7 +81,7 @@ kdeartwork (4:4.14.0-0ubuntu1) utopic; urgency=medium
 kdeartwork (4:4.13.97-0ubuntu2) utopic; urgency=medium
 
   * kdeartwork-wallpapers breaks/replaces kdewallpapers << 4:4.13.90 for the
-    SRU updates 
+    SRU updates
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 12 Aug 2014 22:32:03 +0200
 
@@ -105,7 +111,7 @@ kdeartwork (4:4.13.3-1) unstable; urgency=medium
 
 kdeartwork (4:4.13.2-0ubuntu2) utopic; urgency=medium
 
-  * No-change rebuild against new libkdecorations ABI 
+  * No-change rebuild against new libkdecorations ABI
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 22 Jun 2014 20:17:27 +0200
 
@@ -296,7 +302,7 @@ kdeartwork (4:4.10.80-0ubuntu2) saucy; urgency=low
 kdeartwork (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   [ Philip Muškovac ]
-  * New upstream beta release 
+  * New upstream beta release
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -392,7 +398,7 @@ kdeartwork (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
 
   * New upstream bugfix release
   * Move kde-icons-nuvola transitional package to oldlibs/extra to make
-    lintian happy 
+    lintian happy
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 15:29:37 +0000
 
@@ -585,7 +591,7 @@ kdeartwork (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kdeartwork (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 03 Mar 2012 19:24:03 +0100
 
@@ -734,14 +740,14 @@ kdeartwork (4:4.7.1-0ubuntu1) oneiric; urgency=low
 
 kdeartwork (4:4.7.0-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release 
+  * New upstream release
   * Bump breaks/replaces on kmouth to catch 4.6.5 packages
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sat, 23 Jul 2011 04:19:37 +0200
 
 kdeartwork (4:4.6.90-0ubuntu1) oneiric; urgency=low
 
-  * New upstream release candidate 
+  * New upstream release candidate
     - bump kde-sc-dev-latest depends.
     - Add kde-icons-mono package (moved from kdeaccessibility)
     - Add new destkop themes to plasma-desktopthemes-artwork.install
@@ -827,7 +833,7 @@ kdeartwork (4:4.6.1-0ubuntu2) natty; urgency=low
 
 kdeartwork (4:4.6.1-0ubuntu1) natty; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Mon, 28 Feb 2011 17:05:07 +0100
 
@@ -2560,4 +2566,3 @@ kdeartwork (2.2-beta1-1) unstable; urgency=low
   * Initial Release (closes: Bug#101244).
 
  -- Ben Burton <benb@acm.org>  Sat, 26 May 2001 21:31:05 -0500
-
