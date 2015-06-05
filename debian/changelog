@@ -1,4 +1,4 @@
-kdeartwork (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
+kdeartwork (4:15.04.2-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -7,7 +7,10 @@ kdeartwork (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
   * wrap-and-sort 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 21:42:04 -0700
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 06 Jun 2015 01:10:16 +0200
 
 kdeartwork (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
