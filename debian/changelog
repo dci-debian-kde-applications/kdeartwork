@@ -1,9 +1,9 @@
-kdeartwork (4:15.04.3-1~) UNRELEASED; urgency=medium
+kdeartwork (4:15.04.3-1) unstable; urgency=medium
 
   * New upstream release (15.04.2).
   * New upstream release (15.04.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:49:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jul 2015 10:52:49 +0200
 
 kdeartwork (4:14.12.2-1) experimental; urgency=medium
 
