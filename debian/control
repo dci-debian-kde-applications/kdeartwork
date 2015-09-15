@@ -17,7 +17,7 @@ Build-Depends: cmake,
                libx11-xcb-dev,
                libxt-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.12),
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kdeartwork.git
@@ -55,7 +55,7 @@ Package: kdewallpapers
 Section: oldlibs
 Architecture: all
 Priority: extra
-Depends: ${misc:Depends}, kdeartwork-wallpapers (>= ${source:Version})
+Depends: kdeartwork-wallpapers (>= ${source:Version}), ${misc:Depends}
 Description: transitional package for kdeartwork-wallpapers
  This is a transitional package for upgrading to kdeartwork-wallpapers.
  .
@@ -64,9 +64,13 @@ Description: transitional package for kdeartwork-wallpapers
 Package: kdeartwork-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: kde-window-manager | x-window-manager, kde-wallpapers
-Replaces: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.13.90)
-Breaks: kde-wallpapers (<< 4:4.10), kdebase-workspace-data (<< 4:4.7.0), kdewallpapers (<< 4:4.13.90)
+Suggests: kde-wallpapers, kde-window-manager | x-window-manager
+Replaces: kde-wallpapers (<< 4:4.10),
+          kdebase-workspace-data (<< 4:4.7.0),
+          kdewallpapers (<< 4:4.13.90)
+Breaks: kde-wallpapers (<< 4:4.10),
+        kdebase-workspace-data (<< 4:4.7.0),
+        kdewallpapers (<< 4:4.13.90)
 Description: extra KDE artwork wallpapers for the KDE Plasma Workspaces
  This package contains more additional wallpapers for KDE Plasma Workspaces,
  in addition to the ones provided with kde-wallpapers.
