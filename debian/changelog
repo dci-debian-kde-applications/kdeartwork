@@ -1,6 +1,8 @@
 kdeartwork (4:15.08.0-1~1) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.0).
+  * Remove eigen3 build dependency. (Closes: #786354) Thanks to Anton
+    Gladky
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 23:43:14 +0200
 
