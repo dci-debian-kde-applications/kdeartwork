@@ -1,10 +1,10 @@
-kdeartwork (4:15.08.0-1~1) UNRELEASED; urgency=medium
+kdeartwork (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.08.0).
   * Remove eigen3 build dependency. (Closes: #786354) Thanks to Anton
     Gladky
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 23:43:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 23:59:20 +0200
 
 kdeartwork (4:15.04.3-1) unstable; urgency=medium
 
