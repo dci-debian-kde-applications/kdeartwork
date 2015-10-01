@@ -1,8 +1,12 @@
-kdeartwork (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+kdeartwork (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 28 Apr 2015 22:52:41 +0200
+  [ Scarlett Clark ]
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 01 Oct 2015 09:57:15 -0700
 
 kdeartwork (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
