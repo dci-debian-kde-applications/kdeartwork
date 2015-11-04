@@ -1,6 +1,7 @@
-kdeartwork (4:15.08.2-0ubuntu1.1) UNRELEASED; urgency=medium
+kdeartwork (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport.
+  * Fix version. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Nov 2015 00:35:26 +0000
 
