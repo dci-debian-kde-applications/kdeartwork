@@ -15,6 +15,7 @@ kdeartwork (4:15.08.3-2) UNRELEASED; urgency=medium
     - add kdelibs5-dev, since it was pulled by libkexiv2-dev
   * Remove the kde-window-manager suggest from kdeartwork-wallpapers.
   * Remove obsolete not-installed file.
+  * Update and fix copyright file.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 13:07:39 +0200
 
