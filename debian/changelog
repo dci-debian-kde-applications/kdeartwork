@@ -5,6 +5,7 @@ kdeartwork (4:15.08.3-2) UNRELEASED; urgency=medium
     desktopthemes by passing -DBUILD_<foo>=OFF arguments to CMake.
     - drop patch kubuntu_disable_kwin-styles.diff, as it is no more needed now
   * Disable the compression for kdeartwork-wallpapers. (Closes: #766356)
+  * Update Vcs-* fields.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 13:07:39 +0200
 
