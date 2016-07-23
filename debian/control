@@ -12,10 +12,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               libkexiv2-dev,
-               libstreamanalyzer-dev (>= 0.6.3),
-               libx11-xcb-dev,
-               libxt-dev,
+               kdelibs5-dev,
                pkg-config,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.8
