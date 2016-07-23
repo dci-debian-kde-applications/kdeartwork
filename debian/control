@@ -61,7 +61,7 @@ Description: transitional package for kdeartwork-wallpapers
 Package: kdeartwork-wallpapers
 Architecture: all
 Depends: ${misc:Depends}
-Suggests: kde-wallpapers, kde-window-manager | x-window-manager
+Suggests: kde-wallpapers
 Replaces: kde-wallpapers (<< 4:4.10),
           kdebase-workspace-data (<< 4:4.7.0),
           kdewallpapers (<< 4:4.13.90)
