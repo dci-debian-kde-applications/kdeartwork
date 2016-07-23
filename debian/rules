@@ -8,3 +8,7 @@ override_dh_auto_configure:
 	  -DBUILD_kwin-styles=OFF \
 	  -DBUILD_styles=OFF \
 	  -DBUILD_desktopthemes=OFF
+
+override_dh_builddeb:
+	dh_builddeb -pkdeartwork-wallpapers -- -Znone
+	dh_builddeb --remaining-packages
