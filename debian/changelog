@@ -1,5 +1,9 @@
 kdeartwork (4:15.08.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Explictly disable the build of kscreensaver, kwin-styles, styles, and
+    desktopthemes by passing -DBUILD_<foo>=OFF arguments to CMake.
+    - drop patch kubuntu_disable_kwin-styles.diff, as it is no more needed now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 13:07:39 +0200
 
