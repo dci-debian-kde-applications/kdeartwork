@@ -8,6 +8,8 @@ kdeartwork (4:15.08.3-2) UNRELEASED; urgency=medium
   * Update Vcs-* fields.
   * Bump Standards-Version to 3.9.8, no changes required.
   * Update watch file to monitor only old 15.08.x tarballs.
+  * Turn the Conflicts in nuvola-icon-theme to Breaks, since it is what should
+    be done for file moving between packages (which is what happened).
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jul 2016 13:07:39 +0200
 
