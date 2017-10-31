@@ -1,3 +1,10 @@
+kdeartwork (4:15.08.3-3~) UNRELEASED; urgency=medium
+
+  * New revision
+  * Update uploaders list as requested by MIA team (Closes: #879321)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 17:59:40 +0100
+
 kdeartwork (4:15.08.3-2) unstable; urgency=medium
 
   * Team upload.
